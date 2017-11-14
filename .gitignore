@@ -1,0 +1,12 @@
+*.png
+*.pdf
+*.jpeg
+.DS_Store
+.DS_Store?
+output*/*.root
+*.root
+*.raw
+output*
+*.mhd
+ForUSB
+*.txt
