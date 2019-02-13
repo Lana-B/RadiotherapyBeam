@@ -1,0 +1,77 @@
+ ##### ===========================================================================================
+##
+##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
+##
+##### ===========================================================================================
+
+
+## =====================================================
+## VISUALISATION & VERBOSE
+## =====================================================
+
+/vis/disable
+#/control/execute mac/visu.mac
+#/vis/scene/endOfEventAction accumulate 200
+# /control/execute mac/verbose.mac
+# /vis/viewer/set/viewpointThetaPhi 90 0
+## =====================================================
+## GEOMETRY
+## =====================================================
+
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+##
+## World
+##
+/gate/world/geometry/setXLength 2 m
+/gate/world/geometry/setYLength 2 m
+/gate/world/geometry/setZLength 2.5 m
+/gate/world/setMaterial Air
+
+## =====================================================
+## Set up geometry, physics and output
+## =====================================================
+/control/execute mac/CommonMacs/HeadGeometry.mac
+/control/execute mac/CommonMacs/SensorGeometry_PSA.mac
+/control/execute mac/CommonMacs/Jaws10x10.mac
+
+/control/execute mac/CommonMacs/KillPlane.mac
+
+
+/control/execute mac/CommonMacs/PhysicsCuts_PSA.mac
+/control/execute mac/CommonMacs/OutputManagement_PSA.mac
+
+/control/execute mac/CommonMacs/KillPosElecActor.mac
+
+
+## =====================================================
+## INITIALISATION
+## =====================================================
+
+/gate/run/initialize
+
+## =====================================================
+## BEAMS
+## =====================================================
+
+/gate/source/addSource mybeam gps
+/gate/source/mybeam/gps/particle gamma
+
+/control/execute mac/CommonMacs/BeamDirection.mac
+
+/gate/source/mybeam/gps/ang/type iso
+
+/control/execute mac/CommonMacs/BeamOpening10x10.mac
+
+/control/execute mac/CommonMacs/MohanBeamEnergySpectrum.mac
+
+## =====================================================
+## START BEAMS
+## =====================================================
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 123456
+/gate/application/noGlobalOutput
+
+/control/execute mac/CommonMacs/NumOfPrimaries10x10.mac
+
+/gate/application/start

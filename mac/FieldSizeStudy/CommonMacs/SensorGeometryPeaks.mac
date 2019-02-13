@@ -1,0 +1,63 @@
+##
+## Sensor epi
+##
+/gate/world/daughters/name              SensorEpi
+/gate/world/daughters/insert            box
+/gate/SensorEpi/placement/setTranslation           0.0 0.0 0.0 mm
+/gate/SensorEpi/geometry/setXLength      12 mm
+/gate/SensorEpi/geometry/setYLength      17 mm
+/gate/SensorEpi/geometry/setZLength      0.010 mm
+/gate/SensorEpi/setMaterial                        Silicon
+/gate/SensorEpi/vis/forceWireframe
+/gate/SensorEpi/vis/setVisible 1
+/gate/SensorEpi/vis/setColor                       red
+
+##
+## Sensor Bulk
+##
+# /gate/world/daughters/name              Bulk
+# /gate/world/daughters/insert            box
+# /gate/Bulk/placement/setTranslation           0.0 0.0 0.2 mm
+# /gate/Bulk/geometry/setXLength      12 mm
+# /gate/Bulk/geometry/setYLength      17 mm
+# /gate/Bulk/geometry/setZLength      0.390 mm
+# /gate/Bulk/setMaterial                        Silicon
+# /gate/Bulk/vis/forceWireframe
+# /gate/Bulk/vis/setVisible 1
+# /gate/Bulk/vis/setColor                       yellow
+
+##
+## Peak1
+##
+/gate/world/daughters/name              Peak1
+/gate/world/daughters/insert            box
+/gate/Peak1/placement/setTranslation           0.0 0.0 -0.155 mm
+/gate/Peak1/geometry/setXLength      10 mm
+/gate/Peak1/geometry/setYLength      1 mm
+/gate/Peak1/geometry/setZLength      0.3 mm
+/gate/Peak1/setMaterial                        Silicon
+/gate/Peak1/vis/forceWireframe
+/gate/Peak1/vis/setVisible 1
+/gate/Peak1/vis/setColor                       green
+
+##
+## Peak2
+##
+/gate/world/daughters/name              Peak2
+/gate/world/daughters/insert            box
+/gate/Peak2/placement/setTranslation           0.0 0.0 -0.155 mm
+/gate/Peak2/geometry/setXLength      10 mm
+/gate/Peak2/geometry/setYLength      1.0 mm
+/gate/Peak2/geometry/setZLength      0.3 mm
+/gate/Peak2/setMaterial                        Silicon
+/gate/Peak2/vis/forceWireframe
+/gate/Peak2/vis/setVisible 1
+/gate/Peak2/vis/setColor                       cyan
+
+/gate/Peak1/repeaters/insert linear
+/gate/Peak1/linear/setRepeatNumber 5
+/gate/Peak1/linear/setRepeatVector 0. 2 0. mm
+
+/gate/Peak2/repeaters/insert linear
+/gate/Peak2/linear/setRepeatNumber 6
+/gate/Peak2/linear/setRepeatVector 0. 2 0. mm

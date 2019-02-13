@@ -1,0 +1,1 @@
+/software/lb8075/gate/GateInstall/bin/gjs -numberofsplits 3 -clusterplatform condor -condorscript condor_script_gate mac/gamma.mac 

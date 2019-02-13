@@ -1,0 +1,612 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfer_script_Mono4MeV, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
+Requirements =  (  stringListMember(substr(Target.Machine,0,5),"hd-36") ) 
++PostCmd	= "transfer_script_Mono4MeV"
+
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV1.mac
+Output         = /storage/lb8075/gammaMono4MeV1.out
+Error          = /storage/lb8075/gammaMono4MeV1.err
+Log            = /storage/lb8075/gammaMono4MeV1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV2.mac
+Output         = /storage/lb8075/gammaMono4MeV2.out
+Error          = /storage/lb8075/gammaMono4MeV2.err
+Log            = /storage/lb8075/gammaMono4MeV2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV3.mac
+Output         = /storage/lb8075/gammaMono4MeV3.out
+Error          = /storage/lb8075/gammaMono4MeV3.err
+Log            = /storage/lb8075/gammaMono4MeV3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV4.mac
+Output         = /storage/lb8075/gammaMono4MeV4.out
+Error          = /storage/lb8075/gammaMono4MeV4.err
+Log            = /storage/lb8075/gammaMono4MeV4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV5.mac
+Output         = /storage/lb8075/gammaMono4MeV5.out
+Error          = /storage/lb8075/gammaMono4MeV5.err
+Log            = /storage/lb8075/gammaMono4MeV5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV6.mac
+Output         = /storage/lb8075/gammaMono4MeV6.out
+Error          = /storage/lb8075/gammaMono4MeV6.err
+Log            = /storage/lb8075/gammaMono4MeV6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV7.mac
+Output         = /storage/lb8075/gammaMono4MeV7.out
+Error          = /storage/lb8075/gammaMono4MeV7.err
+Log            = /storage/lb8075/gammaMono4MeV7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV8.mac
+Output         = /storage/lb8075/gammaMono4MeV8.out
+Error          = /storage/lb8075/gammaMono4MeV8.err
+Log            = /storage/lb8075/gammaMono4MeV8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV9.mac
+Output         = /storage/lb8075/gammaMono4MeV9.out
+Error          = /storage/lb8075/gammaMono4MeV9.err
+Log            = /storage/lb8075/gammaMono4MeV9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV10.mac
+Output         = /storage/lb8075/gammaMono4MeV10.out
+Error          = /storage/lb8075/gammaMono4MeV10.err
+Log            = /storage/lb8075/gammaMono4MeV10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV11.mac
+Output         = /storage/lb8075/gammaMono4MeV11.out
+Error          = /storage/lb8075/gammaMono4MeV11.err
+Log            = /storage/lb8075/gammaMono4MeV11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV12.mac
+Output         = /storage/lb8075/gammaMono4MeV12.out
+Error          = /storage/lb8075/gammaMono4MeV12.err
+Log            = /storage/lb8075/gammaMono4MeV12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV13.mac
+Output         = /storage/lb8075/gammaMono4MeV13.out
+Error          = /storage/lb8075/gammaMono4MeV13.err
+Log            = /storage/lb8075/gammaMono4MeV13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV14.mac
+Output         = /storage/lb8075/gammaMono4MeV14.out
+Error          = /storage/lb8075/gammaMono4MeV14.err
+Log            = /storage/lb8075/gammaMono4MeV14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV15.mac
+Output         = /storage/lb8075/gammaMono4MeV15.out
+Error          = /storage/lb8075/gammaMono4MeV15.err
+Log            = /storage/lb8075/gammaMono4MeV15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV16.mac
+Output         = /storage/lb8075/gammaMono4MeV16.out
+Error          = /storage/lb8075/gammaMono4MeV16.err
+Log            = /storage/lb8075/gammaMono4MeV16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV17.mac
+Output         = /storage/lb8075/gammaMono4MeV17.out
+Error          = /storage/lb8075/gammaMono4MeV17.err
+Log            = /storage/lb8075/gammaMono4MeV17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV18.mac
+Output         = /storage/lb8075/gammaMono4MeV18.out
+Error          = /storage/lb8075/gammaMono4MeV18.err
+Log            = /storage/lb8075/gammaMono4MeV18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV19.mac
+Output         = /storage/lb8075/gammaMono4MeV19.out
+Error          = /storage/lb8075/gammaMono4MeV19.err
+Log            = /storage/lb8075/gammaMono4MeV19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV20.mac
+Output         = /storage/lb8075/gammaMono4MeV20.out
+Error          = /storage/lb8075/gammaMono4MeV20.err
+Log            = /storage/lb8075/gammaMono4MeV20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV21.mac
+Output         = /storage/lb8075/gammaMono4MeV21.out
+Error          = /storage/lb8075/gammaMono4MeV21.err
+Log            = /storage/lb8075/gammaMono4MeV21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV22.mac
+Output         = /storage/lb8075/gammaMono4MeV22.out
+Error          = /storage/lb8075/gammaMono4MeV22.err
+Log            = /storage/lb8075/gammaMono4MeV22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV23.mac
+Output         = /storage/lb8075/gammaMono4MeV23.out
+Error          = /storage/lb8075/gammaMono4MeV23.err
+Log            = /storage/lb8075/gammaMono4MeV23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV24.mac
+Output         = /storage/lb8075/gammaMono4MeV24.out
+Error          = /storage/lb8075/gammaMono4MeV24.err
+Log            = /storage/lb8075/gammaMono4MeV24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV25.mac
+Output         = /storage/lb8075/gammaMono4MeV25.out
+Error          = /storage/lb8075/gammaMono4MeV25.err
+Log            = /storage/lb8075/gammaMono4MeV25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV26.mac
+Output         = /storage/lb8075/gammaMono4MeV26.out
+Error          = /storage/lb8075/gammaMono4MeV26.err
+Log            = /storage/lb8075/gammaMono4MeV26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV27.mac
+Output         = /storage/lb8075/gammaMono4MeV27.out
+Error          = /storage/lb8075/gammaMono4MeV27.err
+Log            = /storage/lb8075/gammaMono4MeV27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV28.mac
+Output         = /storage/lb8075/gammaMono4MeV28.out
+Error          = /storage/lb8075/gammaMono4MeV28.err
+Log            = /storage/lb8075/gammaMono4MeV28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV29.mac
+Output         = /storage/lb8075/gammaMono4MeV29.out
+Error          = /storage/lb8075/gammaMono4MeV29.err
+Log            = /storage/lb8075/gammaMono4MeV29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV30.mac
+Output         = /storage/lb8075/gammaMono4MeV30.out
+Error          = /storage/lb8075/gammaMono4MeV30.err
+Log            = /storage/lb8075/gammaMono4MeV30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV31.mac
+Output         = /storage/lb8075/gammaMono4MeV31.out
+Error          = /storage/lb8075/gammaMono4MeV31.err
+Log            = /storage/lb8075/gammaMono4MeV31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV32.mac
+Output         = /storage/lb8075/gammaMono4MeV32.out
+Error          = /storage/lb8075/gammaMono4MeV32.err
+Log            = /storage/lb8075/gammaMono4MeV32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV33.mac
+Output         = /storage/lb8075/gammaMono4MeV33.out
+Error          = /storage/lb8075/gammaMono4MeV33.err
+Log            = /storage/lb8075/gammaMono4MeV33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV34.mac
+Output         = /storage/lb8075/gammaMono4MeV34.out
+Error          = /storage/lb8075/gammaMono4MeV34.err
+Log            = /storage/lb8075/gammaMono4MeV34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV35.mac
+Output         = /storage/lb8075/gammaMono4MeV35.out
+Error          = /storage/lb8075/gammaMono4MeV35.err
+Log            = /storage/lb8075/gammaMono4MeV35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV36.mac
+Output         = /storage/lb8075/gammaMono4MeV36.out
+Error          = /storage/lb8075/gammaMono4MeV36.err
+Log            = /storage/lb8075/gammaMono4MeV36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV37.mac
+Output         = /storage/lb8075/gammaMono4MeV37.out
+Error          = /storage/lb8075/gammaMono4MeV37.err
+Log            = /storage/lb8075/gammaMono4MeV37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV38.mac
+Output         = /storage/lb8075/gammaMono4MeV38.out
+Error          = /storage/lb8075/gammaMono4MeV38.err
+Log            = /storage/lb8075/gammaMono4MeV38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV39.mac
+Output         = /storage/lb8075/gammaMono4MeV39.out
+Error          = /storage/lb8075/gammaMono4MeV39.err
+Log            = /storage/lb8075/gammaMono4MeV39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV40.mac
+Output         = /storage/lb8075/gammaMono4MeV40.out
+Error          = /storage/lb8075/gammaMono4MeV40.err
+Log            = /storage/lb8075/gammaMono4MeV40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV41.mac
+Output         = /storage/lb8075/gammaMono4MeV41.out
+Error          = /storage/lb8075/gammaMono4MeV41.err
+Log            = /storage/lb8075/gammaMono4MeV41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV42.mac
+Output         = /storage/lb8075/gammaMono4MeV42.out
+Error          = /storage/lb8075/gammaMono4MeV42.err
+Log            = /storage/lb8075/gammaMono4MeV42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV43.mac
+Output         = /storage/lb8075/gammaMono4MeV43.out
+Error          = /storage/lb8075/gammaMono4MeV43.err
+Log            = /storage/lb8075/gammaMono4MeV43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV44.mac
+Output         = /storage/lb8075/gammaMono4MeV44.out
+Error          = /storage/lb8075/gammaMono4MeV44.err
+Log            = /storage/lb8075/gammaMono4MeV44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV45.mac
+Output         = /storage/lb8075/gammaMono4MeV45.out
+Error          = /storage/lb8075/gammaMono4MeV45.err
+Log            = /storage/lb8075/gammaMono4MeV45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV46.mac
+Output         = /storage/lb8075/gammaMono4MeV46.out
+Error          = /storage/lb8075/gammaMono4MeV46.err
+Log            = /storage/lb8075/gammaMono4MeV46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV47.mac
+Output         = /storage/lb8075/gammaMono4MeV47.out
+Error          = /storage/lb8075/gammaMono4MeV47.err
+Log            = /storage/lb8075/gammaMono4MeV47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV48.mac
+Output         = /storage/lb8075/gammaMono4MeV48.out
+Error          = /storage/lb8075/gammaMono4MeV48.err
+Log            = /storage/lb8075/gammaMono4MeV48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV49.mac
+Output         = /storage/lb8075/gammaMono4MeV49.out
+Error          = /storage/lb8075/gammaMono4MeV49.err
+Log            = /storage/lb8075/gammaMono4MeV49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV50.mac
+Output         = /storage/lb8075/gammaMono4MeV50.out
+Error          = /storage/lb8075/gammaMono4MeV50.err
+Log            = /storage/lb8075/gammaMono4MeV50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV51.mac
+Output         = /storage/lb8075/gammaMono4MeV51.out
+Error          = /storage/lb8075/gammaMono4MeV51.err
+Log            = /storage/lb8075/gammaMono4MeV51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV52.mac
+Output         = /storage/lb8075/gammaMono4MeV52.out
+Error          = /storage/lb8075/gammaMono4MeV52.err
+Log            = /storage/lb8075/gammaMono4MeV52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV53.mac
+Output         = /storage/lb8075/gammaMono4MeV53.out
+Error          = /storage/lb8075/gammaMono4MeV53.err
+Log            = /storage/lb8075/gammaMono4MeV53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV54.mac
+Output         = /storage/lb8075/gammaMono4MeV54.out
+Error          = /storage/lb8075/gammaMono4MeV54.err
+Log            = /storage/lb8075/gammaMono4MeV54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV55.mac
+Output         = /storage/lb8075/gammaMono4MeV55.out
+Error          = /storage/lb8075/gammaMono4MeV55.err
+Log            = /storage/lb8075/gammaMono4MeV55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV56.mac
+Output         = /storage/lb8075/gammaMono4MeV56.out
+Error          = /storage/lb8075/gammaMono4MeV56.err
+Log            = /storage/lb8075/gammaMono4MeV56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV57.mac
+Output         = /storage/lb8075/gammaMono4MeV57.out
+Error          = /storage/lb8075/gammaMono4MeV57.err
+Log            = /storage/lb8075/gammaMono4MeV57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV58.mac
+Output         = /storage/lb8075/gammaMono4MeV58.out
+Error          = /storage/lb8075/gammaMono4MeV58.err
+Log            = /storage/lb8075/gammaMono4MeV58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV59.mac
+Output         = /storage/lb8075/gammaMono4MeV59.out
+Error          = /storage/lb8075/gammaMono4MeV59.err
+Log            = /storage/lb8075/gammaMono4MeV59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV60.mac
+Output         = /storage/lb8075/gammaMono4MeV60.out
+Error          = /storage/lb8075/gammaMono4MeV60.err
+Log            = /storage/lb8075/gammaMono4MeV60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV61.mac
+Output         = /storage/lb8075/gammaMono4MeV61.out
+Error          = /storage/lb8075/gammaMono4MeV61.err
+Log            = /storage/lb8075/gammaMono4MeV61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV62.mac
+Output         = /storage/lb8075/gammaMono4MeV62.out
+Error          = /storage/lb8075/gammaMono4MeV62.err
+Log            = /storage/lb8075/gammaMono4MeV62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV63.mac
+Output         = /storage/lb8075/gammaMono4MeV63.out
+Error          = /storage/lb8075/gammaMono4MeV63.err
+Log            = /storage/lb8075/gammaMono4MeV63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV64.mac
+Output         = /storage/lb8075/gammaMono4MeV64.out
+Error          = /storage/lb8075/gammaMono4MeV64.err
+Log            = /storage/lb8075/gammaMono4MeV64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV65.mac
+Output         = /storage/lb8075/gammaMono4MeV65.out
+Error          = /storage/lb8075/gammaMono4MeV65.err
+Log            = /storage/lb8075/gammaMono4MeV65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV66.mac
+Output         = /storage/lb8075/gammaMono4MeV66.out
+Error          = /storage/lb8075/gammaMono4MeV66.err
+Log            = /storage/lb8075/gammaMono4MeV66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV67.mac
+Output         = /storage/lb8075/gammaMono4MeV67.out
+Error          = /storage/lb8075/gammaMono4MeV67.err
+Log            = /storage/lb8075/gammaMono4MeV67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV68.mac
+Output         = /storage/lb8075/gammaMono4MeV68.out
+Error          = /storage/lb8075/gammaMono4MeV68.err
+Log            = /storage/lb8075/gammaMono4MeV68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV69.mac
+Output         = /storage/lb8075/gammaMono4MeV69.out
+Error          = /storage/lb8075/gammaMono4MeV69.err
+Log            = /storage/lb8075/gammaMono4MeV69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV70.mac
+Output         = /storage/lb8075/gammaMono4MeV70.out
+Error          = /storage/lb8075/gammaMono4MeV70.err
+Log            = /storage/lb8075/gammaMono4MeV70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV71.mac
+Output         = /storage/lb8075/gammaMono4MeV71.out
+Error          = /storage/lb8075/gammaMono4MeV71.err
+Log            = /storage/lb8075/gammaMono4MeV71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV72.mac
+Output         = /storage/lb8075/gammaMono4MeV72.out
+Error          = /storage/lb8075/gammaMono4MeV72.err
+Log            = /storage/lb8075/gammaMono4MeV72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV73.mac
+Output         = /storage/lb8075/gammaMono4MeV73.out
+Error          = /storage/lb8075/gammaMono4MeV73.err
+Log            = /storage/lb8075/gammaMono4MeV73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV74.mac
+Output         = /storage/lb8075/gammaMono4MeV74.out
+Error          = /storage/lb8075/gammaMono4MeV74.err
+Log            = /storage/lb8075/gammaMono4MeV74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV75.mac
+Output         = /storage/lb8075/gammaMono4MeV75.out
+Error          = /storage/lb8075/gammaMono4MeV75.err
+Log            = /storage/lb8075/gammaMono4MeV75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV76.mac
+Output         = /storage/lb8075/gammaMono4MeV76.out
+Error          = /storage/lb8075/gammaMono4MeV76.err
+Log            = /storage/lb8075/gammaMono4MeV76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV77.mac
+Output         = /storage/lb8075/gammaMono4MeV77.out
+Error          = /storage/lb8075/gammaMono4MeV77.err
+Log            = /storage/lb8075/gammaMono4MeV77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV78.mac
+Output         = /storage/lb8075/gammaMono4MeV78.out
+Error          = /storage/lb8075/gammaMono4MeV78.err
+Log            = /storage/lb8075/gammaMono4MeV78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV79.mac
+Output         = /storage/lb8075/gammaMono4MeV79.out
+Error          = /storage/lb8075/gammaMono4MeV79.err
+Log            = /storage/lb8075/gammaMono4MeV79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV80.mac
+Output         = /storage/lb8075/gammaMono4MeV80.out
+Error          = /storage/lb8075/gammaMono4MeV80.err
+Log            = /storage/lb8075/gammaMono4MeV80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV81.mac
+Output         = /storage/lb8075/gammaMono4MeV81.out
+Error          = /storage/lb8075/gammaMono4MeV81.err
+Log            = /storage/lb8075/gammaMono4MeV81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV82.mac
+Output         = /storage/lb8075/gammaMono4MeV82.out
+Error          = /storage/lb8075/gammaMono4MeV82.err
+Log            = /storage/lb8075/gammaMono4MeV82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV83.mac
+Output         = /storage/lb8075/gammaMono4MeV83.out
+Error          = /storage/lb8075/gammaMono4MeV83.err
+Log            = /storage/lb8075/gammaMono4MeV83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV84.mac
+Output         = /storage/lb8075/gammaMono4MeV84.out
+Error          = /storage/lb8075/gammaMono4MeV84.err
+Log            = /storage/lb8075/gammaMono4MeV84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV85.mac
+Output         = /storage/lb8075/gammaMono4MeV85.out
+Error          = /storage/lb8075/gammaMono4MeV85.err
+Log            = /storage/lb8075/gammaMono4MeV85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV86.mac
+Output         = /storage/lb8075/gammaMono4MeV86.out
+Error          = /storage/lb8075/gammaMono4MeV86.err
+Log            = /storage/lb8075/gammaMono4MeV86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV87.mac
+Output         = /storage/lb8075/gammaMono4MeV87.out
+Error          = /storage/lb8075/gammaMono4MeV87.err
+Log            = /storage/lb8075/gammaMono4MeV87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV88.mac
+Output         = /storage/lb8075/gammaMono4MeV88.out
+Error          = /storage/lb8075/gammaMono4MeV88.err
+Log            = /storage/lb8075/gammaMono4MeV88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV89.mac
+Output         = /storage/lb8075/gammaMono4MeV89.out
+Error          = /storage/lb8075/gammaMono4MeV89.err
+Log            = /storage/lb8075/gammaMono4MeV89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV90.mac
+Output         = /storage/lb8075/gammaMono4MeV90.out
+Error          = /storage/lb8075/gammaMono4MeV90.err
+Log            = /storage/lb8075/gammaMono4MeV90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV91.mac
+Output         = /storage/lb8075/gammaMono4MeV91.out
+Error          = /storage/lb8075/gammaMono4MeV91.err
+Log            = /storage/lb8075/gammaMono4MeV91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV92.mac
+Output         = /storage/lb8075/gammaMono4MeV92.out
+Error          = /storage/lb8075/gammaMono4MeV92.err
+Log            = /storage/lb8075/gammaMono4MeV92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV93.mac
+Output         = /storage/lb8075/gammaMono4MeV93.out
+Error          = /storage/lb8075/gammaMono4MeV93.err
+Log            = /storage/lb8075/gammaMono4MeV93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV94.mac
+Output         = /storage/lb8075/gammaMono4MeV94.out
+Error          = /storage/lb8075/gammaMono4MeV94.err
+Log            = /storage/lb8075/gammaMono4MeV94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV95.mac
+Output         = /storage/lb8075/gammaMono4MeV95.out
+Error          = /storage/lb8075/gammaMono4MeV95.err
+Log            = /storage/lb8075/gammaMono4MeV95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV96.mac
+Output         = /storage/lb8075/gammaMono4MeV96.out
+Error          = /storage/lb8075/gammaMono4MeV96.err
+Log            = /storage/lb8075/gammaMono4MeV96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV97.mac
+Output         = /storage/lb8075/gammaMono4MeV97.out
+Error          = /storage/lb8075/gammaMono4MeV97.err
+Log            = /storage/lb8075/gammaMono4MeV97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV98.mac
+Output         = /storage/lb8075/gammaMono4MeV98.out
+Error          = /storage/lb8075/gammaMono4MeV98.err
+Log            = /storage/lb8075/gammaMono4MeV98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV99.mac
+Output         = /storage/lb8075/gammaMono4MeV99.out
+Error          = /storage/lb8075/gammaMono4MeV99.err
+Log            = /storage/lb8075/gammaMono4MeV99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono4MeV1//gammaMono4MeV100.mac
+Output         = /storage/lb8075/gammaMono4MeV100.out
+Error          = /storage/lb8075/gammaMono4MeV100.err
+Log            = /storage/lb8075/gammaMono4MeV100.log
+Queue
+

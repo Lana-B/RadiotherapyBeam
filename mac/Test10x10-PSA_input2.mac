@@ -1,0 +1,70 @@
+ ##### ===========================================================================================
+##
+##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
+##
+##### ===========================================================================================
+
+
+## =====================================================
+## VISUALISATION & VERBOSE
+## =====================================================
+
+/vis/disable
+# /control/execute mac/visu.mac
+# /vis/scene/endOfEventAction accumulate 100
+# /control/execute mac/verbose.mac
+# /vis/viewer/set/viewpointThetaPhi 90 0
+## =====================================================
+## GEOMETRY
+## =====================================================
+
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+##
+## World
+##
+/gate/world/geometry/setXLength 0.07 m
+/gate/world/geometry/setYLength 0.07 m
+/gate/world/geometry/setZLength 0.07 m
+/gate/world/setMaterial Air
+
+## =====================================================
+## Set up geometry, physics and output
+## =====================================================
+/control/execute mac/FieldSizeStudy/CommonMacs/SensorGeometry_PSA.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/SensorGeometry.mac
+
+# /control/execute mac/FieldSizeStudy/CommonMacs/KillPlane.mac
+
+# /control/execute mac/FieldSizeStudy/CommonMacs/KillGammaActor.mac
+# /control/execute mac/FieldSizeStudy/CommonMacs/KillPosElecActor.mac
+
+/control/execute mac/FieldSizeStudy/CommonMacs/PhysicsCuts_p003.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/OutputManagement.mac
+
+
+## =====================================================
+## INITIALISATION
+## =====================================================
+
+/gate/run/initialize
+
+## =====================================================
+## BEAMS
+## =====================================================
+
+/gate/source/addSource  mybeam  phaseSpace
+/gate/source/mybeam/addPhaseSpaceFile /storage/yw18581/phase_space_planes/Test10x10-PSA-0001stepJaws_test_1110x10M.root 
+
+
+## =====================================================
+## START BEAMS
+## =====================================================
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 123456
+/gate/application/noGlobalOutput
+
+# /gate/application/setTotalNumberOfPrimaries 614181
+/gate/application/setTotalNumberOfPrimaries 1228695
+
+/gate/application/start

@@ -1,0 +1,12 @@
+##
+## PSA plane
+##
+/gate/world/daughters/name              PSA
+/gate/world/daughters/insert            box
+/gate/PSA/placement/setTranslation           0.0 0.0 -0.32 mm
+/gate/PSA/geometry/setXLength      40 mm
+/gate/PSA/geometry/setYLength      40 mm
+/gate/PSA/geometry/setZLength      0.010 mm
+/gate/PSA/setMaterial              Air
+/gate/PSA/vis/setVisible 1
+/gate/PSA/vis/setColor             grey

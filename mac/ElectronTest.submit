@@ -1,0 +1,3010 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_ElectronTest, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
++PostCmd        = "transfer_script_ElectronTest"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest1.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest1.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest1.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest2.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest2.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest2.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest3.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest3.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest3.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest4.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest4.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest4.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest5.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest5.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest5.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest6.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest6.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest6.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest7.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest7.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest7.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest8.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest8.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest8.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest9.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest9.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest9.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest10.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest10.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest10.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest11.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest11.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest11.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest12.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest12.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest12.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest13.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest13.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest13.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest14.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest14.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest14.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest15.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest15.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest15.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest16.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest16.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest16.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest17.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest17.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest17.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest18.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest18.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest18.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest19.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest19.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest19.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest20.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest20.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest20.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest21.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest21.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest21.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest22.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest22.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest22.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest23.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest23.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest23.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest24.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest24.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest24.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest25.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest25.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest25.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest26.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest26.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest26.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest27.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest27.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest27.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest28.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest28.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest28.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest29.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest29.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest29.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest30.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest30.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest30.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest31.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest31.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest31.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest32.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest32.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest32.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest33.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest33.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest33.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest34.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest34.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest34.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest35.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest35.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest35.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest36.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest36.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest36.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest37.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest37.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest37.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest38.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest38.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest38.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest39.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest39.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest39.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest40.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest40.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest40.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest41.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest41.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest41.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest42.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest42.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest42.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest43.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest43.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest43.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest44.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest44.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest44.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest45.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest45.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest45.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest46.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest46.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest46.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest47.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest47.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest47.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest48.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest48.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest48.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest49.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest49.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest49.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest50.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest50.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest50.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest51.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest51.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest51.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest52.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest52.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest52.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest53.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest53.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest53.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest54.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest54.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest54.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest55.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest55.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest55.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest56.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest56.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest56.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest57.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest57.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest57.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest58.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest58.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest58.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest59.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest59.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest59.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest60.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest60.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest60.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest61.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest61.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest61.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest62.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest62.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest62.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest63.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest63.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest63.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest64.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest64.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest64.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest65.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest65.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest65.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest66.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest66.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest66.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest67.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest67.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest67.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest68.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest68.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest68.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest69.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest69.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest69.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest70.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest70.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest70.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest71.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest71.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest71.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest72.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest72.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest72.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest73.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest73.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest73.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest74.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest74.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest74.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest75.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest75.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest75.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest76.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest76.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest76.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest77.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest77.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest77.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest78.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest78.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest78.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest79.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest79.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest79.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest80.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest80.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest80.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest81.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest81.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest81.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest82.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest82.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest82.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest83.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest83.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest83.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest84.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest84.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest84.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest85.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest85.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest85.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest86.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest86.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest86.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest87.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest87.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest87.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest88.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest88.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest88.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest89.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest89.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest89.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest90.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest90.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest90.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest91.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest91.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest91.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest92.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest92.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest92.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest93.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest93.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest93.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest94.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest94.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest94.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest95.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest95.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest95.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest96.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest96.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest96.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest97.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest97.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest97.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest98.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest98.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest98.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest99.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest99.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest99.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest100.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest100.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest100.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest100.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest101.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest101.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest101.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest101.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest102.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest102.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest102.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest102.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest103.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest103.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest103.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest103.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest104.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest104.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest104.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest104.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest105.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest105.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest105.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest105.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest106.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest106.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest106.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest106.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest107.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest107.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest107.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest107.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest108.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest108.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest108.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest108.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest109.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest109.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest109.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest109.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest110.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest110.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest110.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest110.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest111.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest111.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest111.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest111.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest112.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest112.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest112.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest112.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest113.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest113.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest113.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest113.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest114.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest114.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest114.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest114.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest115.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest115.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest115.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest115.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest116.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest116.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest116.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest116.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest117.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest117.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest117.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest117.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest118.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest118.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest118.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest118.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest119.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest119.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest119.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest119.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest120.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest120.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest120.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest120.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest121.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest121.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest121.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest121.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest122.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest122.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest122.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest122.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest123.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest123.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest123.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest123.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest124.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest124.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest124.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest124.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest125.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest125.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest125.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest125.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest126.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest126.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest126.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest126.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest127.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest127.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest127.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest127.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest128.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest128.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest128.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest128.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest129.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest129.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest129.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest129.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest130.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest130.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest130.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest130.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest131.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest131.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest131.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest131.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest132.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest132.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest132.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest132.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest133.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest133.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest133.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest133.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest134.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest134.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest134.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest134.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest135.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest135.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest135.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest135.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest136.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest136.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest136.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest136.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest137.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest137.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest137.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest137.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest138.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest138.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest138.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest138.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest139.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest139.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest139.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest139.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest140.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest140.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest140.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest140.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest141.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest141.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest141.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest141.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest142.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest142.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest142.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest142.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest143.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest143.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest143.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest143.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest144.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest144.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest144.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest144.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest145.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest145.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest145.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest145.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest146.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest146.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest146.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest146.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest147.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest147.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest147.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest147.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest148.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest148.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest148.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest148.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest149.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest149.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest149.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest149.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest150.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest150.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest150.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest150.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest151.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest151.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest151.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest151.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest152.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest152.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest152.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest152.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest153.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest153.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest153.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest153.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest154.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest154.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest154.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest154.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest155.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest155.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest155.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest155.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest156.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest156.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest156.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest156.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest157.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest157.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest157.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest157.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest158.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest158.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest158.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest158.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest159.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest159.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest159.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest159.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest160.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest160.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest160.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest160.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest161.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest161.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest161.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest161.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest162.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest162.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest162.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest162.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest163.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest163.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest163.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest163.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest164.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest164.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest164.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest164.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest165.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest165.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest165.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest165.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest166.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest166.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest166.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest166.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest167.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest167.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest167.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest167.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest168.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest168.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest168.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest168.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest169.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest169.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest169.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest169.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest170.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest170.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest170.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest170.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest171.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest171.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest171.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest171.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest172.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest172.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest172.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest172.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest173.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest173.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest173.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest173.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest174.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest174.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest174.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest174.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest175.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest175.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest175.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest175.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest176.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest176.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest176.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest176.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest177.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest177.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest177.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest177.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest178.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest178.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest178.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest178.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest179.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest179.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest179.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest179.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest180.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest180.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest180.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest180.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest181.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest181.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest181.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest181.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest182.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest182.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest182.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest182.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest183.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest183.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest183.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest183.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest184.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest184.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest184.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest184.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest185.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest185.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest185.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest185.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest186.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest186.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest186.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest186.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest187.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest187.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest187.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest187.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest188.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest188.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest188.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest188.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest189.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest189.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest189.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest189.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest190.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest190.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest190.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest190.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest191.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest191.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest191.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest191.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest192.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest192.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest192.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest192.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest193.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest193.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest193.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest193.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest194.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest194.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest194.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest194.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest195.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest195.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest195.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest195.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest196.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest196.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest196.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest196.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest197.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest197.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest197.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest197.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest198.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest198.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest198.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest198.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest199.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest199.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest199.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest199.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest200.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest200.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest200.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest200.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest201.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest201.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest201.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest201.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest202.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest202.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest202.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest202.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest203.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest203.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest203.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest203.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest204.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest204.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest204.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest204.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest205.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest205.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest205.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest205.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest206.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest206.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest206.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest206.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest207.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest207.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest207.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest207.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest208.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest208.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest208.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest208.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest209.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest209.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest209.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest209.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest210.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest210.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest210.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest210.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest211.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest211.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest211.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest211.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest212.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest212.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest212.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest212.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest213.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest213.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest213.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest213.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest214.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest214.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest214.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest214.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest215.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest215.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest215.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest215.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest216.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest216.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest216.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest216.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest217.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest217.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest217.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest217.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest218.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest218.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest218.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest218.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest219.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest219.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest219.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest219.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest220.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest220.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest220.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest220.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest221.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest221.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest221.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest221.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest222.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest222.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest222.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest222.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest223.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest223.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest223.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest223.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest224.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest224.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest224.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest224.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest225.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest225.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest225.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest225.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest226.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest226.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest226.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest226.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest227.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest227.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest227.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest227.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest228.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest228.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest228.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest228.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest229.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest229.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest229.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest229.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest230.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest230.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest230.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest230.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest231.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest231.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest231.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest231.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest232.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest232.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest232.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest232.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest233.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest233.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest233.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest233.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest234.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest234.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest234.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest234.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest235.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest235.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest235.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest235.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest236.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest236.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest236.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest236.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest237.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest237.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest237.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest237.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest238.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest238.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest238.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest238.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest239.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest239.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest239.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest239.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest240.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest240.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest240.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest240.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest241.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest241.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest241.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest241.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest242.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest242.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest242.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest242.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest243.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest243.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest243.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest243.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest244.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest244.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest244.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest244.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest245.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest245.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest245.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest245.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest246.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest246.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest246.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest246.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest247.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest247.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest247.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest247.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest248.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest248.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest248.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest248.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest249.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest249.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest249.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest249.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest250.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest250.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest250.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest250.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest251.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest251.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest251.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest251.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest252.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest252.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest252.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest252.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest253.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest253.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest253.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest253.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest254.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest254.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest254.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest254.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest255.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest255.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest255.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest255.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest256.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest256.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest256.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest256.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest257.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest257.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest257.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest257.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest258.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest258.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest258.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest258.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest259.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest259.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest259.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest259.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest260.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest260.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest260.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest260.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest261.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest261.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest261.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest261.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest262.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest262.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest262.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest262.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest263.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest263.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest263.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest263.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest264.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest264.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest264.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest264.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest265.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest265.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest265.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest265.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest266.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest266.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest266.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest266.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest267.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest267.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest267.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest267.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest268.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest268.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest268.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest268.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest269.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest269.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest269.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest269.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest270.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest270.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest270.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest270.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest271.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest271.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest271.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest271.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest272.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest272.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest272.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest272.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest273.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest273.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest273.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest273.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest274.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest274.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest274.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest274.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest275.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest275.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest275.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest275.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest276.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest276.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest276.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest276.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest277.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest277.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest277.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest277.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest278.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest278.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest278.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest278.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest279.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest279.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest279.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest279.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest280.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest280.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest280.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest280.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest281.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest281.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest281.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest281.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest282.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest282.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest282.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest282.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest283.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest283.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest283.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest283.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest284.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest284.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest284.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest284.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest285.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest285.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest285.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest285.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest286.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest286.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest286.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest286.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest287.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest287.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest287.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest287.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest288.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest288.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest288.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest288.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest289.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest289.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest289.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest289.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest290.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest290.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest290.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest290.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest291.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest291.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest291.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest291.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest292.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest292.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest292.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest292.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest293.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest293.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest293.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest293.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest294.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest294.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest294.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest294.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest295.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest295.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest295.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest295.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest296.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest296.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest296.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest296.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest297.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest297.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest297.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest297.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest298.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest298.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest298.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest298.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest299.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest299.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest299.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest299.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest300.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest300.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest300.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest300.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest301.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest301.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest301.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest301.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest302.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest302.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest302.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest302.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest303.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest303.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest303.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest303.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest304.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest304.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest304.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest304.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest305.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest305.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest305.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest305.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest306.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest306.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest306.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest306.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest307.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest307.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest307.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest307.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest308.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest308.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest308.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest308.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest309.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest309.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest309.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest309.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest310.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest310.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest310.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest310.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest311.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest311.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest311.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest311.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest312.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest312.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest312.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest312.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest313.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest313.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest313.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest313.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest314.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest314.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest314.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest314.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest315.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest315.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest315.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest315.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest316.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest316.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest316.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest316.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest317.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest317.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest317.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest317.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest318.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest318.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest318.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest318.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest319.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest319.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest319.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest319.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest320.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest320.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest320.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest320.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest321.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest321.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest321.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest321.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest322.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest322.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest322.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest322.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest323.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest323.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest323.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest323.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest324.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest324.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest324.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest324.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest325.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest325.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest325.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest325.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest326.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest326.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest326.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest326.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest327.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest327.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest327.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest327.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest328.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest328.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest328.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest328.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest329.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest329.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest329.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest329.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest330.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest330.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest330.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest330.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest331.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest331.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest331.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest331.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest332.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest332.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest332.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest332.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest333.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest333.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest333.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest333.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest334.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest334.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest334.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest334.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest335.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest335.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest335.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest335.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest336.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest336.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest336.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest336.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest337.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest337.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest337.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest337.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest338.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest338.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest338.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest338.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest339.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest339.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest339.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest339.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest340.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest340.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest340.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest340.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest341.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest341.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest341.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest341.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest342.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest342.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest342.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest342.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest343.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest343.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest343.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest343.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest344.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest344.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest344.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest344.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest345.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest345.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest345.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest345.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest346.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest346.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest346.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest346.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest347.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest347.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest347.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest347.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest348.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest348.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest348.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest348.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest349.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest349.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest349.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest349.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest350.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest350.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest350.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest350.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest351.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest351.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest351.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest351.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest352.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest352.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest352.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest352.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest353.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest353.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest353.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest353.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest354.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest354.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest354.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest354.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest355.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest355.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest355.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest355.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest356.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest356.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest356.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest356.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest357.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest357.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest357.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest357.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest358.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest358.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest358.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest358.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest359.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest359.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest359.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest359.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest360.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest360.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest360.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest360.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest361.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest361.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest361.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest361.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest362.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest362.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest362.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest362.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest363.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest363.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest363.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest363.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest364.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest364.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest364.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest364.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest365.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest365.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest365.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest365.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest366.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest366.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest366.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest366.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest367.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest367.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest367.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest367.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest368.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest368.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest368.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest368.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest369.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest369.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest369.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest369.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest370.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest370.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest370.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest370.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest371.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest371.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest371.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest371.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest372.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest372.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest372.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest372.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest373.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest373.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest373.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest373.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest374.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest374.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest374.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest374.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest375.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest375.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest375.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest375.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest376.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest376.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest376.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest376.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest377.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest377.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest377.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest377.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest378.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest378.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest378.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest378.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest379.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest379.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest379.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest379.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest380.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest380.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest380.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest380.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest381.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest381.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest381.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest381.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest382.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest382.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest382.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest382.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest383.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest383.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest383.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest383.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest384.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest384.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest384.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest384.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest385.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest385.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest385.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest385.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest386.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest386.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest386.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest386.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest387.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest387.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest387.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest387.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest388.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest388.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest388.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest388.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest389.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest389.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest389.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest389.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest390.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest390.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest390.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest390.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest391.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest391.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest391.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest391.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest392.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest392.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest392.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest392.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest393.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest393.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest393.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest393.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest394.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest394.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest394.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest394.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest395.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest395.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest395.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest395.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest396.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest396.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest396.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest396.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest397.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest397.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest397.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest397.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest398.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest398.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest398.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest398.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest399.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest399.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest399.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest399.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest400.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest400.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest400.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest400.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest401.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest401.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest401.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest401.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest402.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest402.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest402.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest402.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest403.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest403.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest403.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest403.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest404.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest404.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest404.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest404.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest405.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest405.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest405.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest405.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest406.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest406.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest406.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest406.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest407.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest407.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest407.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest407.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest408.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest408.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest408.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest408.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest409.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest409.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest409.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest409.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest410.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest410.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest410.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest410.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest411.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest411.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest411.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest411.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest412.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest412.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest412.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest412.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest413.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest413.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest413.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest413.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest414.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest414.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest414.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest414.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest415.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest415.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest415.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest415.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest416.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest416.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest416.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest416.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest417.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest417.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest417.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest417.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest418.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest418.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest418.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest418.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest419.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest419.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest419.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest419.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest420.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest420.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest420.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest420.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest421.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest421.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest421.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest421.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest422.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest422.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest422.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest422.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest423.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest423.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest423.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest423.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest424.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest424.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest424.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest424.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest425.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest425.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest425.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest425.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest426.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest426.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest426.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest426.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest427.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest427.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest427.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest427.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest428.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest428.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest428.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest428.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest429.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest429.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest429.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest429.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest430.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest430.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest430.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest430.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest431.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest431.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest431.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest431.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest432.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest432.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest432.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest432.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest433.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest433.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest433.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest433.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest434.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest434.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest434.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest434.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest435.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest435.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest435.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest435.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest436.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest436.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest436.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest436.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest437.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest437.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest437.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest437.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest438.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest438.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest438.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest438.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest439.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest439.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest439.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest439.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest440.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest440.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest440.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest440.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest441.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest441.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest441.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest441.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest442.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest442.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest442.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest442.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest443.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest443.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest443.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest443.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest444.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest444.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest444.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest444.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest445.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest445.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest445.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest445.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest446.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest446.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest446.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest446.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest447.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest447.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest447.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest447.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest448.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest448.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest448.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest448.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest449.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest449.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest449.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest449.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest450.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest450.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest450.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest450.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest451.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest451.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest451.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest451.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest452.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest452.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest452.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest452.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest453.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest453.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest453.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest453.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest454.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest454.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest454.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest454.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest455.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest455.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest455.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest455.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest456.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest456.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest456.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest456.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest457.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest457.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest457.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest457.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest458.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest458.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest458.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest458.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest459.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest459.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest459.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest459.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest460.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest460.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest460.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest460.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest461.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest461.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest461.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest461.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest462.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest462.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest462.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest462.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest463.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest463.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest463.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest463.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest464.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest464.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest464.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest464.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest465.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest465.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest465.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest465.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest466.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest466.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest466.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest466.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest467.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest467.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest467.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest467.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest468.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest468.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest468.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest468.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest469.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest469.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest469.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest469.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest470.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest470.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest470.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest470.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest471.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest471.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest471.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest471.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest472.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest472.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest472.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest472.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest473.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest473.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest473.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest473.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest474.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest474.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest474.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest474.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest475.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest475.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest475.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest475.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest476.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest476.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest476.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest476.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest477.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest477.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest477.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest477.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest478.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest478.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest478.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest478.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest479.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest479.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest479.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest479.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest480.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest480.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest480.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest480.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest481.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest481.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest481.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest481.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest482.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest482.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest482.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest482.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest483.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest483.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest483.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest483.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest484.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest484.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest484.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest484.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest485.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest485.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest485.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest485.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest486.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest486.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest486.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest486.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest487.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest487.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest487.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest487.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest488.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest488.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest488.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest488.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest489.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest489.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest489.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest489.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest490.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest490.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest490.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest490.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest491.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest491.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest491.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest491.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest492.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest492.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest492.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest492.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest493.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest493.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest493.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest493.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest494.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest494.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest494.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest494.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest495.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest495.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest495.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest495.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest496.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest496.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest496.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest496.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest497.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest497.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest497.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest497.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest498.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest498.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest498.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest498.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest499.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest499.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest499.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest499.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//ElectronTest2//ElectronTest500.mac
+Output         = /storage/lb8075/ElectronTest/ElectronTest500.out
+Error          = /storage/lb8075/ElectronTest/ElectronTest500.err
+Log            = /storage/lb8075/ElectronTest/ElectronTest500.log
+Queue
+

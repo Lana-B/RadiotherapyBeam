@@ -1,0 +1,283 @@
+
+##### ===========================================================================================
+##
+##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
+##
+##### ===========================================================================================
+
+
+## =====================================================
+## VISUALISATION & VERBOSE
+## =====================================================
+
+/vis/disable
+#/control/execute mac/visu.mac
+#/control/execute mac/verbose.mac
+/vis/scene/endOfEventAction accumulate 100
+
+
+## =====================================================
+## GEOMETRY
+## =====================================================
+
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+##
+## World
+##
+/gate/world/geometry/setXLength 3 m
+/gate/world/geometry/setYLength 3 m
+/gate/world/geometry/setZLength 3 m
+/gate/world/setMaterial Air
+
+##
+## phantom cylinder
+##
+/gate/world/daughters/name              phantomCyl
+/gate/world/daughters/insert            cylinder
+/gate/phantomCyl/placement/setTranslation           0.0 0.0 0.0 cm
+/gate/phantomCyl/geometry/setRmin                   0 mm
+/gate/phantomCyl/geometry/setRmax                   3.5 mm
+/gate/phantomCyl/geometry/setHeight                 15 mm
+/gate/phantomCyl/setMaterial                        Epoxy
+/gate/phantomCyl/vis/forceWireframe
+/gate/phantomCyl/vis/setVisible 1
+/gate/phantomCyl/vis/setColor                       gray
+
+##
+## PCB
+##
+/gate/phantomCyl/daughters/name              PCB
+/gate/phantomCyl/daughters/insert            box
+/gate/PCB/placement/setTranslation           0.0 0.0 -5.0 mm
+/gate/PCB/geometry/setXLength      4 mm
+/gate/PCB/geometry/setYLength      4 mm
+/gate/PCB/geometry/setZLength      1 mm
+/gate/PCB/setMaterial                        FR4
+/gate/PCB/vis/forceWireframe
+/gate/PCB/vis/setVisible 1
+/gate/PCB/vis/setColor                       green
+
+/gate/PCB/daughters/name              aircylPCB
+/gate/PCB/daughters/insert            cylinder
+/gate/aircylPCB/placement/setTranslation           0.0 0.0 0.0 mm
+/gate/aircylPCB/geometry/setRmin                   0 mm
+/gate/aircylPCB/geometry/setRmax                   1.1 mm
+/gate/aircylPCB/geometry/setHeight                 1 mm
+/gate/aircylPCB/setMaterial                        Epoxy
+/gate/aircylPCB/vis/forceWireframe
+/gate/aircylPCB/vis/setVisible 1
+/gate/aircylPCB/vis/setColor                       red
+
+##
+## Circular top of diode for collecting energy deposits
+##
+
+/gate/phantomCyl/daughters/name              siDiodeActiveTop
+/gate/phantomCyl/daughters/insert            cylinder
+/gate/siDiodeActiveTop/placement/setTranslation           0.0 0.0 -6.5 mm
+/gate/siDiodeActiveTop/geometry/setRmin                   0 mm
+/gate/siDiodeActiveTop/geometry/setRmax                   1.0 mm
+/gate/siDiodeActiveTop/geometry/setHeight                 0.02 mm
+/gate/siDiodeActiveTop/setMaterial                        Silicon
+/gate/siDiodeActiveTop/vis/forceSolid
+/gate/siDiodeActiveTop/vis/setVisible 1
+/gate/siDiodeActiveTop/vis/setColor                       cyan
+
+##
+##  surrounding top of diode where energy deps won't be collected
+##
+
+/gate/phantomCyl/daughters/name              siDiodeInActiveTop
+/gate/phantomCyl/daughters/insert            cylinder
+/gate/siDiodeInActiveTop/placement/setTranslation           0.0 0.0 -6.5 mm
+/gate/siDiodeInActiveTop/geometry/setRmin                   1.0 mm
+/gate/siDiodeInActiveTop/geometry/setRmax                   1.5 mm
+/gate/siDiodeInActiveTop/geometry/setHeight                 0.02 mm
+/gate/siDiodeInActiveTop/setMaterial                        Silicon
+/gate/siDiodeInActiveTop/vis/forceWireframe
+/gate/siDiodeInActiveTop/vis/setVisible 1
+/gate/siDiodeInActiveTop/vis/setColor                       blue
+
+##
+## Sides/legs of diode
+##
+
+/gate/phantomCyl/daughters/name              siDiodeInActiveSides
+/gate/phantomCyl/daughters/insert            cone
+/gate/siDiodeInActiveSides/placement/setTranslation           0.0 0.0 -6.0 mm
+/gate/siDiodeInActiveSides/geometry/setRmin1                   1.1 mm
+/gate/siDiodeInActiveSides/geometry/setRmax1                   1.5 mm
+/gate/siDiodeInActiveSides/geometry/setRmin2                   1.3 mm
+/gate/siDiodeInActiveSides/geometry/setRmax2                   1.5 mm
+/gate/siDiodeInActiveSides/geometry/setHeight                  0.98 mm
+/gate/siDiodeInActiveSides/geometry/setPhiStart				0 deg
+/gate/siDiodeInActiveSides/geometry/setDeltaPhi				360 deg	
+/gate/siDiodeInActiveSides/setMaterial                        Silicon
+/gate/siDiodeInActiveSides/vis/forceWireframe
+/gate/siDiodeInActiveSides/vis/setVisible 1
+/gate/siDiodeInActiveSides/vis/setColor                       cyan
+
+##
+## Gold Top Electrode
+##
+/gate/phantomCyl/daughters/name              goldElectrodeTop
+/gate/phantomCyl/daughters/insert            cylinder
+/gate/goldElectrodeTop/placement/setTranslation           0.0 0.0 -6.5102 mm
+/gate/goldElectrodeTop/geometry/setRmin                   0 mm
+/gate/goldElectrodeTop/geometry/setRmax                   0.8 mm
+/gate/goldElectrodeTop/geometry/setHeight                 0.0002 mm
+/gate/goldElectrodeTop/setMaterial                        Gold
+/gate/goldElectrodeTop/vis/forceSolid
+/gate/goldElectrodeTop/vis/setVisible 1
+/gate/goldElectrodeTop/vis/setColor                       yellow
+
+##
+## Gold Bottom Electrode
+##
+/gate/phantomCyl/daughters/name              goldElectrodeBottom
+/gate/phantomCyl/daughters/insert            cylinder
+/gate/goldElectrodeBottom/placement/setTranslation           0.0 0.0 -6.4898 mm
+/gate/goldElectrodeBottom/geometry/setRmin                   0 mm
+/gate/goldElectrodeBottom/geometry/setRmax                   0.8 mm
+/gate/goldElectrodeBottom/geometry/setHeight                 0.0002 mm
+/gate/goldElectrodeBottom/setMaterial                        Gold
+/gate/goldElectrodeBottom/vis/forceSolid
+/gate/goldElectrodeBottom/vis/setVisible 1
+/gate/goldElectrodeBottom/vis/setColor                       yellow
+
+
+## =====================================================
+## PHYSICS
+## =====================================================
+
+/gate/physics/addPhysicsList emstandard_opt3
+
+/gate/physics/Gamma/SetCutInRegion      world 0.1 mm
+/gate/physics/Electron/SetCutInRegion   world 0.1 mm
+/gate/physics/Positron/SetCutInRegion   world 0.1 mm
+
+#/gate/physics/Gamma/SetCutInRegion      phantomCyl 0.1 mm
+#	/gate/physics/Electron/SetCutInRegion   phantomCyl 0.1 mm
+#/gate/physics/Positron/SetCutInRegion   phantomCyl 0.1 mm
+
+/gate/physics/displayCuts
+
+
+## =====================================================
+## OUTPUT MANAGEMENT
+## =====================================================
+
+# /gate/phantomCyl/attachPhantomSD	
+
+/gate/actor/addActor                               DoseActor  doseDistribution
+/gate/actor/doseDistribution/save                  output-gamma.root
+/gate/actor/doseDistribution/attachTo    	         siDiodeActiveTop
+/gate/actor/doseDistribution/stepHitType           random
+/gate/actor/doseDistribution/setPosition           0 0 0 cm
+/gate/actor/doseDistribution/setSize               3 3 0.1 mm
+/gate/actor/doseDistribution/setResolution         10 10 10
+# /gate/actor/doseDistribution/setVoxelSize          0.1 0.1 0.1 mm
+
+/gate/actor/doseDistribution/enableEdep            true
+/gate/actor/doseDistribution/enableUncertaintyEdep true
+/gate/actor/doseDistribution/enableDose            true
+/gate/actor/doseDistribution/enableUncertaintyDose true
+/gate/actor/doseDistribution/enableNumberOfHits    true
+
+#/gate/actor/addActor                     DoseActor  dose3d
+# /gate/actor/dose3d/save                  output/gamma-3d.mhd
+#/gate/actor/dose3d/save output/Lana.root
+
+#/gate/actor/dose3d/attachTo    	         phantomCyl
+#/gate/actor/dose3d/stepHitType           random
+#/gate/actor/dose3d/setPosition           0 0 0 cm
+# /gate/actor/dose3d/setSize               1 1 1 mm
+#/gate/actor/dose3d/setResolution         2 2 2
+# /gate/actor/doseDistribution/setVoxelSize          0.1 0.1 0.1 mm
+#/gate/actor/dose3d/enableEdep            true
+#/gate/actor/dose3d/enableUncertaintyEdep true
+#/gate/actor/dose3d/enableDose            true
+#/gate/actor/dose3d/enableUncertaintyDose false
+#/gate/actor/dose3d/enableNumberOfHits    false
+
+#/gate/actor/addActor               SimulationStatisticActor stat
+#/gate/actor/stat/save              output/stat-gamma.txt
+
+
+
+## =====================================================
+## INITIALISATION
+## =====================================================
+
+/gate/run/initialize
+
+## =====================================================
+## BEAMS
+## =====================================================
+
+
+/gate/source/addSource mybeam gps
+
+/gate/source/mybeam/gps/particle gamma
+#/gate/source/mybeam/gps/pos/type Beam
+# /gate/source/mybeam/gps/pos/rot1 0 1 0
+# /gate/source/mybeam/gps/pos/rot2 1 0 0
+#/gate/source/mybeam/gps/pos/shape Circle
+/gate/source/mybeam/gps/pos/centre 0 0 -100 cm
+# /gate/source/mybeam/gps/pos/centre 0 -100 0 cm
+#/gate/source/mybeam/gps/pos/sigma_x 3 mm
+# /gate/source/mybeam/gps/pos/sigma_y 3 mm
+
+/gate/source/mybeam/gps/direction 0 0 1
+/gate/source/mybeam/gps/ang/type iso
+/gate/source/mybeam/gps/ang/mintheta 179 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/mintheta 89 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/maxtheta 91 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/minphi -89 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/maxphi -91 deg  #14 degree aperture
+/gate/source/mybeam/gps/hist/point 0.25 0.004107824
+/gate/source/mybeam/gps/hist/point 0.50 0.1295177
+/gate/source/mybeam/gps/hist/point 0.75 0.4609022
+/gate/source/mybeam/gps/hist/point 1.00 0.4609022   
+/gate/source/mybeam/gps/hist/point 1.25 0.4435880   
+/gate/source/mybeam/gps/hist/point 1.50 0.4084962   
+/gate/source/mybeam/gps/hist/point 1.75 0.4084962   
+/gate/source/mybeam/gps/hist/point 2.00 0.2496504   
+/gate/source/mybeam/gps/hist/point 2.25 0.2367691  
+/gate/source/mybeam/gps/hist/point 2.50 0.1867142   
+/gate/source/mybeam/gps/hist/point 2.75 0.1382681   
+/gate/source/mybeam/gps/hist/point 3.00 0.1304545   
+/gate/source/mybeam/gps/hist/point 3.25 0.1484442   
+/gate/source/mybeam/gps/hist/point 3.50 0.09496227   
+/gate/source/mybeam/gps/hist/point 3.75 0.1246583   
+/gate/source/mybeam/gps/hist/point 4.00 0.09773248   
+/gate/source/mybeam/gps/hist/point 4.25 0.08891984   
+/gate/source/mybeam/gps/hist/point 4.50 0.05154921   
+/gate/source/mybeam/gps/hist/point 4.75 0.04184013   
+/gate/source/mybeam/gps/hist/point 5.00 0.04803306   
+/gate/source/mybeam/gps/hist/point 5.25 0.01624749   
+/gate/source/mybeam/gps/hist/point 5.50 0.02715377   
+/gate/source/mybeam/gps/hist/point 5.75 0.01199324   
+/gate/source/mybeam/gps/hist/point 6.00 0.01573713 
+
+#=====================================================
+#  D A T A   O U T P U T   
+#=====================================================
+#/gate/output/root/enable
+#/gate/output/root/setRootSinglesFlag 1
+#/gate/output/root/setRootHitFlag 1
+#/gate/output/root/setFileName output/SiDiodeRoot.root
+
+## =====================================================
+## START BEAMS
+## =====================================================
+
+# JamesRandom Ranlux64 MersenneTwister
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 123456
+
+/gate/application/noGlobalOutput
+/gate/application/setTotalNumberOfPrimaries 100000000
+/gate/application/start
+	

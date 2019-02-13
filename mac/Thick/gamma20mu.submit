@@ -1,0 +1,610 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_gamma20mu, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
++PostCmd        = "transfer_script_gamma20mu"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu1.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu1.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu1.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu2.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu2.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu2.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu3.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu3.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu3.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu4.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu4.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu4.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu5.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu5.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu5.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu6.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu6.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu6.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu7.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu7.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu7.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu8.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu8.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu8.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu9.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu9.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu9.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu10.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu10.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu10.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu11.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu11.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu11.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu12.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu12.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu12.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu13.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu13.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu13.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu14.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu14.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu14.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu15.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu15.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu15.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu16.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu16.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu16.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu17.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu17.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu17.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu18.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu18.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu18.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu19.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu19.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu19.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu20.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu20.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu20.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu21.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu21.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu21.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu22.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu22.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu22.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu23.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu23.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu23.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu24.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu24.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu24.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu25.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu25.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu25.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu26.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu26.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu26.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu27.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu27.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu27.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu28.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu28.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu28.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu29.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu29.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu29.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu30.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu30.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu30.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu31.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu31.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu31.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu32.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu32.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu32.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu33.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu33.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu33.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu34.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu34.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu34.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu35.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu35.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu35.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu36.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu36.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu36.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu37.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu37.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu37.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu38.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu38.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu38.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu39.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu39.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu39.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu40.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu40.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu40.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu41.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu41.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu41.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu42.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu42.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu42.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu43.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu43.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu43.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu44.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu44.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu44.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu45.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu45.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu45.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu46.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu46.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu46.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu47.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu47.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu47.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu48.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu48.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu48.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu49.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu49.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu49.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu50.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu50.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu50.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu51.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu51.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu51.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu52.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu52.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu52.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu53.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu53.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu53.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu54.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu54.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu54.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu55.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu55.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu55.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu56.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu56.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu56.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu57.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu57.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu57.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu58.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu58.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu58.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu59.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu59.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu59.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu60.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu60.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu60.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu61.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu61.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu61.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu62.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu62.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu62.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu63.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu63.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu63.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu64.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu64.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu64.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu65.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu65.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu65.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu66.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu66.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu66.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu67.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu67.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu67.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu68.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu68.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu68.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu69.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu69.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu69.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu70.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu70.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu70.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu71.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu71.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu71.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu72.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu72.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu72.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu73.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu73.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu73.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu74.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu74.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu74.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu75.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu75.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu75.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu76.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu76.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu76.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu77.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu77.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu77.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu78.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu78.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu78.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu79.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu79.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu79.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu80.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu80.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu80.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu81.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu81.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu81.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu82.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu82.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu82.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu83.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu83.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu83.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu84.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu84.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu84.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu85.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu85.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu85.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu86.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu86.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu86.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu87.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu87.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu87.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu88.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu88.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu88.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu89.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu89.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu89.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu90.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu90.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu90.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu91.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu91.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu91.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu92.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu92.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu92.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu93.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu93.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu93.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu94.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu94.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu94.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu95.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu95.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu95.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu96.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu96.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu96.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu97.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu97.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu97.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu98.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu98.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu98.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu99.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu99.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu99.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma20mu1//gamma20mu100.mac
+Output         = /storage/lb8075/gamma20mu/gamma20mu100.out
+Error          = /storage/lb8075/gamma20mu/gamma20mu100.err
+Log            = /storage/lb8075/gamma20mu/gamma20mu100.log
+Queue
+

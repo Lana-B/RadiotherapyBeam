@@ -1,0 +1,612 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfer_script_DiodeOnly, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
+Requirements =  (  stringListMember(substr(Target.Machine,0,5),"hd-36") ) 
++PostCmd	= "transfer_script_DiodeOnly"
+
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly1.mac
+Output         = /storage/lb8075/DiodeOnly1.out
+Error          = /storage/lb8075/DiodeOnly1.err
+Log            = /storage/lb8075/DiodeOnly1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly2.mac
+Output         = /storage/lb8075/DiodeOnly2.out
+Error          = /storage/lb8075/DiodeOnly2.err
+Log            = /storage/lb8075/DiodeOnly2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly3.mac
+Output         = /storage/lb8075/DiodeOnly3.out
+Error          = /storage/lb8075/DiodeOnly3.err
+Log            = /storage/lb8075/DiodeOnly3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly4.mac
+Output         = /storage/lb8075/DiodeOnly4.out
+Error          = /storage/lb8075/DiodeOnly4.err
+Log            = /storage/lb8075/DiodeOnly4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly5.mac
+Output         = /storage/lb8075/DiodeOnly5.out
+Error          = /storage/lb8075/DiodeOnly5.err
+Log            = /storage/lb8075/DiodeOnly5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly6.mac
+Output         = /storage/lb8075/DiodeOnly6.out
+Error          = /storage/lb8075/DiodeOnly6.err
+Log            = /storage/lb8075/DiodeOnly6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly7.mac
+Output         = /storage/lb8075/DiodeOnly7.out
+Error          = /storage/lb8075/DiodeOnly7.err
+Log            = /storage/lb8075/DiodeOnly7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly8.mac
+Output         = /storage/lb8075/DiodeOnly8.out
+Error          = /storage/lb8075/DiodeOnly8.err
+Log            = /storage/lb8075/DiodeOnly8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly9.mac
+Output         = /storage/lb8075/DiodeOnly9.out
+Error          = /storage/lb8075/DiodeOnly9.err
+Log            = /storage/lb8075/DiodeOnly9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly10.mac
+Output         = /storage/lb8075/DiodeOnly10.out
+Error          = /storage/lb8075/DiodeOnly10.err
+Log            = /storage/lb8075/DiodeOnly10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly11.mac
+Output         = /storage/lb8075/DiodeOnly11.out
+Error          = /storage/lb8075/DiodeOnly11.err
+Log            = /storage/lb8075/DiodeOnly11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly12.mac
+Output         = /storage/lb8075/DiodeOnly12.out
+Error          = /storage/lb8075/DiodeOnly12.err
+Log            = /storage/lb8075/DiodeOnly12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly13.mac
+Output         = /storage/lb8075/DiodeOnly13.out
+Error          = /storage/lb8075/DiodeOnly13.err
+Log            = /storage/lb8075/DiodeOnly13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly14.mac
+Output         = /storage/lb8075/DiodeOnly14.out
+Error          = /storage/lb8075/DiodeOnly14.err
+Log            = /storage/lb8075/DiodeOnly14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly15.mac
+Output         = /storage/lb8075/DiodeOnly15.out
+Error          = /storage/lb8075/DiodeOnly15.err
+Log            = /storage/lb8075/DiodeOnly15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly16.mac
+Output         = /storage/lb8075/DiodeOnly16.out
+Error          = /storage/lb8075/DiodeOnly16.err
+Log            = /storage/lb8075/DiodeOnly16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly17.mac
+Output         = /storage/lb8075/DiodeOnly17.out
+Error          = /storage/lb8075/DiodeOnly17.err
+Log            = /storage/lb8075/DiodeOnly17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly18.mac
+Output         = /storage/lb8075/DiodeOnly18.out
+Error          = /storage/lb8075/DiodeOnly18.err
+Log            = /storage/lb8075/DiodeOnly18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly19.mac
+Output         = /storage/lb8075/DiodeOnly19.out
+Error          = /storage/lb8075/DiodeOnly19.err
+Log            = /storage/lb8075/DiodeOnly19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly20.mac
+Output         = /storage/lb8075/DiodeOnly20.out
+Error          = /storage/lb8075/DiodeOnly20.err
+Log            = /storage/lb8075/DiodeOnly20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly21.mac
+Output         = /storage/lb8075/DiodeOnly21.out
+Error          = /storage/lb8075/DiodeOnly21.err
+Log            = /storage/lb8075/DiodeOnly21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly22.mac
+Output         = /storage/lb8075/DiodeOnly22.out
+Error          = /storage/lb8075/DiodeOnly22.err
+Log            = /storage/lb8075/DiodeOnly22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly23.mac
+Output         = /storage/lb8075/DiodeOnly23.out
+Error          = /storage/lb8075/DiodeOnly23.err
+Log            = /storage/lb8075/DiodeOnly23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly24.mac
+Output         = /storage/lb8075/DiodeOnly24.out
+Error          = /storage/lb8075/DiodeOnly24.err
+Log            = /storage/lb8075/DiodeOnly24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly25.mac
+Output         = /storage/lb8075/DiodeOnly25.out
+Error          = /storage/lb8075/DiodeOnly25.err
+Log            = /storage/lb8075/DiodeOnly25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly26.mac
+Output         = /storage/lb8075/DiodeOnly26.out
+Error          = /storage/lb8075/DiodeOnly26.err
+Log            = /storage/lb8075/DiodeOnly26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly27.mac
+Output         = /storage/lb8075/DiodeOnly27.out
+Error          = /storage/lb8075/DiodeOnly27.err
+Log            = /storage/lb8075/DiodeOnly27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly28.mac
+Output         = /storage/lb8075/DiodeOnly28.out
+Error          = /storage/lb8075/DiodeOnly28.err
+Log            = /storage/lb8075/DiodeOnly28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly29.mac
+Output         = /storage/lb8075/DiodeOnly29.out
+Error          = /storage/lb8075/DiodeOnly29.err
+Log            = /storage/lb8075/DiodeOnly29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly30.mac
+Output         = /storage/lb8075/DiodeOnly30.out
+Error          = /storage/lb8075/DiodeOnly30.err
+Log            = /storage/lb8075/DiodeOnly30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly31.mac
+Output         = /storage/lb8075/DiodeOnly31.out
+Error          = /storage/lb8075/DiodeOnly31.err
+Log            = /storage/lb8075/DiodeOnly31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly32.mac
+Output         = /storage/lb8075/DiodeOnly32.out
+Error          = /storage/lb8075/DiodeOnly32.err
+Log            = /storage/lb8075/DiodeOnly32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly33.mac
+Output         = /storage/lb8075/DiodeOnly33.out
+Error          = /storage/lb8075/DiodeOnly33.err
+Log            = /storage/lb8075/DiodeOnly33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly34.mac
+Output         = /storage/lb8075/DiodeOnly34.out
+Error          = /storage/lb8075/DiodeOnly34.err
+Log            = /storage/lb8075/DiodeOnly34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly35.mac
+Output         = /storage/lb8075/DiodeOnly35.out
+Error          = /storage/lb8075/DiodeOnly35.err
+Log            = /storage/lb8075/DiodeOnly35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly36.mac
+Output         = /storage/lb8075/DiodeOnly36.out
+Error          = /storage/lb8075/DiodeOnly36.err
+Log            = /storage/lb8075/DiodeOnly36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly37.mac
+Output         = /storage/lb8075/DiodeOnly37.out
+Error          = /storage/lb8075/DiodeOnly37.err
+Log            = /storage/lb8075/DiodeOnly37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly38.mac
+Output         = /storage/lb8075/DiodeOnly38.out
+Error          = /storage/lb8075/DiodeOnly38.err
+Log            = /storage/lb8075/DiodeOnly38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly39.mac
+Output         = /storage/lb8075/DiodeOnly39.out
+Error          = /storage/lb8075/DiodeOnly39.err
+Log            = /storage/lb8075/DiodeOnly39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly40.mac
+Output         = /storage/lb8075/DiodeOnly40.out
+Error          = /storage/lb8075/DiodeOnly40.err
+Log            = /storage/lb8075/DiodeOnly40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly41.mac
+Output         = /storage/lb8075/DiodeOnly41.out
+Error          = /storage/lb8075/DiodeOnly41.err
+Log            = /storage/lb8075/DiodeOnly41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly42.mac
+Output         = /storage/lb8075/DiodeOnly42.out
+Error          = /storage/lb8075/DiodeOnly42.err
+Log            = /storage/lb8075/DiodeOnly42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly43.mac
+Output         = /storage/lb8075/DiodeOnly43.out
+Error          = /storage/lb8075/DiodeOnly43.err
+Log            = /storage/lb8075/DiodeOnly43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly44.mac
+Output         = /storage/lb8075/DiodeOnly44.out
+Error          = /storage/lb8075/DiodeOnly44.err
+Log            = /storage/lb8075/DiodeOnly44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly45.mac
+Output         = /storage/lb8075/DiodeOnly45.out
+Error          = /storage/lb8075/DiodeOnly45.err
+Log            = /storage/lb8075/DiodeOnly45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly46.mac
+Output         = /storage/lb8075/DiodeOnly46.out
+Error          = /storage/lb8075/DiodeOnly46.err
+Log            = /storage/lb8075/DiodeOnly46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly47.mac
+Output         = /storage/lb8075/DiodeOnly47.out
+Error          = /storage/lb8075/DiodeOnly47.err
+Log            = /storage/lb8075/DiodeOnly47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly48.mac
+Output         = /storage/lb8075/DiodeOnly48.out
+Error          = /storage/lb8075/DiodeOnly48.err
+Log            = /storage/lb8075/DiodeOnly48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly49.mac
+Output         = /storage/lb8075/DiodeOnly49.out
+Error          = /storage/lb8075/DiodeOnly49.err
+Log            = /storage/lb8075/DiodeOnly49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly50.mac
+Output         = /storage/lb8075/DiodeOnly50.out
+Error          = /storage/lb8075/DiodeOnly50.err
+Log            = /storage/lb8075/DiodeOnly50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly51.mac
+Output         = /storage/lb8075/DiodeOnly51.out
+Error          = /storage/lb8075/DiodeOnly51.err
+Log            = /storage/lb8075/DiodeOnly51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly52.mac
+Output         = /storage/lb8075/DiodeOnly52.out
+Error          = /storage/lb8075/DiodeOnly52.err
+Log            = /storage/lb8075/DiodeOnly52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly53.mac
+Output         = /storage/lb8075/DiodeOnly53.out
+Error          = /storage/lb8075/DiodeOnly53.err
+Log            = /storage/lb8075/DiodeOnly53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly54.mac
+Output         = /storage/lb8075/DiodeOnly54.out
+Error          = /storage/lb8075/DiodeOnly54.err
+Log            = /storage/lb8075/DiodeOnly54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly55.mac
+Output         = /storage/lb8075/DiodeOnly55.out
+Error          = /storage/lb8075/DiodeOnly55.err
+Log            = /storage/lb8075/DiodeOnly55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly56.mac
+Output         = /storage/lb8075/DiodeOnly56.out
+Error          = /storage/lb8075/DiodeOnly56.err
+Log            = /storage/lb8075/DiodeOnly56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly57.mac
+Output         = /storage/lb8075/DiodeOnly57.out
+Error          = /storage/lb8075/DiodeOnly57.err
+Log            = /storage/lb8075/DiodeOnly57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly58.mac
+Output         = /storage/lb8075/DiodeOnly58.out
+Error          = /storage/lb8075/DiodeOnly58.err
+Log            = /storage/lb8075/DiodeOnly58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly59.mac
+Output         = /storage/lb8075/DiodeOnly59.out
+Error          = /storage/lb8075/DiodeOnly59.err
+Log            = /storage/lb8075/DiodeOnly59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly60.mac
+Output         = /storage/lb8075/DiodeOnly60.out
+Error          = /storage/lb8075/DiodeOnly60.err
+Log            = /storage/lb8075/DiodeOnly60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly61.mac
+Output         = /storage/lb8075/DiodeOnly61.out
+Error          = /storage/lb8075/DiodeOnly61.err
+Log            = /storage/lb8075/DiodeOnly61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly62.mac
+Output         = /storage/lb8075/DiodeOnly62.out
+Error          = /storage/lb8075/DiodeOnly62.err
+Log            = /storage/lb8075/DiodeOnly62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly63.mac
+Output         = /storage/lb8075/DiodeOnly63.out
+Error          = /storage/lb8075/DiodeOnly63.err
+Log            = /storage/lb8075/DiodeOnly63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly64.mac
+Output         = /storage/lb8075/DiodeOnly64.out
+Error          = /storage/lb8075/DiodeOnly64.err
+Log            = /storage/lb8075/DiodeOnly64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly65.mac
+Output         = /storage/lb8075/DiodeOnly65.out
+Error          = /storage/lb8075/DiodeOnly65.err
+Log            = /storage/lb8075/DiodeOnly65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly66.mac
+Output         = /storage/lb8075/DiodeOnly66.out
+Error          = /storage/lb8075/DiodeOnly66.err
+Log            = /storage/lb8075/DiodeOnly66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly67.mac
+Output         = /storage/lb8075/DiodeOnly67.out
+Error          = /storage/lb8075/DiodeOnly67.err
+Log            = /storage/lb8075/DiodeOnly67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly68.mac
+Output         = /storage/lb8075/DiodeOnly68.out
+Error          = /storage/lb8075/DiodeOnly68.err
+Log            = /storage/lb8075/DiodeOnly68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly69.mac
+Output         = /storage/lb8075/DiodeOnly69.out
+Error          = /storage/lb8075/DiodeOnly69.err
+Log            = /storage/lb8075/DiodeOnly69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly70.mac
+Output         = /storage/lb8075/DiodeOnly70.out
+Error          = /storage/lb8075/DiodeOnly70.err
+Log            = /storage/lb8075/DiodeOnly70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly71.mac
+Output         = /storage/lb8075/DiodeOnly71.out
+Error          = /storage/lb8075/DiodeOnly71.err
+Log            = /storage/lb8075/DiodeOnly71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly72.mac
+Output         = /storage/lb8075/DiodeOnly72.out
+Error          = /storage/lb8075/DiodeOnly72.err
+Log            = /storage/lb8075/DiodeOnly72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly73.mac
+Output         = /storage/lb8075/DiodeOnly73.out
+Error          = /storage/lb8075/DiodeOnly73.err
+Log            = /storage/lb8075/DiodeOnly73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly74.mac
+Output         = /storage/lb8075/DiodeOnly74.out
+Error          = /storage/lb8075/DiodeOnly74.err
+Log            = /storage/lb8075/DiodeOnly74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly75.mac
+Output         = /storage/lb8075/DiodeOnly75.out
+Error          = /storage/lb8075/DiodeOnly75.err
+Log            = /storage/lb8075/DiodeOnly75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly76.mac
+Output         = /storage/lb8075/DiodeOnly76.out
+Error          = /storage/lb8075/DiodeOnly76.err
+Log            = /storage/lb8075/DiodeOnly76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly77.mac
+Output         = /storage/lb8075/DiodeOnly77.out
+Error          = /storage/lb8075/DiodeOnly77.err
+Log            = /storage/lb8075/DiodeOnly77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly78.mac
+Output         = /storage/lb8075/DiodeOnly78.out
+Error          = /storage/lb8075/DiodeOnly78.err
+Log            = /storage/lb8075/DiodeOnly78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly79.mac
+Output         = /storage/lb8075/DiodeOnly79.out
+Error          = /storage/lb8075/DiodeOnly79.err
+Log            = /storage/lb8075/DiodeOnly79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly80.mac
+Output         = /storage/lb8075/DiodeOnly80.out
+Error          = /storage/lb8075/DiodeOnly80.err
+Log            = /storage/lb8075/DiodeOnly80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly81.mac
+Output         = /storage/lb8075/DiodeOnly81.out
+Error          = /storage/lb8075/DiodeOnly81.err
+Log            = /storage/lb8075/DiodeOnly81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly82.mac
+Output         = /storage/lb8075/DiodeOnly82.out
+Error          = /storage/lb8075/DiodeOnly82.err
+Log            = /storage/lb8075/DiodeOnly82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly83.mac
+Output         = /storage/lb8075/DiodeOnly83.out
+Error          = /storage/lb8075/DiodeOnly83.err
+Log            = /storage/lb8075/DiodeOnly83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly84.mac
+Output         = /storage/lb8075/DiodeOnly84.out
+Error          = /storage/lb8075/DiodeOnly84.err
+Log            = /storage/lb8075/DiodeOnly84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly85.mac
+Output         = /storage/lb8075/DiodeOnly85.out
+Error          = /storage/lb8075/DiodeOnly85.err
+Log            = /storage/lb8075/DiodeOnly85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly86.mac
+Output         = /storage/lb8075/DiodeOnly86.out
+Error          = /storage/lb8075/DiodeOnly86.err
+Log            = /storage/lb8075/DiodeOnly86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly87.mac
+Output         = /storage/lb8075/DiodeOnly87.out
+Error          = /storage/lb8075/DiodeOnly87.err
+Log            = /storage/lb8075/DiodeOnly87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly88.mac
+Output         = /storage/lb8075/DiodeOnly88.out
+Error          = /storage/lb8075/DiodeOnly88.err
+Log            = /storage/lb8075/DiodeOnly88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly89.mac
+Output         = /storage/lb8075/DiodeOnly89.out
+Error          = /storage/lb8075/DiodeOnly89.err
+Log            = /storage/lb8075/DiodeOnly89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly90.mac
+Output         = /storage/lb8075/DiodeOnly90.out
+Error          = /storage/lb8075/DiodeOnly90.err
+Log            = /storage/lb8075/DiodeOnly90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly91.mac
+Output         = /storage/lb8075/DiodeOnly91.out
+Error          = /storage/lb8075/DiodeOnly91.err
+Log            = /storage/lb8075/DiodeOnly91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly92.mac
+Output         = /storage/lb8075/DiodeOnly92.out
+Error          = /storage/lb8075/DiodeOnly92.err
+Log            = /storage/lb8075/DiodeOnly92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly93.mac
+Output         = /storage/lb8075/DiodeOnly93.out
+Error          = /storage/lb8075/DiodeOnly93.err
+Log            = /storage/lb8075/DiodeOnly93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly94.mac
+Output         = /storage/lb8075/DiodeOnly94.out
+Error          = /storage/lb8075/DiodeOnly94.err
+Log            = /storage/lb8075/DiodeOnly94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly95.mac
+Output         = /storage/lb8075/DiodeOnly95.out
+Error          = /storage/lb8075/DiodeOnly95.err
+Log            = /storage/lb8075/DiodeOnly95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly96.mac
+Output         = /storage/lb8075/DiodeOnly96.out
+Error          = /storage/lb8075/DiodeOnly96.err
+Log            = /storage/lb8075/DiodeOnly96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly97.mac
+Output         = /storage/lb8075/DiodeOnly97.out
+Error          = /storage/lb8075/DiodeOnly97.err
+Log            = /storage/lb8075/DiodeOnly97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly98.mac
+Output         = /storage/lb8075/DiodeOnly98.out
+Error          = /storage/lb8075/DiodeOnly98.err
+Log            = /storage/lb8075/DiodeOnly98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly99.mac
+Output         = /storage/lb8075/DiodeOnly99.out
+Error          = /storage/lb8075/DiodeOnly99.err
+Log            = /storage/lb8075/DiodeOnly99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaDiodeOnly4//gammaDiodeOnly100.mac
+Output         = /storage/lb8075/DiodeOnly100.out
+Error          = /storage/lb8075/DiodeOnly100.err
+Log            = /storage/lb8075/DiodeOnly100.log
+Queue
+

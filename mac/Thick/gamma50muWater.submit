@@ -1,0 +1,610 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_gamma50muWater, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
++PostCmd        = "transfer_script_gamma50muWater"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater1.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater1.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater1.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater2.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater2.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater2.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater3.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater3.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater3.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater4.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater4.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater4.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater5.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater5.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater5.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater6.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater6.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater6.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater7.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater7.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater7.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater8.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater8.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater8.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater9.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater9.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater9.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater10.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater10.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater10.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater11.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater11.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater11.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater12.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater12.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater12.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater13.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater13.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater13.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater14.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater14.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater14.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater15.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater15.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater15.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater16.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater16.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater16.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater17.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater17.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater17.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater18.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater18.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater18.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater19.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater19.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater19.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater20.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater20.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater20.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater21.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater21.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater21.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater22.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater22.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater22.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater23.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater23.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater23.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater24.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater24.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater24.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater25.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater25.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater25.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater26.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater26.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater26.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater27.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater27.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater27.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater28.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater28.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater28.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater29.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater29.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater29.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater30.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater30.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater30.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater31.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater31.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater31.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater32.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater32.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater32.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater33.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater33.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater33.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater34.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater34.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater34.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater35.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater35.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater35.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater36.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater36.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater36.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater37.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater37.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater37.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater38.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater38.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater38.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater39.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater39.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater39.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater40.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater40.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater40.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater41.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater41.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater41.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater42.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater42.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater42.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater43.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater43.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater43.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater44.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater44.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater44.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater45.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater45.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater45.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater46.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater46.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater46.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater47.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater47.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater47.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater48.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater48.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater48.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater49.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater49.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater49.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater50.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater50.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater50.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater51.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater51.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater51.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater52.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater52.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater52.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater53.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater53.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater53.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater54.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater54.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater54.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater55.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater55.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater55.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater56.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater56.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater56.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater57.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater57.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater57.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater58.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater58.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater58.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater59.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater59.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater59.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater60.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater60.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater60.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater61.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater61.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater61.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater62.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater62.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater62.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater63.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater63.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater63.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater64.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater64.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater64.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater65.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater65.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater65.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater66.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater66.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater66.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater67.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater67.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater67.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater68.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater68.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater68.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater69.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater69.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater69.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater70.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater70.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater70.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater71.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater71.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater71.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater72.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater72.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater72.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater73.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater73.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater73.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater74.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater74.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater74.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater75.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater75.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater75.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater76.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater76.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater76.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater77.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater77.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater77.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater78.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater78.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater78.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater79.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater79.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater79.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater80.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater80.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater80.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater81.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater81.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater81.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater82.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater82.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater82.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater83.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater83.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater83.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater84.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater84.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater84.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater85.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater85.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater85.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater86.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater86.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater86.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater87.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater87.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater87.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater88.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater88.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater88.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater89.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater89.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater89.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater90.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater90.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater90.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater91.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater91.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater91.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater92.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater92.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater92.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater93.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater93.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater93.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater94.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater94.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater94.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater95.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater95.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater95.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater96.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater96.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater96.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater97.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater97.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater97.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater98.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater98.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater98.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater99.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater99.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater99.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma50muWater1//gamma50muWater100.mac
+Output         = /storage/lb8075/gamma50muWater/gamma50muWater100.out
+Error          = /storage/lb8075/gamma50muWater/gamma50muWater100.err
+Log            = /storage/lb8075/gamma50muWater/gamma50muWater100.log
+Queue
+

@@ -1,0 +1,610 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_gratingVacuumWorld, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
++PostCmd        = "transfer_script_gratingVacuumWorld"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld1.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld1.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld1.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld2.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld2.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld2.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld3.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld3.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld3.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld4.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld4.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld4.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld5.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld5.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld5.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld6.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld6.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld6.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld7.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld7.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld7.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld8.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld8.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld8.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld9.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld9.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld9.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld10.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld10.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld10.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld11.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld11.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld11.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld12.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld12.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld12.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld13.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld13.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld13.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld14.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld14.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld14.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld15.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld15.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld15.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld16.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld16.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld16.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld17.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld17.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld17.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld18.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld18.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld18.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld19.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld19.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld19.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld20.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld20.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld20.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld21.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld21.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld21.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld22.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld22.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld22.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld23.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld23.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld23.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld24.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld24.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld24.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld25.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld25.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld25.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld26.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld26.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld26.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld27.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld27.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld27.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld28.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld28.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld28.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld29.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld29.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld29.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld30.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld30.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld30.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld31.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld31.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld31.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld32.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld32.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld32.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld33.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld33.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld33.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld34.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld34.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld34.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld35.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld35.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld35.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld36.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld36.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld36.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld37.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld37.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld37.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld38.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld38.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld38.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld39.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld39.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld39.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld40.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld40.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld40.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld41.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld41.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld41.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld42.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld42.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld42.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld43.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld43.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld43.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld44.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld44.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld44.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld45.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld45.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld45.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld46.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld46.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld46.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld47.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld47.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld47.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld48.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld48.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld48.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld49.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld49.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld49.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld50.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld50.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld50.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld51.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld51.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld51.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld52.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld52.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld52.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld53.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld53.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld53.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld54.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld54.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld54.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld55.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld55.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld55.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld56.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld56.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld56.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld57.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld57.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld57.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld58.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld58.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld58.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld59.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld59.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld59.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld60.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld60.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld60.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld61.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld61.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld61.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld62.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld62.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld62.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld63.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld63.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld63.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld64.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld64.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld64.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld65.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld65.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld65.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld66.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld66.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld66.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld67.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld67.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld67.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld68.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld68.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld68.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld69.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld69.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld69.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld70.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld70.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld70.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld71.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld71.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld71.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld72.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld72.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld72.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld73.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld73.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld73.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld74.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld74.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld74.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld75.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld75.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld75.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld76.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld76.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld76.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld77.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld77.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld77.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld78.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld78.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld78.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld79.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld79.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld79.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld80.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld80.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld80.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld81.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld81.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld81.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld82.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld82.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld82.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld83.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld83.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld83.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld84.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld84.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld84.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld85.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld85.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld85.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld86.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld86.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld86.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld87.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld87.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld87.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld88.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld88.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld88.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld89.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld89.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld89.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld90.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld90.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld90.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld91.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld91.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld91.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld92.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld92.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld92.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld93.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld93.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld93.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld94.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld94.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld94.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld95.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld95.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld95.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld96.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld96.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld96.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld97.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld97.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld97.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld98.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld98.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld98.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld99.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld99.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld99.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gratingVacuumWorld//gratingVacuumWorld100.mac
+Output         = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld100.out
+Error          = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld100.err
+Log            = /storage/lb8075/gratingVacuumWorld/gratingVacuumWorld100.log
+Queue
+

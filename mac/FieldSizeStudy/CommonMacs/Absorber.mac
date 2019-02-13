@@ -1,0 +1,13 @@
+##
+## Absorber box
+##
+
+/gate/world/daughters/name 			Absorber
+/gate/world/daughters/insert 		box
+/gate/Absorber/placement/setTranslation  0.0 0.0 0.03 mm
+/gate/Absorber/geometry/setXLength   15 mm
+/gate/Absorber/geometry/setYLength   15 mm
+/gate/Absorber/geometry/setZLength   0.10 mm
+/gate/Absorber/setMaterial SiC_foam
+/gate/Absorber/vis/setVisible 1
+/gate/Absorber/vis/setColor             blue

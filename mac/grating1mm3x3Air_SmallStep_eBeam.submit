@@ -1,0 +1,1211 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_grating1mm3x3Air_SmallStep_eBeam, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/kreczko/workernode:centos6"
++PostCmd        = "transfer_script_grating1mm3x3Air_SmallStep_eBeam"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam1.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam1.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam1.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam2.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam2.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam2.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam3.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam3.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam3.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam4.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam4.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam4.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam5.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam5.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam5.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam6.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam6.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam6.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam7.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam7.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam7.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam8.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam8.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam8.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam9.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam9.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam9.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam10.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam10.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam10.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam11.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam11.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam11.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam12.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam12.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam12.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam13.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam13.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam13.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam14.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam14.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam14.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam15.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam15.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam15.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam16.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam16.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam16.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam17.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam17.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam17.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam18.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam18.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam18.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam19.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam19.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam19.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam20.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam20.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam20.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam21.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam21.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam21.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam22.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam22.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam22.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam23.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam23.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam23.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam24.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam24.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam24.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam25.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam25.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam25.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam26.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam26.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam26.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam27.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam27.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam27.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam28.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam28.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam28.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam29.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam29.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam29.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam30.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam30.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam30.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam31.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam31.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam31.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam32.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam32.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam32.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam33.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam33.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam33.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam34.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam34.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam34.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam35.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam35.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam35.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam36.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam36.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam36.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam37.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam37.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam37.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam38.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam38.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam38.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam39.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam39.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam39.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam40.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam40.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam40.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam41.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam41.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam41.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam42.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam42.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam42.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam43.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam43.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam43.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam44.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam44.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam44.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam45.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam45.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam45.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam46.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam46.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam46.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam47.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam47.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam47.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam48.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam48.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam48.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam49.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam49.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam49.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam50.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam50.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam50.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam51.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam51.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam51.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam52.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam52.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam52.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam53.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam53.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam53.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam54.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam54.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam54.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam55.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam55.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam55.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam56.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam56.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam56.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam57.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam57.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam57.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam58.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam58.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam58.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam59.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam59.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam59.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam60.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam60.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam60.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam61.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam61.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam61.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam62.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam62.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam62.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam63.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam63.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam63.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam64.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam64.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam64.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam65.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam65.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam65.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam66.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam66.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam66.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam67.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam67.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam67.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam68.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam68.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam68.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam69.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam69.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam69.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam70.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam70.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam70.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam71.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam71.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam71.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam72.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam72.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam72.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam73.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam73.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam73.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam74.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam74.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam74.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam75.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam75.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam75.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam76.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam76.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam76.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam77.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam77.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam77.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam78.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam78.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam78.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam79.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam79.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam79.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam80.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam80.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam80.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam81.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam81.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam81.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam82.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam82.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam82.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam83.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam83.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam83.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam84.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam84.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam84.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam85.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam85.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam85.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam86.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam86.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam86.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam87.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam87.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam87.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam88.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam88.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam88.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam89.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam89.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam89.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam90.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam90.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam90.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam91.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam91.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam91.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam92.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam92.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam92.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam93.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam93.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam93.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam94.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam94.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam94.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam95.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam95.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam95.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam96.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam96.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam96.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam97.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam97.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam97.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam98.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam98.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam98.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam99.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam99.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam99.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam100.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam100.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam100.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam100.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam101.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam101.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam101.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam101.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam102.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam102.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam102.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam102.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam103.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam103.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam103.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam103.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam104.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam104.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam104.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam104.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam105.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam105.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam105.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam105.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam106.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam106.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam106.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam106.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam107.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam107.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam107.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam107.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam108.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam108.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam108.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam108.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam109.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam109.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam109.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam109.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam110.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam110.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam110.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam110.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam111.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam111.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam111.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam111.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam112.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam112.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam112.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam112.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam113.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam113.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam113.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam113.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam114.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam114.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam114.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam114.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam115.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam115.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam115.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam115.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam116.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam116.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam116.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam116.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam117.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam117.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam117.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam117.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam118.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam118.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam118.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam118.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam119.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam119.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam119.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam119.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam120.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam120.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam120.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam120.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam121.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam121.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam121.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam121.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam122.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam122.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam122.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam122.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam123.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam123.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam123.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam123.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam124.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam124.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam124.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam124.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam125.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam125.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam125.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam125.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam126.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam126.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam126.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam126.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam127.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam127.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam127.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam127.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam128.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam128.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam128.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam128.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam129.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam129.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam129.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam129.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam130.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam130.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam130.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam130.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam131.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam131.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam131.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam131.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam132.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam132.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam132.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam132.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam133.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam133.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam133.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam133.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam134.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam134.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam134.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam134.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam135.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam135.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam135.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam135.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam136.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam136.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam136.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam136.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam137.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam137.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam137.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam137.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam138.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam138.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam138.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam138.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam139.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam139.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam139.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam139.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam140.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam140.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam140.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam140.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam141.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam141.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam141.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam141.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam142.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam142.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam142.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam142.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam143.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam143.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam143.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam143.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam144.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam144.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam144.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam144.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam145.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam145.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam145.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam145.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam146.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam146.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam146.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam146.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam147.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam147.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam147.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam147.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam148.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam148.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam148.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam148.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam149.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam149.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam149.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam149.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam150.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam150.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam150.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam150.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam151.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam151.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam151.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam151.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam152.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam152.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam152.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam152.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam153.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam153.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam153.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam153.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam154.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam154.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam154.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam154.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam155.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam155.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam155.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam155.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam156.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam156.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam156.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam156.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam157.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam157.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam157.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam157.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam158.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam158.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam158.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam158.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam159.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam159.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam159.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam159.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam160.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam160.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam160.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam160.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam161.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam161.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam161.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam161.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam162.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam162.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam162.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam162.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam163.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam163.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam163.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam163.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam164.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam164.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam164.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam164.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam165.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam165.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam165.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam165.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam166.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam166.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam166.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam166.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam167.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam167.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam167.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam167.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam168.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam168.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam168.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam168.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam169.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam169.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam169.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam169.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam170.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam170.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam170.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam170.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam171.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam171.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam171.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam171.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam172.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam172.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam172.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam172.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam173.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam173.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam173.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam173.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam174.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam174.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam174.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam174.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam175.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam175.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam175.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam175.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam176.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam176.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam176.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam176.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam177.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam177.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam177.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam177.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam178.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam178.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam178.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam178.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam179.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam179.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam179.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam179.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam180.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam180.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam180.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam180.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam181.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam181.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam181.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam181.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam182.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam182.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam182.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam182.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam183.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam183.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam183.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam183.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam184.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam184.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam184.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam184.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam185.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam185.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam185.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam185.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam186.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam186.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam186.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam186.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam187.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam187.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam187.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam187.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam188.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam188.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam188.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam188.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam189.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam189.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam189.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam189.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam190.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam190.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam190.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam190.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam191.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam191.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam191.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam191.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam192.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam192.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam192.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam192.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam193.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam193.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam193.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam193.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam194.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam194.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam194.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam194.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam195.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam195.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam195.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam195.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam196.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam196.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam196.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam196.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam197.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam197.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam197.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam197.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam198.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam198.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam198.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam198.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam199.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam199.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam199.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam199.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm3x3Air_SmallStep_eBeam//grating1mm3x3Air_SmallStep_eBeam200.mac
+Output         = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam200.out
+Error          = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam200.err
+Log            = /storage/lb8075/grating1mm3x3Air_SmallStep_eBeam/grating1mm3x3Air_SmallStep_eBeam200.log
+Queue
+

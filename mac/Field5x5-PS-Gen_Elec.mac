@@ -1,0 +1,77 @@
+ ##### ===========================================================================================
+##
+##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
+##
+##### ===========================================================================================
+
+
+## =====================================================
+## VISUALISATION & VERBOSE
+## =====================================================
+
+/vis/disable
+#/control/execute mac/visu.mac
+#/vis/scene/endOfEventAction accumulate 200
+# /control/execute mac/verbose.mac
+# /vis/viewer/set/viewpointThetaPhi 90 0
+## =====================================================
+## GEOMETRY
+## =====================================================
+
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+##
+## World
+##
+/gate/world/geometry/setXLength 2 m
+/gate/world/geometry/setYLength 2 m
+/gate/world/geometry/setZLength 2.5 m
+/gate/world/setMaterial Air
+
+## =====================================================
+## Set up geometry, physics and output
+## =====================================================
+/control/execute mac/FieldSizeStudy/CommonMacs/HeadGeometry.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/SensorGeometry_PSA.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/Jaws5x5.mac
+
+/control/execute mac/FieldSizeStudy/CommonMacs/KillPlane.mac
+
+
+/control/execute mac/FieldSizeStudy/CommonMacs/PhysicsCuts_PSA.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/OutputManagement_PSA.mac
+
+/control/execute mac/FieldSizeStudy/CommonMacs/KillGammaActor.mac
+
+
+## =====================================================
+## INITIALISATION
+## =====================================================
+
+/gate/run/initialize
+
+## =====================================================
+## BEAMS
+## =====================================================
+
+/gate/source/addSource mybeam gps
+/gate/source/mybeam/gps/particle gamma
+
+/control/execute mac/FieldSizeStudy/CommonMacs/BeamDirection.mac
+
+/gate/source/mybeam/gps/ang/type iso
+
+/control/execute mac/FieldSizeStudy/CommonMacs/BeamOpening5x5.mac
+
+/control/execute mac/FieldSizeStudy/CommonMacs/MohanBeamEnergySpectrum.mac
+
+## =====================================================
+## START BEAMS
+## =====================================================
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 123456
+/gate/application/noGlobalOutput
+
+/control/execute mac/FieldSizeStudy/CommonMacs/NumOfPrimaries5x5.mac
+
+/gate/application/start

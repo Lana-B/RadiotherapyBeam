@@ -1,0 +1,12 @@
+##
+## Kill plane 
+##
+/gate/world/daughters/name 			KillPlane
+/gate/world/daughters/insert 		box
+/gate/KillPlane/placement/setTranslation  0.0 0.0 -0.335 mm
+/gate/KillPlane/geometry/setXLength   50 mm
+/gate/KillPlane/geometry/setYLength   50 mm
+/gate/KillPlane/geometry/setZLength   0.01 mm
+/gate/KillPlane/setMaterial              Air
+/gate/KillPlane/vis/setVisible 1
+/gate/KillPlane/vis/setColor             white

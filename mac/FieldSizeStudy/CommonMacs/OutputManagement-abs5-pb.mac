@@ -1,0 +1,59 @@
+
+## =====================================================
+## OUTPUT MANAGEMENT
+## =====================================================
+
+/gate/actor/addActor                               DoseActor  doseAbsorbed
+/gate/actor/doseAbsorbed/save                  Foam_abs_1mm.root
+/gate/actor/doseAbsorbed/attachTo    	       Absorber
+/gate/actor/doseAbsorbed/stepHitType           random
+/gate/actor/doseAbsorbed/setPosition           0.0 0.0 0.0 mm
+/gate/actor/doseAbsorbed/setSize               45 45 1.0 mm
+/gate/actor/doseAbsorbed/setResolution         2 2 2 #for 60 micron pixel x4
+
+/gate/actor/doseAbsorbed/enableEdep            true
+/gate/actor/doseAbsorbed/enableUncertaintyEdep false
+/gate/actor/doseAbsorbed/enableDose            false
+/gate/actor/doseAbsorbed/enableUncertaintyDose false
+/gate/actor/doseAbsorbed/enableNumberOfHits    false
+
+
+/gate/actor/addActor                               DoseActor  doseAbsorbed-pb
+/gate/actor/doseAbsorbed-pb/save                  Pb_abs_1mm.root
+/gate/actor/doseAbsorbed-pb/attachTo              Pb-box 
+/gate/actor/doseAbsorbed-pb/stepHitType           random
+/gate/actor/doseAbsorbed-pb/setPosition           0.0 0.0 0.0 mm
+/gate/actor/doseAbsorbed-pb/setSize               100 100 100.0 mm
+/gate/actor/doseAbsorbed-pb/setResolution         2 2 2 #for 60 micron pixel x4
+
+/gate/actor/doseAbsorbed-pb/enableEdep            true
+/gate/actor/doseAbsorbed-pb/enableUncertaintyEdep false
+/gate/actor/doseAbsorbed-pb/enableDose            false
+/gate/actor/doseAbsorbed-pb/enableUncertaintyDose false
+/gate/actor/doseAbsorbed-pb/enableNumberOfHits    false
+
+
+
+
+
+
+#/gate/actor/addActor    PhaseSpaceActor PS_abs
+#/gate/actor/PS_abs/save         Test10x10abs-SiC_foam_100micron-10e8-killgamma-PhaseSpace.root
+#/gate/actor/PS_abs/attachTo     Absorber
+#/gate/actor/PS_abs/enableEkine  true
+#/gate/actor/PS_abs/enableXDirection true
+#/gate/actor/PS_abs/enableYDirection true
+#/gate/actor/PS_abs/enableZDirection true
+#/gate/actor/PS_abs/enableProductionVolume true
+#/gate/actor/PS_abs/enableProductionProcess true
+#/gate/actor/PS_abs/storeOutgoingParticles true
+
+
+#/gate/actor/addActor ParticleInVolumeActor PIVActor
+#/gate/actor/PIVActor/save Test10x10abs-SiC_foam_100micron-10e8-killgamma-PIVActor.root
+#/gate/actor/PIVActor/attachTo Absorber
+#/gate/actor/PIVActor/setResolution 100 10 3
+#/gate/actor/PIVActor/stepHitType post
+
+
+

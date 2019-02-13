@@ -1,0 +1,3010 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_grating1mm15x15eOnly, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
++PostCmd        = "transfer_script_grating1mm15x15eOnly"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly1.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly1.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly1.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly2.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly2.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly2.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly3.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly3.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly3.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly4.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly4.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly4.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly5.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly5.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly5.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly6.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly6.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly6.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly7.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly7.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly7.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly8.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly8.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly8.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly9.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly9.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly9.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly10.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly10.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly10.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly11.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly11.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly11.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly12.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly12.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly12.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly13.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly13.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly13.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly14.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly14.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly14.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly15.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly15.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly15.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly16.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly16.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly16.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly17.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly17.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly17.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly18.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly18.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly18.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly19.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly19.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly19.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly20.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly20.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly20.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly21.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly21.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly21.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly22.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly22.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly22.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly23.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly23.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly23.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly24.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly24.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly24.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly25.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly25.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly25.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly26.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly26.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly26.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly27.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly27.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly27.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly28.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly28.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly28.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly29.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly29.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly29.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly30.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly30.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly30.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly31.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly31.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly31.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly32.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly32.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly32.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly33.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly33.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly33.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly34.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly34.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly34.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly35.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly35.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly35.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly36.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly36.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly36.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly37.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly37.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly37.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly38.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly38.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly38.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly39.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly39.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly39.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly40.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly40.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly40.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly41.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly41.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly41.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly42.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly42.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly42.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly43.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly43.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly43.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly44.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly44.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly44.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly45.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly45.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly45.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly46.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly46.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly46.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly47.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly47.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly47.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly48.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly48.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly48.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly49.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly49.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly49.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly50.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly50.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly50.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly51.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly51.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly51.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly52.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly52.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly52.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly53.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly53.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly53.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly54.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly54.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly54.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly55.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly55.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly55.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly56.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly56.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly56.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly57.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly57.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly57.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly58.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly58.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly58.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly59.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly59.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly59.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly60.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly60.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly60.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly61.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly61.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly61.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly62.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly62.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly62.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly63.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly63.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly63.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly64.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly64.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly64.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly65.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly65.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly65.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly66.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly66.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly66.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly67.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly67.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly67.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly68.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly68.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly68.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly69.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly69.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly69.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly70.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly70.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly70.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly71.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly71.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly71.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly72.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly72.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly72.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly73.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly73.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly73.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly74.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly74.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly74.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly75.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly75.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly75.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly76.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly76.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly76.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly77.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly77.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly77.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly78.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly78.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly78.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly79.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly79.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly79.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly80.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly80.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly80.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly81.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly81.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly81.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly82.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly82.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly82.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly83.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly83.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly83.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly84.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly84.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly84.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly85.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly85.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly85.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly86.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly86.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly86.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly87.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly87.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly87.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly88.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly88.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly88.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly89.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly89.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly89.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly90.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly90.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly90.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly91.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly91.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly91.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly92.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly92.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly92.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly93.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly93.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly93.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly94.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly94.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly94.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly95.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly95.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly95.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly96.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly96.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly96.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly97.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly97.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly97.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly98.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly98.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly98.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly99.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly99.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly99.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly100.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly100.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly100.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly100.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly101.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly101.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly101.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly101.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly102.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly102.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly102.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly102.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly103.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly103.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly103.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly103.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly104.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly104.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly104.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly104.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly105.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly105.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly105.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly105.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly106.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly106.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly106.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly106.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly107.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly107.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly107.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly107.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly108.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly108.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly108.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly108.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly109.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly109.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly109.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly109.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly110.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly110.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly110.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly110.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly111.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly111.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly111.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly111.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly112.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly112.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly112.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly112.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly113.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly113.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly113.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly113.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly114.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly114.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly114.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly114.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly115.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly115.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly115.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly115.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly116.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly116.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly116.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly116.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly117.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly117.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly117.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly117.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly118.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly118.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly118.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly118.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly119.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly119.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly119.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly119.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly120.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly120.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly120.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly120.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly121.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly121.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly121.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly121.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly122.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly122.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly122.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly122.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly123.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly123.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly123.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly123.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly124.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly124.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly124.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly124.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly125.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly125.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly125.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly125.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly126.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly126.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly126.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly126.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly127.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly127.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly127.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly127.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly128.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly128.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly128.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly128.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly129.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly129.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly129.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly129.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly130.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly130.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly130.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly130.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly131.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly131.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly131.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly131.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly132.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly132.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly132.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly132.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly133.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly133.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly133.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly133.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly134.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly134.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly134.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly134.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly135.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly135.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly135.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly135.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly136.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly136.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly136.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly136.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly137.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly137.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly137.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly137.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly138.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly138.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly138.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly138.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly139.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly139.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly139.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly139.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly140.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly140.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly140.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly140.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly141.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly141.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly141.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly141.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly142.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly142.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly142.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly142.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly143.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly143.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly143.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly143.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly144.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly144.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly144.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly144.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly145.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly145.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly145.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly145.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly146.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly146.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly146.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly146.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly147.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly147.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly147.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly147.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly148.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly148.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly148.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly148.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly149.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly149.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly149.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly149.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly150.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly150.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly150.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly150.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly151.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly151.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly151.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly151.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly152.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly152.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly152.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly152.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly153.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly153.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly153.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly153.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly154.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly154.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly154.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly154.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly155.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly155.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly155.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly155.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly156.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly156.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly156.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly156.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly157.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly157.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly157.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly157.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly158.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly158.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly158.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly158.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly159.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly159.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly159.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly159.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly160.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly160.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly160.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly160.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly161.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly161.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly161.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly161.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly162.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly162.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly162.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly162.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly163.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly163.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly163.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly163.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly164.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly164.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly164.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly164.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly165.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly165.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly165.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly165.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly166.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly166.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly166.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly166.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly167.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly167.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly167.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly167.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly168.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly168.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly168.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly168.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly169.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly169.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly169.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly169.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly170.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly170.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly170.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly170.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly171.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly171.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly171.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly171.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly172.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly172.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly172.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly172.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly173.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly173.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly173.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly173.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly174.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly174.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly174.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly174.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly175.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly175.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly175.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly175.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly176.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly176.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly176.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly176.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly177.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly177.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly177.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly177.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly178.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly178.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly178.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly178.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly179.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly179.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly179.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly179.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly180.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly180.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly180.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly180.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly181.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly181.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly181.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly181.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly182.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly182.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly182.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly182.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly183.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly183.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly183.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly183.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly184.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly184.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly184.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly184.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly185.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly185.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly185.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly185.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly186.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly186.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly186.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly186.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly187.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly187.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly187.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly187.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly188.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly188.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly188.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly188.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly189.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly189.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly189.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly189.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly190.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly190.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly190.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly190.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly191.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly191.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly191.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly191.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly192.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly192.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly192.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly192.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly193.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly193.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly193.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly193.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly194.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly194.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly194.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly194.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly195.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly195.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly195.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly195.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly196.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly196.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly196.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly196.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly197.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly197.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly197.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly197.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly198.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly198.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly198.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly198.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly199.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly199.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly199.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly199.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly200.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly200.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly200.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly200.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly201.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly201.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly201.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly201.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly202.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly202.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly202.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly202.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly203.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly203.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly203.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly203.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly204.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly204.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly204.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly204.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly205.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly205.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly205.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly205.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly206.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly206.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly206.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly206.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly207.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly207.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly207.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly207.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly208.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly208.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly208.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly208.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly209.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly209.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly209.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly209.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly210.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly210.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly210.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly210.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly211.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly211.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly211.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly211.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly212.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly212.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly212.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly212.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly213.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly213.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly213.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly213.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly214.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly214.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly214.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly214.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly215.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly215.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly215.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly215.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly216.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly216.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly216.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly216.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly217.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly217.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly217.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly217.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly218.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly218.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly218.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly218.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly219.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly219.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly219.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly219.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly220.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly220.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly220.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly220.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly221.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly221.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly221.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly221.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly222.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly222.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly222.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly222.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly223.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly223.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly223.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly223.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly224.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly224.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly224.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly224.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly225.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly225.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly225.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly225.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly226.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly226.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly226.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly226.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly227.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly227.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly227.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly227.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly228.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly228.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly228.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly228.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly229.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly229.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly229.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly229.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly230.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly230.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly230.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly230.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly231.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly231.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly231.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly231.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly232.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly232.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly232.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly232.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly233.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly233.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly233.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly233.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly234.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly234.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly234.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly234.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly235.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly235.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly235.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly235.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly236.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly236.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly236.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly236.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly237.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly237.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly237.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly237.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly238.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly238.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly238.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly238.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly239.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly239.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly239.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly239.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly240.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly240.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly240.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly240.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly241.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly241.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly241.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly241.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly242.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly242.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly242.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly242.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly243.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly243.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly243.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly243.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly244.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly244.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly244.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly244.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly245.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly245.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly245.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly245.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly246.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly246.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly246.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly246.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly247.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly247.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly247.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly247.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly248.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly248.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly248.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly248.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly249.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly249.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly249.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly249.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly250.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly250.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly250.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly250.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly251.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly251.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly251.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly251.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly252.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly252.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly252.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly252.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly253.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly253.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly253.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly253.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly254.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly254.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly254.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly254.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly255.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly255.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly255.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly255.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly256.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly256.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly256.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly256.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly257.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly257.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly257.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly257.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly258.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly258.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly258.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly258.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly259.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly259.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly259.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly259.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly260.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly260.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly260.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly260.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly261.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly261.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly261.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly261.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly262.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly262.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly262.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly262.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly263.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly263.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly263.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly263.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly264.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly264.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly264.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly264.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly265.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly265.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly265.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly265.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly266.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly266.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly266.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly266.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly267.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly267.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly267.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly267.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly268.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly268.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly268.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly268.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly269.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly269.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly269.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly269.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly270.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly270.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly270.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly270.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly271.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly271.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly271.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly271.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly272.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly272.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly272.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly272.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly273.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly273.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly273.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly273.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly274.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly274.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly274.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly274.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly275.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly275.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly275.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly275.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly276.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly276.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly276.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly276.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly277.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly277.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly277.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly277.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly278.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly278.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly278.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly278.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly279.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly279.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly279.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly279.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly280.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly280.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly280.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly280.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly281.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly281.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly281.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly281.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly282.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly282.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly282.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly282.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly283.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly283.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly283.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly283.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly284.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly284.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly284.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly284.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly285.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly285.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly285.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly285.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly286.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly286.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly286.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly286.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly287.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly287.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly287.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly287.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly288.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly288.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly288.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly288.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly289.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly289.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly289.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly289.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly290.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly290.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly290.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly290.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly291.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly291.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly291.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly291.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly292.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly292.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly292.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly292.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly293.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly293.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly293.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly293.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly294.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly294.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly294.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly294.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly295.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly295.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly295.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly295.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly296.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly296.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly296.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly296.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly297.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly297.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly297.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly297.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly298.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly298.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly298.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly298.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly299.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly299.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly299.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly299.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly300.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly300.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly300.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly300.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly301.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly301.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly301.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly301.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly302.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly302.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly302.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly302.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly303.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly303.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly303.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly303.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly304.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly304.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly304.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly304.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly305.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly305.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly305.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly305.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly306.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly306.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly306.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly306.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly307.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly307.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly307.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly307.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly308.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly308.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly308.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly308.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly309.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly309.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly309.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly309.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly310.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly310.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly310.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly310.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly311.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly311.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly311.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly311.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly312.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly312.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly312.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly312.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly313.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly313.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly313.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly313.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly314.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly314.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly314.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly314.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly315.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly315.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly315.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly315.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly316.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly316.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly316.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly316.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly317.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly317.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly317.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly317.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly318.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly318.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly318.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly318.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly319.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly319.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly319.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly319.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly320.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly320.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly320.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly320.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly321.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly321.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly321.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly321.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly322.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly322.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly322.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly322.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly323.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly323.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly323.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly323.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly324.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly324.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly324.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly324.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly325.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly325.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly325.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly325.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly326.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly326.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly326.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly326.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly327.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly327.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly327.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly327.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly328.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly328.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly328.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly328.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly329.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly329.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly329.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly329.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly330.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly330.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly330.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly330.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly331.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly331.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly331.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly331.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly332.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly332.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly332.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly332.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly333.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly333.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly333.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly333.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly334.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly334.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly334.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly334.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly335.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly335.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly335.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly335.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly336.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly336.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly336.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly336.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly337.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly337.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly337.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly337.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly338.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly338.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly338.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly338.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly339.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly339.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly339.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly339.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly340.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly340.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly340.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly340.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly341.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly341.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly341.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly341.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly342.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly342.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly342.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly342.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly343.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly343.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly343.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly343.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly344.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly344.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly344.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly344.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly345.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly345.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly345.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly345.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly346.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly346.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly346.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly346.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly347.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly347.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly347.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly347.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly348.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly348.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly348.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly348.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly349.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly349.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly349.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly349.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly350.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly350.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly350.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly350.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly351.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly351.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly351.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly351.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly352.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly352.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly352.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly352.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly353.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly353.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly353.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly353.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly354.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly354.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly354.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly354.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly355.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly355.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly355.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly355.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly356.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly356.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly356.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly356.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly357.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly357.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly357.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly357.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly358.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly358.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly358.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly358.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly359.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly359.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly359.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly359.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly360.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly360.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly360.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly360.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly361.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly361.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly361.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly361.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly362.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly362.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly362.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly362.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly363.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly363.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly363.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly363.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly364.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly364.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly364.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly364.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly365.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly365.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly365.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly365.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly366.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly366.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly366.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly366.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly367.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly367.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly367.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly367.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly368.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly368.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly368.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly368.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly369.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly369.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly369.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly369.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly370.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly370.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly370.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly370.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly371.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly371.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly371.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly371.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly372.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly372.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly372.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly372.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly373.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly373.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly373.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly373.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly374.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly374.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly374.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly374.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly375.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly375.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly375.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly375.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly376.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly376.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly376.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly376.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly377.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly377.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly377.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly377.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly378.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly378.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly378.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly378.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly379.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly379.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly379.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly379.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly380.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly380.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly380.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly380.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly381.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly381.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly381.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly381.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly382.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly382.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly382.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly382.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly383.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly383.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly383.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly383.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly384.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly384.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly384.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly384.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly385.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly385.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly385.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly385.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly386.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly386.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly386.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly386.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly387.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly387.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly387.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly387.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly388.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly388.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly388.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly388.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly389.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly389.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly389.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly389.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly390.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly390.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly390.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly390.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly391.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly391.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly391.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly391.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly392.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly392.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly392.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly392.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly393.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly393.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly393.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly393.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly394.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly394.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly394.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly394.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly395.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly395.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly395.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly395.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly396.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly396.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly396.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly396.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly397.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly397.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly397.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly397.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly398.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly398.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly398.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly398.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly399.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly399.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly399.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly399.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly400.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly400.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly400.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly400.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly401.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly401.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly401.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly401.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly402.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly402.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly402.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly402.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly403.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly403.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly403.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly403.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly404.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly404.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly404.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly404.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly405.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly405.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly405.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly405.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly406.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly406.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly406.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly406.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly407.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly407.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly407.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly407.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly408.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly408.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly408.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly408.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly409.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly409.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly409.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly409.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly410.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly410.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly410.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly410.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly411.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly411.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly411.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly411.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly412.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly412.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly412.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly412.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly413.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly413.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly413.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly413.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly414.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly414.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly414.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly414.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly415.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly415.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly415.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly415.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly416.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly416.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly416.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly416.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly417.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly417.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly417.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly417.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly418.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly418.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly418.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly418.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly419.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly419.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly419.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly419.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly420.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly420.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly420.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly420.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly421.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly421.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly421.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly421.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly422.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly422.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly422.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly422.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly423.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly423.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly423.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly423.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly424.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly424.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly424.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly424.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly425.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly425.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly425.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly425.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly426.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly426.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly426.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly426.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly427.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly427.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly427.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly427.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly428.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly428.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly428.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly428.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly429.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly429.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly429.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly429.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly430.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly430.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly430.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly430.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly431.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly431.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly431.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly431.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly432.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly432.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly432.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly432.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly433.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly433.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly433.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly433.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly434.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly434.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly434.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly434.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly435.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly435.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly435.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly435.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly436.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly436.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly436.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly436.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly437.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly437.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly437.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly437.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly438.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly438.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly438.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly438.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly439.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly439.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly439.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly439.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly440.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly440.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly440.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly440.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly441.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly441.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly441.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly441.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly442.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly442.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly442.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly442.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly443.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly443.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly443.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly443.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly444.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly444.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly444.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly444.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly445.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly445.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly445.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly445.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly446.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly446.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly446.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly446.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly447.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly447.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly447.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly447.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly448.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly448.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly448.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly448.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly449.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly449.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly449.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly449.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly450.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly450.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly450.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly450.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly451.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly451.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly451.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly451.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly452.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly452.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly452.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly452.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly453.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly453.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly453.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly453.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly454.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly454.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly454.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly454.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly455.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly455.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly455.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly455.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly456.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly456.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly456.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly456.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly457.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly457.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly457.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly457.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly458.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly458.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly458.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly458.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly459.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly459.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly459.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly459.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly460.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly460.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly460.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly460.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly461.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly461.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly461.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly461.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly462.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly462.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly462.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly462.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly463.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly463.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly463.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly463.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly464.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly464.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly464.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly464.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly465.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly465.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly465.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly465.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly466.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly466.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly466.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly466.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly467.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly467.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly467.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly467.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly468.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly468.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly468.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly468.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly469.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly469.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly469.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly469.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly470.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly470.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly470.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly470.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly471.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly471.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly471.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly471.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly472.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly472.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly472.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly472.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly473.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly473.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly473.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly473.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly474.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly474.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly474.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly474.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly475.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly475.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly475.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly475.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly476.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly476.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly476.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly476.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly477.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly477.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly477.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly477.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly478.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly478.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly478.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly478.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly479.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly479.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly479.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly479.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly480.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly480.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly480.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly480.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly481.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly481.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly481.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly481.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly482.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly482.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly482.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly482.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly483.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly483.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly483.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly483.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly484.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly484.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly484.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly484.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly485.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly485.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly485.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly485.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly486.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly486.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly486.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly486.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly487.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly487.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly487.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly487.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly488.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly488.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly488.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly488.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly489.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly489.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly489.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly489.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly490.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly490.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly490.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly490.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly491.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly491.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly491.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly491.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly492.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly492.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly492.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly492.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly493.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly493.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly493.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly493.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly494.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly494.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly494.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly494.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly495.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly495.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly495.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly495.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly496.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly496.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly496.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly496.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly497.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly497.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly497.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly497.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly498.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly498.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly498.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly498.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly499.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly499.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly499.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly499.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//grating1mm15x15eOnly//grating1mm15x15eOnly500.mac
+Output         = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly500.out
+Error          = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly500.err
+Log            = /storage/lb8075/grating1mm15x15eOnly/grating1mm15x15eOnly500.log
+Queue
+

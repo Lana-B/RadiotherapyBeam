@@ -1,0 +1,4 @@
+/gate/actor/addActor KillActor KillPlaneActor
+/gate/actor/KillPlaneActor/addFilter particleFilter
+/gate/actor/KillPlaneActor/particleFilter/addParticle gamma
+/gate/actor/KillPlaneActor/attachTo KillPlane

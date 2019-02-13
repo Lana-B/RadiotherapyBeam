@@ -34,6 +34,7 @@
     </propertiestable>
   </material>
 
+
   <material name="Epoxy">
     <propertiestable>
       <propertyvector name="ABSLENGTH" unit="m" energyunit="eV">
@@ -44,6 +45,32 @@
         <ve energy="1.84" value="1.5"/>
         <ve energy="4.08" value="1.5"/>
       </propertyvector>
+    </propertiestable>
+  </material>
+
+  <material name="Diamond">
+    <propertiestable>
+      <propertyvector name="ABSLENGTH" unit="m" energyunit="eV">
+        <ve energy="1.84" value="0.1"/>
+        <ve energy="4.08" value="0.1"/>
+      </propertyvector>
+      <propertyvector name="RINDEX" energyunit="eV">
+        <ve energy="1.84" value="2.417"/>
+        <ve energy="4.08" value="2.417"/>
+      </propertyvector>
+    </propertiestable>
+  </material>
+
+  <material name="Iron">
+    <propertiestable>
+<!--       <propertyvector name="ABSLENGTH" unit="m" energyunit="eV">
+        <ve energy="1.84" value="0.1"/>
+        <ve energy="4.08" value="0.1"/>
+      </propertyvector>
+      <propertyvector name="RINDEX" energyunit="eV">
+        <ve energy="1.84" value="2.417"/>
+        <ve energy="4.08" value="2.417"/>
+      </propertyvector> -->
     </propertiestable>
   </material>
 

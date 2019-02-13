@@ -1,0 +1,72 @@
+##
+## Steel plate
+##
+/gate/world/daughters/name              Filter
+/gate/world/daughters/insert            box
+/gate/Filter/placement/setTranslation            0.0 0.0 -84.4 cm
+/gate/Filter/geometry/setXLength      10 cm
+/gate/Filter/geometry/setYLength      10 cm
+/gate/Filter/geometry/setZLength      2 mm
+/gate/Filter/setMaterial                        Iron
+# /gate/Filter/vis/forcesolid
+/gate/Filter/vis/setVisible 1
+/gate/Filter/vis/setColor                       red
+
+
+## Shielding 
+##
+/gate/world/daughters/name              Shield1
+/gate/world/daughters/insert            box
+/gate/Shield1/placement/setTranslation           0.0 12.0  -88.0 cm 
+/gate/Shield1/geometry/setXLength      32 cm
+/gate/Shield1/geometry/setYLength      8 cm
+/gate/Shield1/geometry/setZLength      40 cm
+/gate/Shield1/setMaterial                        Tungsten
+# /gate/Shield1/vis/forcesolid
+/gate/Shield1/vis/setVisible 1
+/gate/Shield1/vis/setColor                       red
+
+
+/gate/world/daughters/name              Shield2
+/gate/world/daughters/insert            box
+/gate/Shield2/placement/setTranslation           0.0 -12.0  -88.0 cm 
+/gate/Shield2/geometry/setXLength      32 cm
+/gate/Shield2/geometry/setYLength      8 cm
+/gate/Shield2/geometry/setZLength      40 cm
+/gate/Shield2/setMaterial                        Tungsten
+# /gate/Shield2/vis/forcesolid
+/gate/Shield2/vis/setVisible 1
+/gate/Shield2/vis/setColor                       red
+
+/gate/world/daughters/name              Shield3
+/gate/world/daughters/insert            box
+/gate/Shield3/placement/setTranslation           12.0 0.0  -88.0 cm 
+/gate/Shield3/geometry/setXLength      8 cm
+/gate/Shield3/geometry/setYLength      16 cm
+/gate/Shield3/geometry/setZLength      40 cm
+/gate/Shield3/setMaterial                        Tungsten
+# /gate/Shield3/vis/forcesolid
+/gate/Shield3/vis/setVisible 1
+/gate/Shield3/vis/setColor                       red
+
+/gate/world/daughters/name              Shield4
+/gate/world/daughters/insert            box
+/gate/Shield4/placement/setTranslation           -12.0  0.0 -88.0 cm 
+/gate/Shield4/geometry/setXLength      8 cm
+/gate/Shield4/geometry/setYLength      16 cm
+/gate/Shield4/geometry/setZLength      40 cm
+/gate/Shield4/setMaterial                        Tungsten
+# /gate/Shield4/vis/forcesolid
+/gate/Shield4/vis/setVisible 1
+/gate/Shield4/vis/setColor                       red
+
+/gate/world/daughters/name              Shield5
+/gate/world/daughters/insert            box
+/gate/Shield5/placement/setTranslation           0.0  0.0 -112.0 cm 
+/gate/Shield5/geometry/setXLength      20 cm
+/gate/Shield5/geometry/setYLength      20 cm
+/gate/Shield5/geometry/setZLength      8 cm
+/gate/Shield5/setMaterial                        Tungsten
+# /gate/Shield5/vis/forcesolid
+/gate/Shield5/vis/setVisible 1
+/gate/Shield5/vis/setColor                       yellow

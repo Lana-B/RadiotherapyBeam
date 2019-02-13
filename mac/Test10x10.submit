@@ -1,0 +1,1211 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_Test10x10, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
+requirements="OpSysAndVer == "SL6""
++PostCmd        = "transfer_script_Test10x10"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x101.mac
+Output         = /storage/lb8075/Test10x10/Test10x101.out
+Error          = /storage/lb8075/Test10x10/Test10x101.err
+Log            = /storage/lb8075/Test10x10/Test10x101.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x102.mac
+Output         = /storage/lb8075/Test10x10/Test10x102.out
+Error          = /storage/lb8075/Test10x10/Test10x102.err
+Log            = /storage/lb8075/Test10x10/Test10x102.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x103.mac
+Output         = /storage/lb8075/Test10x10/Test10x103.out
+Error          = /storage/lb8075/Test10x10/Test10x103.err
+Log            = /storage/lb8075/Test10x10/Test10x103.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x104.mac
+Output         = /storage/lb8075/Test10x10/Test10x104.out
+Error          = /storage/lb8075/Test10x10/Test10x104.err
+Log            = /storage/lb8075/Test10x10/Test10x104.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x105.mac
+Output         = /storage/lb8075/Test10x10/Test10x105.out
+Error          = /storage/lb8075/Test10x10/Test10x105.err
+Log            = /storage/lb8075/Test10x10/Test10x105.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x106.mac
+Output         = /storage/lb8075/Test10x10/Test10x106.out
+Error          = /storage/lb8075/Test10x10/Test10x106.err
+Log            = /storage/lb8075/Test10x10/Test10x106.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x107.mac
+Output         = /storage/lb8075/Test10x10/Test10x107.out
+Error          = /storage/lb8075/Test10x10/Test10x107.err
+Log            = /storage/lb8075/Test10x10/Test10x107.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x108.mac
+Output         = /storage/lb8075/Test10x10/Test10x108.out
+Error          = /storage/lb8075/Test10x10/Test10x108.err
+Log            = /storage/lb8075/Test10x10/Test10x108.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x109.mac
+Output         = /storage/lb8075/Test10x10/Test10x109.out
+Error          = /storage/lb8075/Test10x10/Test10x109.err
+Log            = /storage/lb8075/Test10x10/Test10x109.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1010.mac
+Output         = /storage/lb8075/Test10x10/Test10x1010.out
+Error          = /storage/lb8075/Test10x10/Test10x1010.err
+Log            = /storage/lb8075/Test10x10/Test10x1010.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1011.mac
+Output         = /storage/lb8075/Test10x10/Test10x1011.out
+Error          = /storage/lb8075/Test10x10/Test10x1011.err
+Log            = /storage/lb8075/Test10x10/Test10x1011.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1012.mac
+Output         = /storage/lb8075/Test10x10/Test10x1012.out
+Error          = /storage/lb8075/Test10x10/Test10x1012.err
+Log            = /storage/lb8075/Test10x10/Test10x1012.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1013.mac
+Output         = /storage/lb8075/Test10x10/Test10x1013.out
+Error          = /storage/lb8075/Test10x10/Test10x1013.err
+Log            = /storage/lb8075/Test10x10/Test10x1013.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1014.mac
+Output         = /storage/lb8075/Test10x10/Test10x1014.out
+Error          = /storage/lb8075/Test10x10/Test10x1014.err
+Log            = /storage/lb8075/Test10x10/Test10x1014.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1015.mac
+Output         = /storage/lb8075/Test10x10/Test10x1015.out
+Error          = /storage/lb8075/Test10x10/Test10x1015.err
+Log            = /storage/lb8075/Test10x10/Test10x1015.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1016.mac
+Output         = /storage/lb8075/Test10x10/Test10x1016.out
+Error          = /storage/lb8075/Test10x10/Test10x1016.err
+Log            = /storage/lb8075/Test10x10/Test10x1016.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1017.mac
+Output         = /storage/lb8075/Test10x10/Test10x1017.out
+Error          = /storage/lb8075/Test10x10/Test10x1017.err
+Log            = /storage/lb8075/Test10x10/Test10x1017.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1018.mac
+Output         = /storage/lb8075/Test10x10/Test10x1018.out
+Error          = /storage/lb8075/Test10x10/Test10x1018.err
+Log            = /storage/lb8075/Test10x10/Test10x1018.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1019.mac
+Output         = /storage/lb8075/Test10x10/Test10x1019.out
+Error          = /storage/lb8075/Test10x10/Test10x1019.err
+Log            = /storage/lb8075/Test10x10/Test10x1019.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1020.mac
+Output         = /storage/lb8075/Test10x10/Test10x1020.out
+Error          = /storage/lb8075/Test10x10/Test10x1020.err
+Log            = /storage/lb8075/Test10x10/Test10x1020.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1021.mac
+Output         = /storage/lb8075/Test10x10/Test10x1021.out
+Error          = /storage/lb8075/Test10x10/Test10x1021.err
+Log            = /storage/lb8075/Test10x10/Test10x1021.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1022.mac
+Output         = /storage/lb8075/Test10x10/Test10x1022.out
+Error          = /storage/lb8075/Test10x10/Test10x1022.err
+Log            = /storage/lb8075/Test10x10/Test10x1022.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1023.mac
+Output         = /storage/lb8075/Test10x10/Test10x1023.out
+Error          = /storage/lb8075/Test10x10/Test10x1023.err
+Log            = /storage/lb8075/Test10x10/Test10x1023.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1024.mac
+Output         = /storage/lb8075/Test10x10/Test10x1024.out
+Error          = /storage/lb8075/Test10x10/Test10x1024.err
+Log            = /storage/lb8075/Test10x10/Test10x1024.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1025.mac
+Output         = /storage/lb8075/Test10x10/Test10x1025.out
+Error          = /storage/lb8075/Test10x10/Test10x1025.err
+Log            = /storage/lb8075/Test10x10/Test10x1025.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1026.mac
+Output         = /storage/lb8075/Test10x10/Test10x1026.out
+Error          = /storage/lb8075/Test10x10/Test10x1026.err
+Log            = /storage/lb8075/Test10x10/Test10x1026.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1027.mac
+Output         = /storage/lb8075/Test10x10/Test10x1027.out
+Error          = /storage/lb8075/Test10x10/Test10x1027.err
+Log            = /storage/lb8075/Test10x10/Test10x1027.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1028.mac
+Output         = /storage/lb8075/Test10x10/Test10x1028.out
+Error          = /storage/lb8075/Test10x10/Test10x1028.err
+Log            = /storage/lb8075/Test10x10/Test10x1028.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1029.mac
+Output         = /storage/lb8075/Test10x10/Test10x1029.out
+Error          = /storage/lb8075/Test10x10/Test10x1029.err
+Log            = /storage/lb8075/Test10x10/Test10x1029.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1030.mac
+Output         = /storage/lb8075/Test10x10/Test10x1030.out
+Error          = /storage/lb8075/Test10x10/Test10x1030.err
+Log            = /storage/lb8075/Test10x10/Test10x1030.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1031.mac
+Output         = /storage/lb8075/Test10x10/Test10x1031.out
+Error          = /storage/lb8075/Test10x10/Test10x1031.err
+Log            = /storage/lb8075/Test10x10/Test10x1031.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1032.mac
+Output         = /storage/lb8075/Test10x10/Test10x1032.out
+Error          = /storage/lb8075/Test10x10/Test10x1032.err
+Log            = /storage/lb8075/Test10x10/Test10x1032.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1033.mac
+Output         = /storage/lb8075/Test10x10/Test10x1033.out
+Error          = /storage/lb8075/Test10x10/Test10x1033.err
+Log            = /storage/lb8075/Test10x10/Test10x1033.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1034.mac
+Output         = /storage/lb8075/Test10x10/Test10x1034.out
+Error          = /storage/lb8075/Test10x10/Test10x1034.err
+Log            = /storage/lb8075/Test10x10/Test10x1034.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1035.mac
+Output         = /storage/lb8075/Test10x10/Test10x1035.out
+Error          = /storage/lb8075/Test10x10/Test10x1035.err
+Log            = /storage/lb8075/Test10x10/Test10x1035.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1036.mac
+Output         = /storage/lb8075/Test10x10/Test10x1036.out
+Error          = /storage/lb8075/Test10x10/Test10x1036.err
+Log            = /storage/lb8075/Test10x10/Test10x1036.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1037.mac
+Output         = /storage/lb8075/Test10x10/Test10x1037.out
+Error          = /storage/lb8075/Test10x10/Test10x1037.err
+Log            = /storage/lb8075/Test10x10/Test10x1037.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1038.mac
+Output         = /storage/lb8075/Test10x10/Test10x1038.out
+Error          = /storage/lb8075/Test10x10/Test10x1038.err
+Log            = /storage/lb8075/Test10x10/Test10x1038.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1039.mac
+Output         = /storage/lb8075/Test10x10/Test10x1039.out
+Error          = /storage/lb8075/Test10x10/Test10x1039.err
+Log            = /storage/lb8075/Test10x10/Test10x1039.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1040.mac
+Output         = /storage/lb8075/Test10x10/Test10x1040.out
+Error          = /storage/lb8075/Test10x10/Test10x1040.err
+Log            = /storage/lb8075/Test10x10/Test10x1040.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1041.mac
+Output         = /storage/lb8075/Test10x10/Test10x1041.out
+Error          = /storage/lb8075/Test10x10/Test10x1041.err
+Log            = /storage/lb8075/Test10x10/Test10x1041.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1042.mac
+Output         = /storage/lb8075/Test10x10/Test10x1042.out
+Error          = /storage/lb8075/Test10x10/Test10x1042.err
+Log            = /storage/lb8075/Test10x10/Test10x1042.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1043.mac
+Output         = /storage/lb8075/Test10x10/Test10x1043.out
+Error          = /storage/lb8075/Test10x10/Test10x1043.err
+Log            = /storage/lb8075/Test10x10/Test10x1043.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1044.mac
+Output         = /storage/lb8075/Test10x10/Test10x1044.out
+Error          = /storage/lb8075/Test10x10/Test10x1044.err
+Log            = /storage/lb8075/Test10x10/Test10x1044.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1045.mac
+Output         = /storage/lb8075/Test10x10/Test10x1045.out
+Error          = /storage/lb8075/Test10x10/Test10x1045.err
+Log            = /storage/lb8075/Test10x10/Test10x1045.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1046.mac
+Output         = /storage/lb8075/Test10x10/Test10x1046.out
+Error          = /storage/lb8075/Test10x10/Test10x1046.err
+Log            = /storage/lb8075/Test10x10/Test10x1046.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1047.mac
+Output         = /storage/lb8075/Test10x10/Test10x1047.out
+Error          = /storage/lb8075/Test10x10/Test10x1047.err
+Log            = /storage/lb8075/Test10x10/Test10x1047.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1048.mac
+Output         = /storage/lb8075/Test10x10/Test10x1048.out
+Error          = /storage/lb8075/Test10x10/Test10x1048.err
+Log            = /storage/lb8075/Test10x10/Test10x1048.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1049.mac
+Output         = /storage/lb8075/Test10x10/Test10x1049.out
+Error          = /storage/lb8075/Test10x10/Test10x1049.err
+Log            = /storage/lb8075/Test10x10/Test10x1049.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1050.mac
+Output         = /storage/lb8075/Test10x10/Test10x1050.out
+Error          = /storage/lb8075/Test10x10/Test10x1050.err
+Log            = /storage/lb8075/Test10x10/Test10x1050.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1051.mac
+Output         = /storage/lb8075/Test10x10/Test10x1051.out
+Error          = /storage/lb8075/Test10x10/Test10x1051.err
+Log            = /storage/lb8075/Test10x10/Test10x1051.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1052.mac
+Output         = /storage/lb8075/Test10x10/Test10x1052.out
+Error          = /storage/lb8075/Test10x10/Test10x1052.err
+Log            = /storage/lb8075/Test10x10/Test10x1052.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1053.mac
+Output         = /storage/lb8075/Test10x10/Test10x1053.out
+Error          = /storage/lb8075/Test10x10/Test10x1053.err
+Log            = /storage/lb8075/Test10x10/Test10x1053.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1054.mac
+Output         = /storage/lb8075/Test10x10/Test10x1054.out
+Error          = /storage/lb8075/Test10x10/Test10x1054.err
+Log            = /storage/lb8075/Test10x10/Test10x1054.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1055.mac
+Output         = /storage/lb8075/Test10x10/Test10x1055.out
+Error          = /storage/lb8075/Test10x10/Test10x1055.err
+Log            = /storage/lb8075/Test10x10/Test10x1055.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1056.mac
+Output         = /storage/lb8075/Test10x10/Test10x1056.out
+Error          = /storage/lb8075/Test10x10/Test10x1056.err
+Log            = /storage/lb8075/Test10x10/Test10x1056.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1057.mac
+Output         = /storage/lb8075/Test10x10/Test10x1057.out
+Error          = /storage/lb8075/Test10x10/Test10x1057.err
+Log            = /storage/lb8075/Test10x10/Test10x1057.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1058.mac
+Output         = /storage/lb8075/Test10x10/Test10x1058.out
+Error          = /storage/lb8075/Test10x10/Test10x1058.err
+Log            = /storage/lb8075/Test10x10/Test10x1058.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1059.mac
+Output         = /storage/lb8075/Test10x10/Test10x1059.out
+Error          = /storage/lb8075/Test10x10/Test10x1059.err
+Log            = /storage/lb8075/Test10x10/Test10x1059.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1060.mac
+Output         = /storage/lb8075/Test10x10/Test10x1060.out
+Error          = /storage/lb8075/Test10x10/Test10x1060.err
+Log            = /storage/lb8075/Test10x10/Test10x1060.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1061.mac
+Output         = /storage/lb8075/Test10x10/Test10x1061.out
+Error          = /storage/lb8075/Test10x10/Test10x1061.err
+Log            = /storage/lb8075/Test10x10/Test10x1061.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1062.mac
+Output         = /storage/lb8075/Test10x10/Test10x1062.out
+Error          = /storage/lb8075/Test10x10/Test10x1062.err
+Log            = /storage/lb8075/Test10x10/Test10x1062.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1063.mac
+Output         = /storage/lb8075/Test10x10/Test10x1063.out
+Error          = /storage/lb8075/Test10x10/Test10x1063.err
+Log            = /storage/lb8075/Test10x10/Test10x1063.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1064.mac
+Output         = /storage/lb8075/Test10x10/Test10x1064.out
+Error          = /storage/lb8075/Test10x10/Test10x1064.err
+Log            = /storage/lb8075/Test10x10/Test10x1064.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1065.mac
+Output         = /storage/lb8075/Test10x10/Test10x1065.out
+Error          = /storage/lb8075/Test10x10/Test10x1065.err
+Log            = /storage/lb8075/Test10x10/Test10x1065.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1066.mac
+Output         = /storage/lb8075/Test10x10/Test10x1066.out
+Error          = /storage/lb8075/Test10x10/Test10x1066.err
+Log            = /storage/lb8075/Test10x10/Test10x1066.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1067.mac
+Output         = /storage/lb8075/Test10x10/Test10x1067.out
+Error          = /storage/lb8075/Test10x10/Test10x1067.err
+Log            = /storage/lb8075/Test10x10/Test10x1067.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1068.mac
+Output         = /storage/lb8075/Test10x10/Test10x1068.out
+Error          = /storage/lb8075/Test10x10/Test10x1068.err
+Log            = /storage/lb8075/Test10x10/Test10x1068.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1069.mac
+Output         = /storage/lb8075/Test10x10/Test10x1069.out
+Error          = /storage/lb8075/Test10x10/Test10x1069.err
+Log            = /storage/lb8075/Test10x10/Test10x1069.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1070.mac
+Output         = /storage/lb8075/Test10x10/Test10x1070.out
+Error          = /storage/lb8075/Test10x10/Test10x1070.err
+Log            = /storage/lb8075/Test10x10/Test10x1070.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1071.mac
+Output         = /storage/lb8075/Test10x10/Test10x1071.out
+Error          = /storage/lb8075/Test10x10/Test10x1071.err
+Log            = /storage/lb8075/Test10x10/Test10x1071.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1072.mac
+Output         = /storage/lb8075/Test10x10/Test10x1072.out
+Error          = /storage/lb8075/Test10x10/Test10x1072.err
+Log            = /storage/lb8075/Test10x10/Test10x1072.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1073.mac
+Output         = /storage/lb8075/Test10x10/Test10x1073.out
+Error          = /storage/lb8075/Test10x10/Test10x1073.err
+Log            = /storage/lb8075/Test10x10/Test10x1073.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1074.mac
+Output         = /storage/lb8075/Test10x10/Test10x1074.out
+Error          = /storage/lb8075/Test10x10/Test10x1074.err
+Log            = /storage/lb8075/Test10x10/Test10x1074.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1075.mac
+Output         = /storage/lb8075/Test10x10/Test10x1075.out
+Error          = /storage/lb8075/Test10x10/Test10x1075.err
+Log            = /storage/lb8075/Test10x10/Test10x1075.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1076.mac
+Output         = /storage/lb8075/Test10x10/Test10x1076.out
+Error          = /storage/lb8075/Test10x10/Test10x1076.err
+Log            = /storage/lb8075/Test10x10/Test10x1076.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1077.mac
+Output         = /storage/lb8075/Test10x10/Test10x1077.out
+Error          = /storage/lb8075/Test10x10/Test10x1077.err
+Log            = /storage/lb8075/Test10x10/Test10x1077.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1078.mac
+Output         = /storage/lb8075/Test10x10/Test10x1078.out
+Error          = /storage/lb8075/Test10x10/Test10x1078.err
+Log            = /storage/lb8075/Test10x10/Test10x1078.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1079.mac
+Output         = /storage/lb8075/Test10x10/Test10x1079.out
+Error          = /storage/lb8075/Test10x10/Test10x1079.err
+Log            = /storage/lb8075/Test10x10/Test10x1079.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1080.mac
+Output         = /storage/lb8075/Test10x10/Test10x1080.out
+Error          = /storage/lb8075/Test10x10/Test10x1080.err
+Log            = /storage/lb8075/Test10x10/Test10x1080.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1081.mac
+Output         = /storage/lb8075/Test10x10/Test10x1081.out
+Error          = /storage/lb8075/Test10x10/Test10x1081.err
+Log            = /storage/lb8075/Test10x10/Test10x1081.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1082.mac
+Output         = /storage/lb8075/Test10x10/Test10x1082.out
+Error          = /storage/lb8075/Test10x10/Test10x1082.err
+Log            = /storage/lb8075/Test10x10/Test10x1082.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1083.mac
+Output         = /storage/lb8075/Test10x10/Test10x1083.out
+Error          = /storage/lb8075/Test10x10/Test10x1083.err
+Log            = /storage/lb8075/Test10x10/Test10x1083.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1084.mac
+Output         = /storage/lb8075/Test10x10/Test10x1084.out
+Error          = /storage/lb8075/Test10x10/Test10x1084.err
+Log            = /storage/lb8075/Test10x10/Test10x1084.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1085.mac
+Output         = /storage/lb8075/Test10x10/Test10x1085.out
+Error          = /storage/lb8075/Test10x10/Test10x1085.err
+Log            = /storage/lb8075/Test10x10/Test10x1085.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1086.mac
+Output         = /storage/lb8075/Test10x10/Test10x1086.out
+Error          = /storage/lb8075/Test10x10/Test10x1086.err
+Log            = /storage/lb8075/Test10x10/Test10x1086.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1087.mac
+Output         = /storage/lb8075/Test10x10/Test10x1087.out
+Error          = /storage/lb8075/Test10x10/Test10x1087.err
+Log            = /storage/lb8075/Test10x10/Test10x1087.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1088.mac
+Output         = /storage/lb8075/Test10x10/Test10x1088.out
+Error          = /storage/lb8075/Test10x10/Test10x1088.err
+Log            = /storage/lb8075/Test10x10/Test10x1088.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1089.mac
+Output         = /storage/lb8075/Test10x10/Test10x1089.out
+Error          = /storage/lb8075/Test10x10/Test10x1089.err
+Log            = /storage/lb8075/Test10x10/Test10x1089.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1090.mac
+Output         = /storage/lb8075/Test10x10/Test10x1090.out
+Error          = /storage/lb8075/Test10x10/Test10x1090.err
+Log            = /storage/lb8075/Test10x10/Test10x1090.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1091.mac
+Output         = /storage/lb8075/Test10x10/Test10x1091.out
+Error          = /storage/lb8075/Test10x10/Test10x1091.err
+Log            = /storage/lb8075/Test10x10/Test10x1091.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1092.mac
+Output         = /storage/lb8075/Test10x10/Test10x1092.out
+Error          = /storage/lb8075/Test10x10/Test10x1092.err
+Log            = /storage/lb8075/Test10x10/Test10x1092.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1093.mac
+Output         = /storage/lb8075/Test10x10/Test10x1093.out
+Error          = /storage/lb8075/Test10x10/Test10x1093.err
+Log            = /storage/lb8075/Test10x10/Test10x1093.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1094.mac
+Output         = /storage/lb8075/Test10x10/Test10x1094.out
+Error          = /storage/lb8075/Test10x10/Test10x1094.err
+Log            = /storage/lb8075/Test10x10/Test10x1094.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1095.mac
+Output         = /storage/lb8075/Test10x10/Test10x1095.out
+Error          = /storage/lb8075/Test10x10/Test10x1095.err
+Log            = /storage/lb8075/Test10x10/Test10x1095.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1096.mac
+Output         = /storage/lb8075/Test10x10/Test10x1096.out
+Error          = /storage/lb8075/Test10x10/Test10x1096.err
+Log            = /storage/lb8075/Test10x10/Test10x1096.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1097.mac
+Output         = /storage/lb8075/Test10x10/Test10x1097.out
+Error          = /storage/lb8075/Test10x10/Test10x1097.err
+Log            = /storage/lb8075/Test10x10/Test10x1097.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1098.mac
+Output         = /storage/lb8075/Test10x10/Test10x1098.out
+Error          = /storage/lb8075/Test10x10/Test10x1098.err
+Log            = /storage/lb8075/Test10x10/Test10x1098.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x1099.mac
+Output         = /storage/lb8075/Test10x10/Test10x1099.out
+Error          = /storage/lb8075/Test10x10/Test10x1099.err
+Log            = /storage/lb8075/Test10x10/Test10x1099.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10100.mac
+Output         = /storage/lb8075/Test10x10/Test10x10100.out
+Error          = /storage/lb8075/Test10x10/Test10x10100.err
+Log            = /storage/lb8075/Test10x10/Test10x10100.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10101.mac
+Output         = /storage/lb8075/Test10x10/Test10x10101.out
+Error          = /storage/lb8075/Test10x10/Test10x10101.err
+Log            = /storage/lb8075/Test10x10/Test10x10101.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10102.mac
+Output         = /storage/lb8075/Test10x10/Test10x10102.out
+Error          = /storage/lb8075/Test10x10/Test10x10102.err
+Log            = /storage/lb8075/Test10x10/Test10x10102.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10103.mac
+Output         = /storage/lb8075/Test10x10/Test10x10103.out
+Error          = /storage/lb8075/Test10x10/Test10x10103.err
+Log            = /storage/lb8075/Test10x10/Test10x10103.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10104.mac
+Output         = /storage/lb8075/Test10x10/Test10x10104.out
+Error          = /storage/lb8075/Test10x10/Test10x10104.err
+Log            = /storage/lb8075/Test10x10/Test10x10104.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10105.mac
+Output         = /storage/lb8075/Test10x10/Test10x10105.out
+Error          = /storage/lb8075/Test10x10/Test10x10105.err
+Log            = /storage/lb8075/Test10x10/Test10x10105.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10106.mac
+Output         = /storage/lb8075/Test10x10/Test10x10106.out
+Error          = /storage/lb8075/Test10x10/Test10x10106.err
+Log            = /storage/lb8075/Test10x10/Test10x10106.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10107.mac
+Output         = /storage/lb8075/Test10x10/Test10x10107.out
+Error          = /storage/lb8075/Test10x10/Test10x10107.err
+Log            = /storage/lb8075/Test10x10/Test10x10107.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10108.mac
+Output         = /storage/lb8075/Test10x10/Test10x10108.out
+Error          = /storage/lb8075/Test10x10/Test10x10108.err
+Log            = /storage/lb8075/Test10x10/Test10x10108.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10109.mac
+Output         = /storage/lb8075/Test10x10/Test10x10109.out
+Error          = /storage/lb8075/Test10x10/Test10x10109.err
+Log            = /storage/lb8075/Test10x10/Test10x10109.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10110.mac
+Output         = /storage/lb8075/Test10x10/Test10x10110.out
+Error          = /storage/lb8075/Test10x10/Test10x10110.err
+Log            = /storage/lb8075/Test10x10/Test10x10110.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10111.mac
+Output         = /storage/lb8075/Test10x10/Test10x10111.out
+Error          = /storage/lb8075/Test10x10/Test10x10111.err
+Log            = /storage/lb8075/Test10x10/Test10x10111.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10112.mac
+Output         = /storage/lb8075/Test10x10/Test10x10112.out
+Error          = /storage/lb8075/Test10x10/Test10x10112.err
+Log            = /storage/lb8075/Test10x10/Test10x10112.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10113.mac
+Output         = /storage/lb8075/Test10x10/Test10x10113.out
+Error          = /storage/lb8075/Test10x10/Test10x10113.err
+Log            = /storage/lb8075/Test10x10/Test10x10113.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10114.mac
+Output         = /storage/lb8075/Test10x10/Test10x10114.out
+Error          = /storage/lb8075/Test10x10/Test10x10114.err
+Log            = /storage/lb8075/Test10x10/Test10x10114.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10115.mac
+Output         = /storage/lb8075/Test10x10/Test10x10115.out
+Error          = /storage/lb8075/Test10x10/Test10x10115.err
+Log            = /storage/lb8075/Test10x10/Test10x10115.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10116.mac
+Output         = /storage/lb8075/Test10x10/Test10x10116.out
+Error          = /storage/lb8075/Test10x10/Test10x10116.err
+Log            = /storage/lb8075/Test10x10/Test10x10116.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10117.mac
+Output         = /storage/lb8075/Test10x10/Test10x10117.out
+Error          = /storage/lb8075/Test10x10/Test10x10117.err
+Log            = /storage/lb8075/Test10x10/Test10x10117.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10118.mac
+Output         = /storage/lb8075/Test10x10/Test10x10118.out
+Error          = /storage/lb8075/Test10x10/Test10x10118.err
+Log            = /storage/lb8075/Test10x10/Test10x10118.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10119.mac
+Output         = /storage/lb8075/Test10x10/Test10x10119.out
+Error          = /storage/lb8075/Test10x10/Test10x10119.err
+Log            = /storage/lb8075/Test10x10/Test10x10119.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10120.mac
+Output         = /storage/lb8075/Test10x10/Test10x10120.out
+Error          = /storage/lb8075/Test10x10/Test10x10120.err
+Log            = /storage/lb8075/Test10x10/Test10x10120.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10121.mac
+Output         = /storage/lb8075/Test10x10/Test10x10121.out
+Error          = /storage/lb8075/Test10x10/Test10x10121.err
+Log            = /storage/lb8075/Test10x10/Test10x10121.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10122.mac
+Output         = /storage/lb8075/Test10x10/Test10x10122.out
+Error          = /storage/lb8075/Test10x10/Test10x10122.err
+Log            = /storage/lb8075/Test10x10/Test10x10122.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10123.mac
+Output         = /storage/lb8075/Test10x10/Test10x10123.out
+Error          = /storage/lb8075/Test10x10/Test10x10123.err
+Log            = /storage/lb8075/Test10x10/Test10x10123.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10124.mac
+Output         = /storage/lb8075/Test10x10/Test10x10124.out
+Error          = /storage/lb8075/Test10x10/Test10x10124.err
+Log            = /storage/lb8075/Test10x10/Test10x10124.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10125.mac
+Output         = /storage/lb8075/Test10x10/Test10x10125.out
+Error          = /storage/lb8075/Test10x10/Test10x10125.err
+Log            = /storage/lb8075/Test10x10/Test10x10125.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10126.mac
+Output         = /storage/lb8075/Test10x10/Test10x10126.out
+Error          = /storage/lb8075/Test10x10/Test10x10126.err
+Log            = /storage/lb8075/Test10x10/Test10x10126.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10127.mac
+Output         = /storage/lb8075/Test10x10/Test10x10127.out
+Error          = /storage/lb8075/Test10x10/Test10x10127.err
+Log            = /storage/lb8075/Test10x10/Test10x10127.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10128.mac
+Output         = /storage/lb8075/Test10x10/Test10x10128.out
+Error          = /storage/lb8075/Test10x10/Test10x10128.err
+Log            = /storage/lb8075/Test10x10/Test10x10128.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10129.mac
+Output         = /storage/lb8075/Test10x10/Test10x10129.out
+Error          = /storage/lb8075/Test10x10/Test10x10129.err
+Log            = /storage/lb8075/Test10x10/Test10x10129.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10130.mac
+Output         = /storage/lb8075/Test10x10/Test10x10130.out
+Error          = /storage/lb8075/Test10x10/Test10x10130.err
+Log            = /storage/lb8075/Test10x10/Test10x10130.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10131.mac
+Output         = /storage/lb8075/Test10x10/Test10x10131.out
+Error          = /storage/lb8075/Test10x10/Test10x10131.err
+Log            = /storage/lb8075/Test10x10/Test10x10131.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10132.mac
+Output         = /storage/lb8075/Test10x10/Test10x10132.out
+Error          = /storage/lb8075/Test10x10/Test10x10132.err
+Log            = /storage/lb8075/Test10x10/Test10x10132.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10133.mac
+Output         = /storage/lb8075/Test10x10/Test10x10133.out
+Error          = /storage/lb8075/Test10x10/Test10x10133.err
+Log            = /storage/lb8075/Test10x10/Test10x10133.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10134.mac
+Output         = /storage/lb8075/Test10x10/Test10x10134.out
+Error          = /storage/lb8075/Test10x10/Test10x10134.err
+Log            = /storage/lb8075/Test10x10/Test10x10134.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10135.mac
+Output         = /storage/lb8075/Test10x10/Test10x10135.out
+Error          = /storage/lb8075/Test10x10/Test10x10135.err
+Log            = /storage/lb8075/Test10x10/Test10x10135.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10136.mac
+Output         = /storage/lb8075/Test10x10/Test10x10136.out
+Error          = /storage/lb8075/Test10x10/Test10x10136.err
+Log            = /storage/lb8075/Test10x10/Test10x10136.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10137.mac
+Output         = /storage/lb8075/Test10x10/Test10x10137.out
+Error          = /storage/lb8075/Test10x10/Test10x10137.err
+Log            = /storage/lb8075/Test10x10/Test10x10137.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10138.mac
+Output         = /storage/lb8075/Test10x10/Test10x10138.out
+Error          = /storage/lb8075/Test10x10/Test10x10138.err
+Log            = /storage/lb8075/Test10x10/Test10x10138.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10139.mac
+Output         = /storage/lb8075/Test10x10/Test10x10139.out
+Error          = /storage/lb8075/Test10x10/Test10x10139.err
+Log            = /storage/lb8075/Test10x10/Test10x10139.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10140.mac
+Output         = /storage/lb8075/Test10x10/Test10x10140.out
+Error          = /storage/lb8075/Test10x10/Test10x10140.err
+Log            = /storage/lb8075/Test10x10/Test10x10140.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10141.mac
+Output         = /storage/lb8075/Test10x10/Test10x10141.out
+Error          = /storage/lb8075/Test10x10/Test10x10141.err
+Log            = /storage/lb8075/Test10x10/Test10x10141.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10142.mac
+Output         = /storage/lb8075/Test10x10/Test10x10142.out
+Error          = /storage/lb8075/Test10x10/Test10x10142.err
+Log            = /storage/lb8075/Test10x10/Test10x10142.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10143.mac
+Output         = /storage/lb8075/Test10x10/Test10x10143.out
+Error          = /storage/lb8075/Test10x10/Test10x10143.err
+Log            = /storage/lb8075/Test10x10/Test10x10143.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10144.mac
+Output         = /storage/lb8075/Test10x10/Test10x10144.out
+Error          = /storage/lb8075/Test10x10/Test10x10144.err
+Log            = /storage/lb8075/Test10x10/Test10x10144.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10145.mac
+Output         = /storage/lb8075/Test10x10/Test10x10145.out
+Error          = /storage/lb8075/Test10x10/Test10x10145.err
+Log            = /storage/lb8075/Test10x10/Test10x10145.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10146.mac
+Output         = /storage/lb8075/Test10x10/Test10x10146.out
+Error          = /storage/lb8075/Test10x10/Test10x10146.err
+Log            = /storage/lb8075/Test10x10/Test10x10146.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10147.mac
+Output         = /storage/lb8075/Test10x10/Test10x10147.out
+Error          = /storage/lb8075/Test10x10/Test10x10147.err
+Log            = /storage/lb8075/Test10x10/Test10x10147.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10148.mac
+Output         = /storage/lb8075/Test10x10/Test10x10148.out
+Error          = /storage/lb8075/Test10x10/Test10x10148.err
+Log            = /storage/lb8075/Test10x10/Test10x10148.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10149.mac
+Output         = /storage/lb8075/Test10x10/Test10x10149.out
+Error          = /storage/lb8075/Test10x10/Test10x10149.err
+Log            = /storage/lb8075/Test10x10/Test10x10149.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10150.mac
+Output         = /storage/lb8075/Test10x10/Test10x10150.out
+Error          = /storage/lb8075/Test10x10/Test10x10150.err
+Log            = /storage/lb8075/Test10x10/Test10x10150.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10151.mac
+Output         = /storage/lb8075/Test10x10/Test10x10151.out
+Error          = /storage/lb8075/Test10x10/Test10x10151.err
+Log            = /storage/lb8075/Test10x10/Test10x10151.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10152.mac
+Output         = /storage/lb8075/Test10x10/Test10x10152.out
+Error          = /storage/lb8075/Test10x10/Test10x10152.err
+Log            = /storage/lb8075/Test10x10/Test10x10152.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10153.mac
+Output         = /storage/lb8075/Test10x10/Test10x10153.out
+Error          = /storage/lb8075/Test10x10/Test10x10153.err
+Log            = /storage/lb8075/Test10x10/Test10x10153.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10154.mac
+Output         = /storage/lb8075/Test10x10/Test10x10154.out
+Error          = /storage/lb8075/Test10x10/Test10x10154.err
+Log            = /storage/lb8075/Test10x10/Test10x10154.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10155.mac
+Output         = /storage/lb8075/Test10x10/Test10x10155.out
+Error          = /storage/lb8075/Test10x10/Test10x10155.err
+Log            = /storage/lb8075/Test10x10/Test10x10155.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10156.mac
+Output         = /storage/lb8075/Test10x10/Test10x10156.out
+Error          = /storage/lb8075/Test10x10/Test10x10156.err
+Log            = /storage/lb8075/Test10x10/Test10x10156.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10157.mac
+Output         = /storage/lb8075/Test10x10/Test10x10157.out
+Error          = /storage/lb8075/Test10x10/Test10x10157.err
+Log            = /storage/lb8075/Test10x10/Test10x10157.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10158.mac
+Output         = /storage/lb8075/Test10x10/Test10x10158.out
+Error          = /storage/lb8075/Test10x10/Test10x10158.err
+Log            = /storage/lb8075/Test10x10/Test10x10158.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10159.mac
+Output         = /storage/lb8075/Test10x10/Test10x10159.out
+Error          = /storage/lb8075/Test10x10/Test10x10159.err
+Log            = /storage/lb8075/Test10x10/Test10x10159.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10160.mac
+Output         = /storage/lb8075/Test10x10/Test10x10160.out
+Error          = /storage/lb8075/Test10x10/Test10x10160.err
+Log            = /storage/lb8075/Test10x10/Test10x10160.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10161.mac
+Output         = /storage/lb8075/Test10x10/Test10x10161.out
+Error          = /storage/lb8075/Test10x10/Test10x10161.err
+Log            = /storage/lb8075/Test10x10/Test10x10161.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10162.mac
+Output         = /storage/lb8075/Test10x10/Test10x10162.out
+Error          = /storage/lb8075/Test10x10/Test10x10162.err
+Log            = /storage/lb8075/Test10x10/Test10x10162.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10163.mac
+Output         = /storage/lb8075/Test10x10/Test10x10163.out
+Error          = /storage/lb8075/Test10x10/Test10x10163.err
+Log            = /storage/lb8075/Test10x10/Test10x10163.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10164.mac
+Output         = /storage/lb8075/Test10x10/Test10x10164.out
+Error          = /storage/lb8075/Test10x10/Test10x10164.err
+Log            = /storage/lb8075/Test10x10/Test10x10164.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10165.mac
+Output         = /storage/lb8075/Test10x10/Test10x10165.out
+Error          = /storage/lb8075/Test10x10/Test10x10165.err
+Log            = /storage/lb8075/Test10x10/Test10x10165.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10166.mac
+Output         = /storage/lb8075/Test10x10/Test10x10166.out
+Error          = /storage/lb8075/Test10x10/Test10x10166.err
+Log            = /storage/lb8075/Test10x10/Test10x10166.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10167.mac
+Output         = /storage/lb8075/Test10x10/Test10x10167.out
+Error          = /storage/lb8075/Test10x10/Test10x10167.err
+Log            = /storage/lb8075/Test10x10/Test10x10167.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10168.mac
+Output         = /storage/lb8075/Test10x10/Test10x10168.out
+Error          = /storage/lb8075/Test10x10/Test10x10168.err
+Log            = /storage/lb8075/Test10x10/Test10x10168.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10169.mac
+Output         = /storage/lb8075/Test10x10/Test10x10169.out
+Error          = /storage/lb8075/Test10x10/Test10x10169.err
+Log            = /storage/lb8075/Test10x10/Test10x10169.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10170.mac
+Output         = /storage/lb8075/Test10x10/Test10x10170.out
+Error          = /storage/lb8075/Test10x10/Test10x10170.err
+Log            = /storage/lb8075/Test10x10/Test10x10170.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10171.mac
+Output         = /storage/lb8075/Test10x10/Test10x10171.out
+Error          = /storage/lb8075/Test10x10/Test10x10171.err
+Log            = /storage/lb8075/Test10x10/Test10x10171.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10172.mac
+Output         = /storage/lb8075/Test10x10/Test10x10172.out
+Error          = /storage/lb8075/Test10x10/Test10x10172.err
+Log            = /storage/lb8075/Test10x10/Test10x10172.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10173.mac
+Output         = /storage/lb8075/Test10x10/Test10x10173.out
+Error          = /storage/lb8075/Test10x10/Test10x10173.err
+Log            = /storage/lb8075/Test10x10/Test10x10173.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10174.mac
+Output         = /storage/lb8075/Test10x10/Test10x10174.out
+Error          = /storage/lb8075/Test10x10/Test10x10174.err
+Log            = /storage/lb8075/Test10x10/Test10x10174.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10175.mac
+Output         = /storage/lb8075/Test10x10/Test10x10175.out
+Error          = /storage/lb8075/Test10x10/Test10x10175.err
+Log            = /storage/lb8075/Test10x10/Test10x10175.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10176.mac
+Output         = /storage/lb8075/Test10x10/Test10x10176.out
+Error          = /storage/lb8075/Test10x10/Test10x10176.err
+Log            = /storage/lb8075/Test10x10/Test10x10176.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10177.mac
+Output         = /storage/lb8075/Test10x10/Test10x10177.out
+Error          = /storage/lb8075/Test10x10/Test10x10177.err
+Log            = /storage/lb8075/Test10x10/Test10x10177.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10178.mac
+Output         = /storage/lb8075/Test10x10/Test10x10178.out
+Error          = /storage/lb8075/Test10x10/Test10x10178.err
+Log            = /storage/lb8075/Test10x10/Test10x10178.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10179.mac
+Output         = /storage/lb8075/Test10x10/Test10x10179.out
+Error          = /storage/lb8075/Test10x10/Test10x10179.err
+Log            = /storage/lb8075/Test10x10/Test10x10179.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10180.mac
+Output         = /storage/lb8075/Test10x10/Test10x10180.out
+Error          = /storage/lb8075/Test10x10/Test10x10180.err
+Log            = /storage/lb8075/Test10x10/Test10x10180.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10181.mac
+Output         = /storage/lb8075/Test10x10/Test10x10181.out
+Error          = /storage/lb8075/Test10x10/Test10x10181.err
+Log            = /storage/lb8075/Test10x10/Test10x10181.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10182.mac
+Output         = /storage/lb8075/Test10x10/Test10x10182.out
+Error          = /storage/lb8075/Test10x10/Test10x10182.err
+Log            = /storage/lb8075/Test10x10/Test10x10182.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10183.mac
+Output         = /storage/lb8075/Test10x10/Test10x10183.out
+Error          = /storage/lb8075/Test10x10/Test10x10183.err
+Log            = /storage/lb8075/Test10x10/Test10x10183.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10184.mac
+Output         = /storage/lb8075/Test10x10/Test10x10184.out
+Error          = /storage/lb8075/Test10x10/Test10x10184.err
+Log            = /storage/lb8075/Test10x10/Test10x10184.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10185.mac
+Output         = /storage/lb8075/Test10x10/Test10x10185.out
+Error          = /storage/lb8075/Test10x10/Test10x10185.err
+Log            = /storage/lb8075/Test10x10/Test10x10185.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10186.mac
+Output         = /storage/lb8075/Test10x10/Test10x10186.out
+Error          = /storage/lb8075/Test10x10/Test10x10186.err
+Log            = /storage/lb8075/Test10x10/Test10x10186.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10187.mac
+Output         = /storage/lb8075/Test10x10/Test10x10187.out
+Error          = /storage/lb8075/Test10x10/Test10x10187.err
+Log            = /storage/lb8075/Test10x10/Test10x10187.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10188.mac
+Output         = /storage/lb8075/Test10x10/Test10x10188.out
+Error          = /storage/lb8075/Test10x10/Test10x10188.err
+Log            = /storage/lb8075/Test10x10/Test10x10188.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10189.mac
+Output         = /storage/lb8075/Test10x10/Test10x10189.out
+Error          = /storage/lb8075/Test10x10/Test10x10189.err
+Log            = /storage/lb8075/Test10x10/Test10x10189.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10190.mac
+Output         = /storage/lb8075/Test10x10/Test10x10190.out
+Error          = /storage/lb8075/Test10x10/Test10x10190.err
+Log            = /storage/lb8075/Test10x10/Test10x10190.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10191.mac
+Output         = /storage/lb8075/Test10x10/Test10x10191.out
+Error          = /storage/lb8075/Test10x10/Test10x10191.err
+Log            = /storage/lb8075/Test10x10/Test10x10191.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10192.mac
+Output         = /storage/lb8075/Test10x10/Test10x10192.out
+Error          = /storage/lb8075/Test10x10/Test10x10192.err
+Log            = /storage/lb8075/Test10x10/Test10x10192.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10193.mac
+Output         = /storage/lb8075/Test10x10/Test10x10193.out
+Error          = /storage/lb8075/Test10x10/Test10x10193.err
+Log            = /storage/lb8075/Test10x10/Test10x10193.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10194.mac
+Output         = /storage/lb8075/Test10x10/Test10x10194.out
+Error          = /storage/lb8075/Test10x10/Test10x10194.err
+Log            = /storage/lb8075/Test10x10/Test10x10194.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10195.mac
+Output         = /storage/lb8075/Test10x10/Test10x10195.out
+Error          = /storage/lb8075/Test10x10/Test10x10195.err
+Log            = /storage/lb8075/Test10x10/Test10x10195.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10196.mac
+Output         = /storage/lb8075/Test10x10/Test10x10196.out
+Error          = /storage/lb8075/Test10x10/Test10x10196.err
+Log            = /storage/lb8075/Test10x10/Test10x10196.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10197.mac
+Output         = /storage/lb8075/Test10x10/Test10x10197.out
+Error          = /storage/lb8075/Test10x10/Test10x10197.err
+Log            = /storage/lb8075/Test10x10/Test10x10197.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10198.mac
+Output         = /storage/lb8075/Test10x10/Test10x10198.out
+Error          = /storage/lb8075/Test10x10/Test10x10198.err
+Log            = /storage/lb8075/Test10x10/Test10x10198.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10199.mac
+Output         = /storage/lb8075/Test10x10/Test10x10199.out
+Error          = /storage/lb8075/Test10x10/Test10x10199.err
+Log            = /storage/lb8075/Test10x10/Test10x10199.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Test10x107//Test10x10200.mac
+Output         = /storage/lb8075/Test10x10/Test10x10200.out
+Error          = /storage/lb8075/Test10x10/Test10x10200.err
+Log            = /storage/lb8075/Test10x10/Test10x10200.log
+Queue
+

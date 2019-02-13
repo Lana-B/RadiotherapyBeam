@@ -1,0 +1,612 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfer_script_Mono3MeVWater, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
+Requirements =  (  stringListMember(substr(Target.Machine,0,5),"hd-36") ) 
++PostCmd	= "transfer_script_Mono3MeVWater"
+
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater1.mac
+Output         = /storage/lb8075/gammaMono3MeVWater1.out
+Error          = /storage/lb8075/gammaMono3MeVWater1.err
+Log            = /storage/lb8075/gammaMono3MeVWater1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater2.mac
+Output         = /storage/lb8075/gammaMono3MeVWater2.out
+Error          = /storage/lb8075/gammaMono3MeVWater2.err
+Log            = /storage/lb8075/gammaMono3MeVWater2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater3.mac
+Output         = /storage/lb8075/gammaMono3MeVWater3.out
+Error          = /storage/lb8075/gammaMono3MeVWater3.err
+Log            = /storage/lb8075/gammaMono3MeVWater3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater4.mac
+Output         = /storage/lb8075/gammaMono3MeVWater4.out
+Error          = /storage/lb8075/gammaMono3MeVWater4.err
+Log            = /storage/lb8075/gammaMono3MeVWater4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater5.mac
+Output         = /storage/lb8075/gammaMono3MeVWater5.out
+Error          = /storage/lb8075/gammaMono3MeVWater5.err
+Log            = /storage/lb8075/gammaMono3MeVWater5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater6.mac
+Output         = /storage/lb8075/gammaMono3MeVWater6.out
+Error          = /storage/lb8075/gammaMono3MeVWater6.err
+Log            = /storage/lb8075/gammaMono3MeVWater6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater7.mac
+Output         = /storage/lb8075/gammaMono3MeVWater7.out
+Error          = /storage/lb8075/gammaMono3MeVWater7.err
+Log            = /storage/lb8075/gammaMono3MeVWater7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater8.mac
+Output         = /storage/lb8075/gammaMono3MeVWater8.out
+Error          = /storage/lb8075/gammaMono3MeVWater8.err
+Log            = /storage/lb8075/gammaMono3MeVWater8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater9.mac
+Output         = /storage/lb8075/gammaMono3MeVWater9.out
+Error          = /storage/lb8075/gammaMono3MeVWater9.err
+Log            = /storage/lb8075/gammaMono3MeVWater9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater10.mac
+Output         = /storage/lb8075/gammaMono3MeVWater10.out
+Error          = /storage/lb8075/gammaMono3MeVWater10.err
+Log            = /storage/lb8075/gammaMono3MeVWater10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater11.mac
+Output         = /storage/lb8075/gammaMono3MeVWater11.out
+Error          = /storage/lb8075/gammaMono3MeVWater11.err
+Log            = /storage/lb8075/gammaMono3MeVWater11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater12.mac
+Output         = /storage/lb8075/gammaMono3MeVWater12.out
+Error          = /storage/lb8075/gammaMono3MeVWater12.err
+Log            = /storage/lb8075/gammaMono3MeVWater12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater13.mac
+Output         = /storage/lb8075/gammaMono3MeVWater13.out
+Error          = /storage/lb8075/gammaMono3MeVWater13.err
+Log            = /storage/lb8075/gammaMono3MeVWater13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater14.mac
+Output         = /storage/lb8075/gammaMono3MeVWater14.out
+Error          = /storage/lb8075/gammaMono3MeVWater14.err
+Log            = /storage/lb8075/gammaMono3MeVWater14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater15.mac
+Output         = /storage/lb8075/gammaMono3MeVWater15.out
+Error          = /storage/lb8075/gammaMono3MeVWater15.err
+Log            = /storage/lb8075/gammaMono3MeVWater15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater16.mac
+Output         = /storage/lb8075/gammaMono3MeVWater16.out
+Error          = /storage/lb8075/gammaMono3MeVWater16.err
+Log            = /storage/lb8075/gammaMono3MeVWater16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater17.mac
+Output         = /storage/lb8075/gammaMono3MeVWater17.out
+Error          = /storage/lb8075/gammaMono3MeVWater17.err
+Log            = /storage/lb8075/gammaMono3MeVWater17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater18.mac
+Output         = /storage/lb8075/gammaMono3MeVWater18.out
+Error          = /storage/lb8075/gammaMono3MeVWater18.err
+Log            = /storage/lb8075/gammaMono3MeVWater18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater19.mac
+Output         = /storage/lb8075/gammaMono3MeVWater19.out
+Error          = /storage/lb8075/gammaMono3MeVWater19.err
+Log            = /storage/lb8075/gammaMono3MeVWater19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater20.mac
+Output         = /storage/lb8075/gammaMono3MeVWater20.out
+Error          = /storage/lb8075/gammaMono3MeVWater20.err
+Log            = /storage/lb8075/gammaMono3MeVWater20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater21.mac
+Output         = /storage/lb8075/gammaMono3MeVWater21.out
+Error          = /storage/lb8075/gammaMono3MeVWater21.err
+Log            = /storage/lb8075/gammaMono3MeVWater21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater22.mac
+Output         = /storage/lb8075/gammaMono3MeVWater22.out
+Error          = /storage/lb8075/gammaMono3MeVWater22.err
+Log            = /storage/lb8075/gammaMono3MeVWater22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater23.mac
+Output         = /storage/lb8075/gammaMono3MeVWater23.out
+Error          = /storage/lb8075/gammaMono3MeVWater23.err
+Log            = /storage/lb8075/gammaMono3MeVWater23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater24.mac
+Output         = /storage/lb8075/gammaMono3MeVWater24.out
+Error          = /storage/lb8075/gammaMono3MeVWater24.err
+Log            = /storage/lb8075/gammaMono3MeVWater24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater25.mac
+Output         = /storage/lb8075/gammaMono3MeVWater25.out
+Error          = /storage/lb8075/gammaMono3MeVWater25.err
+Log            = /storage/lb8075/gammaMono3MeVWater25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater26.mac
+Output         = /storage/lb8075/gammaMono3MeVWater26.out
+Error          = /storage/lb8075/gammaMono3MeVWater26.err
+Log            = /storage/lb8075/gammaMono3MeVWater26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater27.mac
+Output         = /storage/lb8075/gammaMono3MeVWater27.out
+Error          = /storage/lb8075/gammaMono3MeVWater27.err
+Log            = /storage/lb8075/gammaMono3MeVWater27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater28.mac
+Output         = /storage/lb8075/gammaMono3MeVWater28.out
+Error          = /storage/lb8075/gammaMono3MeVWater28.err
+Log            = /storage/lb8075/gammaMono3MeVWater28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater29.mac
+Output         = /storage/lb8075/gammaMono3MeVWater29.out
+Error          = /storage/lb8075/gammaMono3MeVWater29.err
+Log            = /storage/lb8075/gammaMono3MeVWater29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater30.mac
+Output         = /storage/lb8075/gammaMono3MeVWater30.out
+Error          = /storage/lb8075/gammaMono3MeVWater30.err
+Log            = /storage/lb8075/gammaMono3MeVWater30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater31.mac
+Output         = /storage/lb8075/gammaMono3MeVWater31.out
+Error          = /storage/lb8075/gammaMono3MeVWater31.err
+Log            = /storage/lb8075/gammaMono3MeVWater31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater32.mac
+Output         = /storage/lb8075/gammaMono3MeVWater32.out
+Error          = /storage/lb8075/gammaMono3MeVWater32.err
+Log            = /storage/lb8075/gammaMono3MeVWater32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater33.mac
+Output         = /storage/lb8075/gammaMono3MeVWater33.out
+Error          = /storage/lb8075/gammaMono3MeVWater33.err
+Log            = /storage/lb8075/gammaMono3MeVWater33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater34.mac
+Output         = /storage/lb8075/gammaMono3MeVWater34.out
+Error          = /storage/lb8075/gammaMono3MeVWater34.err
+Log            = /storage/lb8075/gammaMono3MeVWater34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater35.mac
+Output         = /storage/lb8075/gammaMono3MeVWater35.out
+Error          = /storage/lb8075/gammaMono3MeVWater35.err
+Log            = /storage/lb8075/gammaMono3MeVWater35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater36.mac
+Output         = /storage/lb8075/gammaMono3MeVWater36.out
+Error          = /storage/lb8075/gammaMono3MeVWater36.err
+Log            = /storage/lb8075/gammaMono3MeVWater36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater37.mac
+Output         = /storage/lb8075/gammaMono3MeVWater37.out
+Error          = /storage/lb8075/gammaMono3MeVWater37.err
+Log            = /storage/lb8075/gammaMono3MeVWater37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater38.mac
+Output         = /storage/lb8075/gammaMono3MeVWater38.out
+Error          = /storage/lb8075/gammaMono3MeVWater38.err
+Log            = /storage/lb8075/gammaMono3MeVWater38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater39.mac
+Output         = /storage/lb8075/gammaMono3MeVWater39.out
+Error          = /storage/lb8075/gammaMono3MeVWater39.err
+Log            = /storage/lb8075/gammaMono3MeVWater39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater40.mac
+Output         = /storage/lb8075/gammaMono3MeVWater40.out
+Error          = /storage/lb8075/gammaMono3MeVWater40.err
+Log            = /storage/lb8075/gammaMono3MeVWater40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater41.mac
+Output         = /storage/lb8075/gammaMono3MeVWater41.out
+Error          = /storage/lb8075/gammaMono3MeVWater41.err
+Log            = /storage/lb8075/gammaMono3MeVWater41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater42.mac
+Output         = /storage/lb8075/gammaMono3MeVWater42.out
+Error          = /storage/lb8075/gammaMono3MeVWater42.err
+Log            = /storage/lb8075/gammaMono3MeVWater42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater43.mac
+Output         = /storage/lb8075/gammaMono3MeVWater43.out
+Error          = /storage/lb8075/gammaMono3MeVWater43.err
+Log            = /storage/lb8075/gammaMono3MeVWater43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater44.mac
+Output         = /storage/lb8075/gammaMono3MeVWater44.out
+Error          = /storage/lb8075/gammaMono3MeVWater44.err
+Log            = /storage/lb8075/gammaMono3MeVWater44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater45.mac
+Output         = /storage/lb8075/gammaMono3MeVWater45.out
+Error          = /storage/lb8075/gammaMono3MeVWater45.err
+Log            = /storage/lb8075/gammaMono3MeVWater45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater46.mac
+Output         = /storage/lb8075/gammaMono3MeVWater46.out
+Error          = /storage/lb8075/gammaMono3MeVWater46.err
+Log            = /storage/lb8075/gammaMono3MeVWater46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater47.mac
+Output         = /storage/lb8075/gammaMono3MeVWater47.out
+Error          = /storage/lb8075/gammaMono3MeVWater47.err
+Log            = /storage/lb8075/gammaMono3MeVWater47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater48.mac
+Output         = /storage/lb8075/gammaMono3MeVWater48.out
+Error          = /storage/lb8075/gammaMono3MeVWater48.err
+Log            = /storage/lb8075/gammaMono3MeVWater48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater49.mac
+Output         = /storage/lb8075/gammaMono3MeVWater49.out
+Error          = /storage/lb8075/gammaMono3MeVWater49.err
+Log            = /storage/lb8075/gammaMono3MeVWater49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater50.mac
+Output         = /storage/lb8075/gammaMono3MeVWater50.out
+Error          = /storage/lb8075/gammaMono3MeVWater50.err
+Log            = /storage/lb8075/gammaMono3MeVWater50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater51.mac
+Output         = /storage/lb8075/gammaMono3MeVWater51.out
+Error          = /storage/lb8075/gammaMono3MeVWater51.err
+Log            = /storage/lb8075/gammaMono3MeVWater51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater52.mac
+Output         = /storage/lb8075/gammaMono3MeVWater52.out
+Error          = /storage/lb8075/gammaMono3MeVWater52.err
+Log            = /storage/lb8075/gammaMono3MeVWater52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater53.mac
+Output         = /storage/lb8075/gammaMono3MeVWater53.out
+Error          = /storage/lb8075/gammaMono3MeVWater53.err
+Log            = /storage/lb8075/gammaMono3MeVWater53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater54.mac
+Output         = /storage/lb8075/gammaMono3MeVWater54.out
+Error          = /storage/lb8075/gammaMono3MeVWater54.err
+Log            = /storage/lb8075/gammaMono3MeVWater54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater55.mac
+Output         = /storage/lb8075/gammaMono3MeVWater55.out
+Error          = /storage/lb8075/gammaMono3MeVWater55.err
+Log            = /storage/lb8075/gammaMono3MeVWater55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater56.mac
+Output         = /storage/lb8075/gammaMono3MeVWater56.out
+Error          = /storage/lb8075/gammaMono3MeVWater56.err
+Log            = /storage/lb8075/gammaMono3MeVWater56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater57.mac
+Output         = /storage/lb8075/gammaMono3MeVWater57.out
+Error          = /storage/lb8075/gammaMono3MeVWater57.err
+Log            = /storage/lb8075/gammaMono3MeVWater57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater58.mac
+Output         = /storage/lb8075/gammaMono3MeVWater58.out
+Error          = /storage/lb8075/gammaMono3MeVWater58.err
+Log            = /storage/lb8075/gammaMono3MeVWater58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater59.mac
+Output         = /storage/lb8075/gammaMono3MeVWater59.out
+Error          = /storage/lb8075/gammaMono3MeVWater59.err
+Log            = /storage/lb8075/gammaMono3MeVWater59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater60.mac
+Output         = /storage/lb8075/gammaMono3MeVWater60.out
+Error          = /storage/lb8075/gammaMono3MeVWater60.err
+Log            = /storage/lb8075/gammaMono3MeVWater60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater61.mac
+Output         = /storage/lb8075/gammaMono3MeVWater61.out
+Error          = /storage/lb8075/gammaMono3MeVWater61.err
+Log            = /storage/lb8075/gammaMono3MeVWater61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater62.mac
+Output         = /storage/lb8075/gammaMono3MeVWater62.out
+Error          = /storage/lb8075/gammaMono3MeVWater62.err
+Log            = /storage/lb8075/gammaMono3MeVWater62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater63.mac
+Output         = /storage/lb8075/gammaMono3MeVWater63.out
+Error          = /storage/lb8075/gammaMono3MeVWater63.err
+Log            = /storage/lb8075/gammaMono3MeVWater63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater64.mac
+Output         = /storage/lb8075/gammaMono3MeVWater64.out
+Error          = /storage/lb8075/gammaMono3MeVWater64.err
+Log            = /storage/lb8075/gammaMono3MeVWater64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater65.mac
+Output         = /storage/lb8075/gammaMono3MeVWater65.out
+Error          = /storage/lb8075/gammaMono3MeVWater65.err
+Log            = /storage/lb8075/gammaMono3MeVWater65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater66.mac
+Output         = /storage/lb8075/gammaMono3MeVWater66.out
+Error          = /storage/lb8075/gammaMono3MeVWater66.err
+Log            = /storage/lb8075/gammaMono3MeVWater66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater67.mac
+Output         = /storage/lb8075/gammaMono3MeVWater67.out
+Error          = /storage/lb8075/gammaMono3MeVWater67.err
+Log            = /storage/lb8075/gammaMono3MeVWater67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater68.mac
+Output         = /storage/lb8075/gammaMono3MeVWater68.out
+Error          = /storage/lb8075/gammaMono3MeVWater68.err
+Log            = /storage/lb8075/gammaMono3MeVWater68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater69.mac
+Output         = /storage/lb8075/gammaMono3MeVWater69.out
+Error          = /storage/lb8075/gammaMono3MeVWater69.err
+Log            = /storage/lb8075/gammaMono3MeVWater69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater70.mac
+Output         = /storage/lb8075/gammaMono3MeVWater70.out
+Error          = /storage/lb8075/gammaMono3MeVWater70.err
+Log            = /storage/lb8075/gammaMono3MeVWater70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater71.mac
+Output         = /storage/lb8075/gammaMono3MeVWater71.out
+Error          = /storage/lb8075/gammaMono3MeVWater71.err
+Log            = /storage/lb8075/gammaMono3MeVWater71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater72.mac
+Output         = /storage/lb8075/gammaMono3MeVWater72.out
+Error          = /storage/lb8075/gammaMono3MeVWater72.err
+Log            = /storage/lb8075/gammaMono3MeVWater72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater73.mac
+Output         = /storage/lb8075/gammaMono3MeVWater73.out
+Error          = /storage/lb8075/gammaMono3MeVWater73.err
+Log            = /storage/lb8075/gammaMono3MeVWater73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater74.mac
+Output         = /storage/lb8075/gammaMono3MeVWater74.out
+Error          = /storage/lb8075/gammaMono3MeVWater74.err
+Log            = /storage/lb8075/gammaMono3MeVWater74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater75.mac
+Output         = /storage/lb8075/gammaMono3MeVWater75.out
+Error          = /storage/lb8075/gammaMono3MeVWater75.err
+Log            = /storage/lb8075/gammaMono3MeVWater75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater76.mac
+Output         = /storage/lb8075/gammaMono3MeVWater76.out
+Error          = /storage/lb8075/gammaMono3MeVWater76.err
+Log            = /storage/lb8075/gammaMono3MeVWater76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater77.mac
+Output         = /storage/lb8075/gammaMono3MeVWater77.out
+Error          = /storage/lb8075/gammaMono3MeVWater77.err
+Log            = /storage/lb8075/gammaMono3MeVWater77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater78.mac
+Output         = /storage/lb8075/gammaMono3MeVWater78.out
+Error          = /storage/lb8075/gammaMono3MeVWater78.err
+Log            = /storage/lb8075/gammaMono3MeVWater78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater79.mac
+Output         = /storage/lb8075/gammaMono3MeVWater79.out
+Error          = /storage/lb8075/gammaMono3MeVWater79.err
+Log            = /storage/lb8075/gammaMono3MeVWater79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater80.mac
+Output         = /storage/lb8075/gammaMono3MeVWater80.out
+Error          = /storage/lb8075/gammaMono3MeVWater80.err
+Log            = /storage/lb8075/gammaMono3MeVWater80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater81.mac
+Output         = /storage/lb8075/gammaMono3MeVWater81.out
+Error          = /storage/lb8075/gammaMono3MeVWater81.err
+Log            = /storage/lb8075/gammaMono3MeVWater81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater82.mac
+Output         = /storage/lb8075/gammaMono3MeVWater82.out
+Error          = /storage/lb8075/gammaMono3MeVWater82.err
+Log            = /storage/lb8075/gammaMono3MeVWater82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater83.mac
+Output         = /storage/lb8075/gammaMono3MeVWater83.out
+Error          = /storage/lb8075/gammaMono3MeVWater83.err
+Log            = /storage/lb8075/gammaMono3MeVWater83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater84.mac
+Output         = /storage/lb8075/gammaMono3MeVWater84.out
+Error          = /storage/lb8075/gammaMono3MeVWater84.err
+Log            = /storage/lb8075/gammaMono3MeVWater84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater85.mac
+Output         = /storage/lb8075/gammaMono3MeVWater85.out
+Error          = /storage/lb8075/gammaMono3MeVWater85.err
+Log            = /storage/lb8075/gammaMono3MeVWater85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater86.mac
+Output         = /storage/lb8075/gammaMono3MeVWater86.out
+Error          = /storage/lb8075/gammaMono3MeVWater86.err
+Log            = /storage/lb8075/gammaMono3MeVWater86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater87.mac
+Output         = /storage/lb8075/gammaMono3MeVWater87.out
+Error          = /storage/lb8075/gammaMono3MeVWater87.err
+Log            = /storage/lb8075/gammaMono3MeVWater87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater88.mac
+Output         = /storage/lb8075/gammaMono3MeVWater88.out
+Error          = /storage/lb8075/gammaMono3MeVWater88.err
+Log            = /storage/lb8075/gammaMono3MeVWater88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater89.mac
+Output         = /storage/lb8075/gammaMono3MeVWater89.out
+Error          = /storage/lb8075/gammaMono3MeVWater89.err
+Log            = /storage/lb8075/gammaMono3MeVWater89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater90.mac
+Output         = /storage/lb8075/gammaMono3MeVWater90.out
+Error          = /storage/lb8075/gammaMono3MeVWater90.err
+Log            = /storage/lb8075/gammaMono3MeVWater90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater91.mac
+Output         = /storage/lb8075/gammaMono3MeVWater91.out
+Error          = /storage/lb8075/gammaMono3MeVWater91.err
+Log            = /storage/lb8075/gammaMono3MeVWater91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater92.mac
+Output         = /storage/lb8075/gammaMono3MeVWater92.out
+Error          = /storage/lb8075/gammaMono3MeVWater92.err
+Log            = /storage/lb8075/gammaMono3MeVWater92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater93.mac
+Output         = /storage/lb8075/gammaMono3MeVWater93.out
+Error          = /storage/lb8075/gammaMono3MeVWater93.err
+Log            = /storage/lb8075/gammaMono3MeVWater93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater94.mac
+Output         = /storage/lb8075/gammaMono3MeVWater94.out
+Error          = /storage/lb8075/gammaMono3MeVWater94.err
+Log            = /storage/lb8075/gammaMono3MeVWater94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater95.mac
+Output         = /storage/lb8075/gammaMono3MeVWater95.out
+Error          = /storage/lb8075/gammaMono3MeVWater95.err
+Log            = /storage/lb8075/gammaMono3MeVWater95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater96.mac
+Output         = /storage/lb8075/gammaMono3MeVWater96.out
+Error          = /storage/lb8075/gammaMono3MeVWater96.err
+Log            = /storage/lb8075/gammaMono3MeVWater96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater97.mac
+Output         = /storage/lb8075/gammaMono3MeVWater97.out
+Error          = /storage/lb8075/gammaMono3MeVWater97.err
+Log            = /storage/lb8075/gammaMono3MeVWater97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater98.mac
+Output         = /storage/lb8075/gammaMono3MeVWater98.out
+Error          = /storage/lb8075/gammaMono3MeVWater98.err
+Log            = /storage/lb8075/gammaMono3MeVWater98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater99.mac
+Output         = /storage/lb8075/gammaMono3MeVWater99.out
+Error          = /storage/lb8075/gammaMono3MeVWater99.err
+Log            = /storage/lb8075/gammaMono3MeVWater99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaMono3MeVWater1//gammaMono3MeVWater100.mac
+Output         = /storage/lb8075/gammaMono3MeVWater100.out
+Error          = /storage/lb8075/gammaMono3MeVWater100.err
+Log            = /storage/lb8075/gammaMono3MeVWater100.log
+Queue
+

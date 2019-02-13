@@ -20,7 +20,7 @@
 ## GEOMETRY
 ## =====================================================
 
-/gate/geometry/setMaterialDatabase data/GateMaterials.db
+/gate/geometry/setMaterialDatabase GateMaterials.db
 
 ##
 ## World
@@ -219,9 +219,9 @@
 /gate/physics/Electron/SetCutInRegion   world 0.1 mm
 /gate/physics/Positron/SetCutInRegion   world 0.1 mm
 
-/gate/physics/Gamma/SetCutInRegion      phantomCyl 0.1 mm
-/gate/physics/Electron/SetCutInRegion   phantomCyl 0.1 mm
-/gate/physics/Positron/SetCutInRegion   phantomCyl 0.1 mm
+#/gate/physics/Gamma/SetCutInRegion      phantomCyl 0.1 mm
+#/gate/physics/Electron/SetCutInRegion   phantomCyl 0.1 mm
+#/gate/physics/Positron/SetCutInRegion   phantomCyl 0.1 mm
 
 /gate/physics/displayCuts
 
@@ -233,8 +233,8 @@
 # /gate/phantomCyl/attachPhantomSD	
 
 /gate/actor/addActor                               DoseActor  doseDistribution
-# /gate/actor/doseDistribution/save                  outputNotAtPillar/output-gamma.mhd
-/gate/actor/doseDistribution/save                  outputNotAtPillar/output-gamma.root
+# /gate/actor/doseDistribution/save                  output-gamma.mhd
+/gate/actor/doseDistribution/save                  output-gamma.root
 /gate/actor/doseDistribution/attachTo    	         siDiodeActiveTop
 /gate/actor/doseDistribution/stepHitType           random
 /gate/actor/doseDistribution/setPosition           0 0 0 cm
@@ -249,14 +249,14 @@
 /gate/actor/doseDistribution/enableNumberOfHits    true
 
 /gate/actor/addActor                     DoseActor  dose3d
-# /gate/actor/dose3d/save                  output/gamma-3d.mhd
-/gate/actor/dose3d/save outputNotAtPillar/Lana.root
+# /gate/actor/dose3d/save                  gamma-3d.mhd
+/gate/actor/dose3d/save dose3D.root
 
 /gate/actor/dose3d/attachTo    	         phantomCyl
 /gate/actor/dose3d/stepHitType           random
 /gate/actor/dose3d/setPosition           0 0 0 cm
 # /gate/actor/dose3d/setSize               1 1 1 mm
-/gate/actor/dose3d/setResolution         2 2 2
+/gate/actor/dose3d/setResolution         100 100 100 
 # /gate/actor/doseDistribution/setVoxelSize          0.1 0.1 0.1 mm
 /gate/actor/dose3d/enableEdep            true
 /gate/actor/dose3d/enableUncertaintyEdep true
@@ -265,7 +265,7 @@
 /gate/actor/dose3d/enableNumberOfHits    false
 
 /gate/actor/addActor               SimulationStatisticActor stat
-/gate/actor/stat/save              outputNotAtPillar/stat-gamma.txt
+/gate/actor/stat/save              stat-gamma.txt
 
 
 
@@ -294,11 +294,11 @@
 
 /gate/source/mybeam/gps/direction 0 0 1
 /gate/source/mybeam/gps/ang/type iso
-# /gate/source/mybeam/gps/ang/mintheta 179 deg  #14 degree aperture
-/gate/source/mybeam/gps/ang/mintheta 89.5 deg  #14 degree aperture
-/gate/source/mybeam/gps/ang/maxtheta 90.5 deg  #14 degree aperture
-/gate/source/mybeam/gps/ang/minphi -89.5 deg  #14 degree aperture
-/gate/source/mybeam/gps/ang/maxphi -90.5 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/mintheta 179 deg  # degree aperture
+/gate/source/mybeam/gps/ang/mintheta 89.5 deg  # degree aperture
+/gate/source/mybeam/gps/ang/maxtheta 90.5 deg  # degree aperture
+/gate/source/mybeam/gps/ang/minphi -89.5 deg  # degree aperture
+/gate/source/mybeam/gps/ang/maxphi -90.5 deg  # degree aperture
 /gate/source/mybeam/gps/hist/point 0.25 0.004107824
 /gate/source/mybeam/gps/hist/point 0.50 0.1295177
 /gate/source/mybeam/gps/hist/point 0.75 0.4609022
@@ -327,10 +327,10 @@
 #=====================================================
 #  D A T A   O U T P U T   
 #=====================================================
-/gate/output/root/enable
-/gate/output/root/setRootSinglesFlag 1
-/gate/output/root/setRootHitFlag 1
-/gate/output/root/setFileName output/SiDiodeRoot.root
+#/gate/output/root/enable
+#/gate/output/root/setRootSinglesFlag 1
+#/gate/output/root/setRootHitFlag 1
+#/gate/output/root/setFileName output/SiDiodeRoot.root
 
 ## =====================================================
 ## START BEAMS
@@ -341,6 +341,6 @@
 /gate/random/setEngineSeed 123456
 
 /gate/application/noGlobalOutput
-/gate/application/setTotalNumberOfPrimaries 20000000
+/gate/application/setTotalNumberOfPrimaries 100000000
 /gate/application/start
 	

@@ -1,0 +1,23 @@
+## =====================================================
+## PHYSICS
+## =====================================================
+
+/gate/physics/addPhysicsList emstandard_opt3
+
+/gate/physics/Gamma/SetCutInRegion      world 0.1 mm
+/gate/physics/Electron/SetCutInRegion   world 0.1 mm
+/gate/physics/Positron/SetCutInRegion   world 0.1 mm
+
+/gate/physics/Gamma/SetCutInRegion      Peak1 0.00005 mm
+/gate/physics/Electron/SetCutInRegion   Peak1 0.0001 mm
+/gate/physics/Positron/SetCutInRegion   Peak1 0.0001 mm
+
+/gate/physics/Gamma/SetCutInRegion      Peak2 0.0001 mm
+/gate/physics/Electron/SetCutInRegion   Peak2 0.0001 mm
+/gate/physics/Positron/SetCutInRegion   Peak2 0.0001 mm
+
+/gate/physics/Gamma/SetCutInRegion      SensorEpi 0.0001 mm
+/gate/physics/Electron/SetCutInRegion   SensorEpi 0.0001 mm
+/gate/physics/Positron/SetCutInRegion   SensorEpi 0.0001 mm
+
+/gate/physics/displayCuts

@@ -1,0 +1,9 @@
+#Beam direction
+
+
+# /gate/source/mybeam/gps/pos/rot1 0 1 0
+# /gate/source/mybeam/gps/pos/rot2 1 0 0
+# /gate/source/mybeam/gps/pos/centre 0 100 0 cm
+
+/gate/source/mybeam/gps/pos/centre 0 0 -100 cm
+/gate/source/mybeam/gps/direction 0 0 1

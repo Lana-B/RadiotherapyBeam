@@ -1,0 +1,16 @@
+
+
+## =====================================================
+## OUTPUT MANAGEMENT
+## =====================================================
+
+/gate/actor/addActor    PhaseSpaceActor PSA_out
+/gate/actor/PSA_out/save         Field-PSA.root
+/gate/actor/PSA_out/attachTo     PSA
+/gate/actor/PSA_out/enableEkine  true
+/gate/actor/PSA_out/enableXDirection true
+/gate/actor/PSA_out/enableYDirection true
+/gate/actor/PSA_out/enableZDirection true
+/gate/actor/PSA_out/enableProductionVolume true
+/gate/actor/PSA_out/enableProductionProcess true
+/gate/actor/PSA_out/storeOutgoingParticles true

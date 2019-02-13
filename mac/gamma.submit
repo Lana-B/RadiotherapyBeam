@@ -1,0 +1,30 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfer_script, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
+Requirements =  (  stringListMember(substr(Target.Machine,0,5),"hd-36") ) 
++PostCmd	= "transfer_script"
+
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma1.mac
+Output         = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma1.out
+Error          = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma1.err
+Log            = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma2.mac
+Output         = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma2.out
+Error          = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma2.err
+Log            = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma3.mac
+Output         = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma3.out
+Error          = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma3.err
+Log            = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gamma8//gamma3.log
+Queue
+

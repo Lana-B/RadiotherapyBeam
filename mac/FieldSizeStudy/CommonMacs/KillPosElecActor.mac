@@ -1,0 +1,6 @@
+/gate/actor/addActor KillActor KillPlaneActor
+# /gate/actor/KillPlaneActor/save MyOutputFile.txt
+/gate/actor/KillPlaneActor/addFilter particleFilter
+/gate/actor/KillPlaneActor/attachTo KillPlane
+/gate/actor/KillPlaneActor/particleFilter/addParticle e+
+/gate/actor/KillPlaneActor/particleFilter/addParticle e-

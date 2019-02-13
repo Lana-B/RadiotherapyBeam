@@ -1,0 +1,98 @@
+#/bin/sh
+#
+#Check arguments
+if [[ $# -eq 0 ]] ; then
+    echo 'NO ARGUMENTS !!!! should be <filename minus.mac> <number of jobs>'
+elif [[ $# -eq 1 ]] ; then
+    echo 'ONLY 1 ARGUMENT !!!! should be <filename minus.mac> <number of jobs>'
+else
+
+#Set env variables
+source localsetup.sh
+
+
+fileName=$1
+hdfsPath="/user/lb8075/RadiotherapyBeam/Grating/"$fileName #hdfs output path for output rootfiles <user specific>
+echo "hdfsPath = "$hdfsPath
+jobs=$2
+echo "number of jobs = "$jobs
+
+storageFileName=/storage/lb8075/$fileName #storage location for output log files <user specific>
+
+#Set env vars for gate exectuble, output dir for log files, directory to hold <number of jobs> x macros
+export GC_GATE_EXE_DIR=/software/lb8075/gate/GateInstall/bin
+export GC_DOT_GATE_DIR=$storageFileName/$fileName
+export GC_GATE_MAC_DIR=/users/lb8075/RadiotherapyBeam/gateSplitDir
+
+mkdir -p $storageFileName
+#make output directory on hdfs
+hadoopCommand="hadoop fs -mkdir -p $hdfsPath"
+echo $hadoopCommand
+$hadoopCommand
+#prepare scripts to transfer output from worker node to hdfs
+outFileName="transfer_script_"$fileName
+echo "outputfilename = "$outFileName
+outFileLoc="transfers/$outFileName"
+echo "outFileLoc ="$outFileLoc
+if [ -f $outFileLoc ]; then
+    rm $outFileLoc
+fi
+
+echo "#!/bin/sh 
+echo \"I am running on\" \$HOSTNAME 
+hostname 
+uname -a 
+ls -la 
+
+/usr/bin/time --verbose /usr/bin/hdfs dfs -copyFromLocal *.root $hdfsPath  
+/usr/bin/hdfs dfs -copyFromLocal *.txt $hdfsPath  
+rm *.root  
+rm *.txt   " >> $outFileLoc
+
+chmod a+x $outFileLoc
+
+#prepare script to be submitted to HTcondor to run all the jobs
+tmpCondorScript=condor_script_tmp
+
+echo "universe = vanilla
+getenv = true
+Executable     = \$GC_EXEC
+transfer_input_files = $outFileLoc, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
+requirements=(OpSysAndVer == \"SL6\") && Target.Machine=!=\"hd-38-18.dice.priv\"
++PostCmd        = \"$outFileName\"" >> $tmpCondorScript
+#+SingularityImage = \"/cvmfs/singularity.opensciencegrid.org/kreczko/workernode:centos6\"
+
+
+#$GC_EXEC
+#Using gates own built binary for splitting HT condor jobs, which will use the previously defined GC_ env vars
+echo " "
+echo "SPLITTING command"
+splitCommand="/software/lb8075/gate/GateInstall/bin/gjsNew -numberofsplits "$jobs" -clusterplatform condor -condorscript condor_script_tmp mac/"$fileName".mac"
+echo $splitCommand
+$splitCommand
+echo "///////////"
+echo "CONDOR FILE"
+echo "///////////"
+
+cat $tmpCondorScript
+rm -f $tmpCondorScript
+#$GC_EXEC
+
+#generating the command needed to split
+submitCommand="condor_submit mac/"$fileName".submit"
+
+echo "   "
+echo "   "
+echo "SUBMIT COMMAND:"
+echo "   "
+
+echo $submitCommand
+
+echo "  "
+
+fi
+
+

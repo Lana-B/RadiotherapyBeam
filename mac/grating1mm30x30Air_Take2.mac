@@ -1,0 +1,336 @@
+
+##### ===========================================================================================
+##
+##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
+##
+##### ===========================================================================================
+
+
+## =====================================================
+## VISUALISATION & VERBOSE
+## =====================================================
+
+/vis/disable
+#/control/execute mac/visu.mac
+# /control/execute mac/verbose.mac
+#/vis/scene/endOfEventAction accumulate 10000
+# /vis/viewer/set/viewpointThetaPhi 90 0
+## =====================================================
+## GEOMETRY
+## =====================================================
+
+/gate/geometry/setMaterialDatabase GateMaterials.db
+
+##
+## World
+##
+/gate/world/geometry/setXLength 3 m
+/gate/world/geometry/setYLength 3 m
+/gate/world/geometry/setZLength 3 m
+/gate/world/setMaterial Air
+
+
+
+##
+## Peak1
+##
+/gate/world/daughters/name              Peak1
+/gate/world/daughters/insert            box
+/gate/Peak1/placement/setTranslation           0.0 -0.1 -0.155 mm
+/gate/Peak1/geometry/setXLength      10 mm
+/gate/Peak1/geometry/setYLength      1 mm
+/gate/Peak1/geometry/setZLength      0.3 mm
+/gate/Peak1/setMaterial                        Silicon
+/gate/Peak1/vis/forceWireframe
+/gate/Peak1/vis/setVisible 1
+/gate/Peak1/vis/setColor                       green
+
+##
+## Peak2
+##
+/gate/world/daughters/name              Peak2
+/gate/world/daughters/insert            box
+/gate/Peak2/placement/setTranslation           0.0 0.9 -0.18 mm
+/gate/Peak2/geometry/setXLength      10 mm
+/gate/Peak2/geometry/setYLength      1.0 mm
+/gate/Peak2/geometry/setZLength      0.25 mm
+/gate/Peak2/setMaterial                        Silicon
+/gate/Peak2/vis/forceWireframe
+/gate/Peak2/vis/setVisible 1
+/gate/Peak2/vis/setColor                       cyan
+
+# #
+# # EndPeak2
+# #
+# /gate/world/daughters/name              EndPeak2
+# /gate/world/daughters/insert            box
+# /gate/EndPeak2/placement/setTranslation           0.0 3.9 -0.225 mm
+# /gate/EndPeak2/geometry/setXLength      10 mm
+# /gate/EndPeak2/geometry/setYLength      1 mm
+# /gate/EndPeak2/geometry/setZLength      0.25 mm
+# /gate/EndPeak2/setMaterial                        Silicon
+# /gate/EndPeak2/vis/forceWireframe
+# /gate/EndPeak2/vis/setVisible 1
+# /gate/EndPeak2/vis/setColor                       cyan
+
+# ##
+# ## EndPeak1
+# ##
+# /gate/world/daughters/name              EndPeak1
+# /gate/world/daughters/insert            box
+# /gate/EndPeak1/placement/setTranslation           0.0 4.9 -0.2 mm
+# /gate/EndPeak1/geometry/setXLength      10 mm
+# /gate/EndPeak1/geometry/setYLength      1 mm
+# /gate/EndPeak1/geometry/setZLength      0.3 mm
+# /gate/EndPeak1/setMaterial                        Silicon
+# /gate/EndPeak1/vis/forceWireframe
+# /gate/EndPeak1/vis/setVisible 1
+# /gate/EndPeak1/vis/setColor                       green
+
+##
+## Sensor
+##
+/gate/world/daughters/name              Sensor
+/gate/world/daughters/insert            box
+/gate/Sensor/placement/setTranslation           0.0 0.4 0.0 mm
+/gate/Sensor/geometry/setXLength      10 mm
+/gate/Sensor/geometry/setYLength      12 mm
+/gate/Sensor/geometry/setZLength      0.010 mm
+/gate/Sensor/setMaterial                        Silicon
+/gate/Sensor/vis/forceWireframe
+/gate/Sensor/vis/setVisible 1
+/gate/Sensor/vis/setColor                       red
+
+##
+## Sensor
+##
+/gate/world/daughters/name              Bulk
+/gate/world/daughters/insert            box
+/gate/Bulk/placement/setTranslation           0.0 0.4 0.2 mm
+/gate/Bulk/geometry/setXLength      10 mm
+/gate/Bulk/geometry/setYLength      12 mm
+/gate/Bulk/geometry/setZLength      0.390 mm
+/gate/Bulk/setMaterial                        Silicon
+/gate/Bulk/vis/forceWireframe
+/gate/Bulk/vis/setVisible 1
+/gate/Bulk/vis/setColor                       yellow
+
+/gate/Peak1/repeaters/insert linear
+/gate/Peak1/linear/setRepeatNumber 6
+/gate/Peak1/linear/setRepeatVector 0. 2 0. mm
+
+/gate/Peak2/repeaters/insert linear
+/gate/Peak2/linear/setRepeatNumber 6
+/gate/Peak2/linear/setRepeatVector 0. 2 0. mm
+
+
+
+##
+## Jaw X1
+##
+
+/gate/world/daughters/name              JawX1
+/gate/world/daughters/insert            box
+/gate/JawX1/placement/setTranslation              0.0 10 -64.0 cm
+/gate/JawX1/geometry/setXLength      24 cm
+/gate/JawX1/geometry/setYLength      8 cm
+/gate/JawX1/geometry/setZLength      8 cm
+/gate/JawX1/setMaterial                        Tungsten
+/gate/JawX1/vis/forceWireframe
+/gate/JawX1/vis/setVisible 1
+/gate/JawX1/vis/setColor                       blue
+
+##
+## Jaw X2
+##
+
+/gate/world/daughters/name              JawX2
+/gate/world/daughters/insert            box
+/gate/JawX2/placement/setTranslation           0.0 -10 -64.0 cm
+/gate/JawX2/geometry/setXLength      24 cm
+/gate/JawX2/geometry/setYLength      8 cm
+/gate/JawX2/geometry/setZLength      8 cm
+/gate/JawX2/setMaterial                        Tungsten
+/gate/JawX2/vis/forceWireframe
+/gate/JawX2/vis/setVisible 1
+/gate/JawX2/vis/setColor                       blue
+
+##
+## Jaw Y1
+##
+/gate/world/daughters/name              JawY1
+/gate/world/daughters/insert            box
+/gate/JawY1/placement/setTranslation           10 0.0 -64.0 cm
+/gate/JawY1/geometry/setXLength      8 cm
+/gate/JawY1/geometry/setYLength      12 cm
+/gate/JawY1/geometry/setZLength      8 cm
+/gate/JawY1/setMaterial                        Tungsten
+/gate/JawY1/vis/forceWireframe
+/gate/JawY1/vis/setVisible 1
+/gate/JawY1/vis/setColor                       grey
+
+##
+## Jaw Y2
+##
+/gate/world/daughters/name              JawY2
+/gate/world/daughters/insert            box
+/gate/JawY2/placement/setTranslation           -10 0.0 -64.0 cm 
+/gate/JawY2/geometry/setXLength      8 cm
+/gate/JawY2/geometry/setYLength      12 cm
+/gate/JawY2/geometry/setZLength      8 cm
+/gate/JawY2/setMaterial                        Tungsten
+/gate/JawY2/vis/forceWireframe
+/gate/JawY2/vis/setVisible 1
+/gate/JawY2/vis/setColor                       gray
+## Shielding 
+##
+/gate/world/daughters/name              Shield1
+/gate/world/daughters/insert            box
+/gate/Shield1/placement/setTranslation           0.0 12.0  -88.0 cm 
+/gate/Shield1/geometry/setXLength      32 cm
+/gate/Shield1/geometry/setYLength      8 cm
+/gate/Shield1/geometry/setZLength      40 cm
+/gate/Shield1/setMaterial                        Tungsten
+# /gate/Shield1/vis/forcesolid
+/gate/Shield1/vis/setVisible 1
+/gate/Shield1/vis/setColor                       red
+
+
+/gate/world/daughters/name              Shield2
+/gate/world/daughters/insert            box
+/gate/Shield2/placement/setTranslation           0.0 -12.0  -88.0 cm 
+/gate/Shield2/geometry/setXLength      32 cm
+/gate/Shield2/geometry/setYLength      8 cm
+/gate/Shield2/geometry/setZLength      40 cm
+/gate/Shield2/setMaterial                        Tungsten
+# /gate/Shield2/vis/forcesolid
+/gate/Shield2/vis/setVisible 1
+/gate/Shield2/vis/setColor                       red
+
+/gate/world/daughters/name              Shield3
+/gate/world/daughters/insert            box
+/gate/Shield3/placement/setTranslation           12.0 0.0  -88.0 cm 
+/gate/Shield3/geometry/setXLength      8 cm
+/gate/Shield3/geometry/setYLength      16 cm
+/gate/Shield3/geometry/setZLength      40 cm
+/gate/Shield3/setMaterial                        Tungsten
+# /gate/Shield3/vis/forcesolid
+/gate/Shield3/vis/setVisible 1
+/gate/Shield3/vis/setColor                       red
+
+/gate/world/daughters/name              Shield4
+/gate/world/daughters/insert            box
+/gate/Shield4/placement/setTranslation           -12.0  0.0 -88.0 cm 
+/gate/Shield4/geometry/setXLength      8 cm
+/gate/Shield4/geometry/setYLength      16 cm
+/gate/Shield4/geometry/setZLength      40 cm
+/gate/Shield4/setMaterial                        Tungsten
+# /gate/Shield4/vis/forcesolid
+/gate/Shield4/vis/setVisible 1
+/gate/Shield4/vis/setColor                       red
+
+/gate/world/daughters/name              Shield5
+/gate/world/daughters/insert            box
+/gate/Shield5/placement/setTranslation           0.0  0.0 -112.0 cm 
+/gate/Shield5/geometry/setXLength      20 cm
+/gate/Shield5/geometry/setYLength      20 cm
+/gate/Shield5/geometry/setZLength      8 cm
+/gate/Shield5/setMaterial                        Tungsten
+# /gate/Shield5/vis/forcesolid
+/gate/Shield5/vis/setVisible 1
+/gate/Shield5/vis/setColor                       yellow
+
+
+## =====================================================
+## PHYSICS
+## =====================================================
+
+/gate/physics/addPhysicsList emstandard_opt3
+
+/gate/physics/Gamma/SetCutInRegion      world 0.1 mm
+/gate/physics/Electron/SetCutInRegion   world 0.1 mm
+/gate/physics/Positron/SetCutInRegion   world 0.1 mm
+
+/gate/physics/displayCuts
+
+## =====================================================
+## OUTPUT MANAGEMENT
+## =====================================================
+
+/gate/actor/addActor                               DoseActor  doseDistribution
+/gate/actor/doseDistribution/save                  Gratingoutput-gamma.root
+/gate/actor/doseDistribution/attachTo    	         Sensor
+/gate/actor/doseDistribution/stepHitType           random
+/gate/actor/doseDistribution/setPosition           0 0 0 cm
+/gate/actor/doseDistribution/setSize               12 12 0.01 mm
+/gate/actor/doseDistribution/setResolution         200 200 1 #for 60 micron pixel x4
+# /gate/actor/doseDistribution/setVoxelSize          0.1 0.1 0.1 mm
+
+/gate/actor/doseDistribution/enableEdep            true
+/gate/actor/doseDistribution/enableUncertaintyEdep true
+# /gate/actor/doseDistribution/enableDose            true
+# /gate/actor/doseDistribution/enableUncertaintyDose true
+/gate/actor/doseDistribution/enableNumberOfHits    true
+
+# /gate/actor/addActor               SimulationStatisticActor stat
+# /gate/actor/stat/save              outputAtPillar/stat-gamma.txt
+
+## =====================================================
+## INITIALISATION
+## =====================================================
+
+/gate/run/initialize
+
+## =====================================================
+## BEAMS
+## =====================================================
+
+/gate/source/addSource mybeam gps
+
+/gate/source/mybeam/gps/particle gamma
+# /gate/source/mybeam/gps/pos/rot1 0 1 0
+# /gate/source/mybeam/gps/pos/rot2 1 0 0
+# /gate/source/mybeam/gps/pos/centre 0 100 0 cm
+/gate/source/mybeam/gps/pos/centre 0 0 -100 cm
+/gate/source/mybeam/gps/direction 0 0 1
+/gate/source/mybeam/gps/ang/type iso
+/gate/source/mybeam/gps/ang/mintheta 167.5 deg  #55 degree aperture
+# /gate/source/mybeam/gps/ang/mintheta 89.5 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/maxtheta 90.5 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/minphi 89.5 deg  #14 degree aperture
+# /gate/source/mybeam/gps/ang/maxphi 90.5 deg  #14 degree aperture
+/gate/source/mybeam/gps/hist/point 0.25 0.004107824
+/gate/source/mybeam/gps/hist/point 0.50 0.1295177
+/gate/source/mybeam/gps/hist/point 0.75 0.4609022
+/gate/source/mybeam/gps/hist/point 1.00 0.4609022   
+/gate/source/mybeam/gps/hist/point 1.25 0.4435880   
+/gate/source/mybeam/gps/hist/point 1.50 0.4084962   
+/gate/source/mybeam/gps/hist/point 1.75 0.4084962   
+/gate/source/mybeam/gps/hist/point 2.00 0.2496504   
+/gate/source/mybeam/gps/hist/point 2.25 0.2367691  
+/gate/source/mybeam/gps/hist/point 2.50 0.1867142   
+/gate/source/mybeam/gps/hist/point 2.75 0.1382681   
+/gate/source/mybeam/gps/hist/point 3.00 0.1304545   
+/gate/source/mybeam/gps/hist/point 3.25 0.1484442   
+/gate/source/mybeam/gps/hist/point 3.50 0.09496227   
+/gate/source/mybeam/gps/hist/point 3.75 0.1246583   
+/gate/source/mybeam/gps/hist/point 4.00 0.09773248   
+/gate/source/mybeam/gps/hist/point 4.25 0.08891984   
+/gate/source/mybeam/gps/hist/point 4.50 0.05154921   
+/gate/source/mybeam/gps/hist/point 4.75 0.04184013   
+/gate/source/mybeam/gps/hist/point 5.00 0.04803306   
+/gate/source/mybeam/gps/hist/point 5.25 0.01624749   
+/gate/source/mybeam/gps/hist/point 5.50 0.02715377   
+/gate/source/mybeam/gps/hist/point 5.75 0.01199324   
+/gate/source/mybeam/gps/hist/point 6.00 0.01573713 
+
+## =====================================================
+## START BEAMS
+## =====================================================
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 123456
+
+/gate/application/noGlobalOutput
+/gate/application/setTotalNumberOfPrimaries 1983203022
+/gate/application/start
+	

@@ -10,10 +10,10 @@
 ## VISUALISATION & VERBOSE
 ## =====================================================
 
-/vis/disable
-#/control/execute mac/visu.mac
+#/vis/disable
+/control/execute mac/visu.mac
 #/control/execute mac/verbose.mac
-/vis/scene/endOfEventAction accumulate 100
+/vis/scene/endOfEventAction accumulate 10
 
 
 ## =====================================================
@@ -326,6 +326,6 @@
 /gate/random/setEngineSeed 123456
 
 /gate/application/noGlobalOutput
-/gate/application/setTotalNumberOfPrimaries 100000000
+/gate/application/setTotalNumberOfPrimaries 10
 /gate/application/start
 	

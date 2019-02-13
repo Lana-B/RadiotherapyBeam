@@ -1,0 +1,58 @@
+
+##
+## Jaw X1
+##
+
+/gate/world/daughters/name              JawX1
+/gate/world/daughters/insert            box
+/gate/JawX1/placement/setTranslation              0.0 7 -64.0 cm
+/gate/JawX1/geometry/setXLength      24 cm
+/gate/JawX1/geometry/setYLength      8 cm
+/gate/JawX1/geometry/setZLength      8 cm
+/gate/JawX1/setMaterial                        Tungsten
+/gate/JawX1/vis/forceWireframe
+/gate/JawX1/vis/setVisible 1
+/gate/JawX1/vis/setColor                       blue
+
+##
+## Jaw X2
+##
+
+/gate/world/daughters/name              JawX2
+/gate/world/daughters/insert            box
+/gate/JawX2/placement/setTranslation           0.0 -7 -64.0 cm
+/gate/JawX2/geometry/setXLength      24 cm
+/gate/JawX2/geometry/setYLength      8 cm
+/gate/JawX2/geometry/setZLength      8 cm
+/gate/JawX2/setMaterial                        Tungsten
+/gate/JawX2/vis/forceWireframe
+/gate/JawX2/vis/setVisible 1
+/gate/JawX2/vis/setColor                       blue
+
+##
+## Jaw Y1
+##
+/gate/world/daughters/name              JawY1
+/gate/world/daughters/insert            box
+/gate/JawY1/placement/setTranslation           7 0.0 -64.0 cm
+/gate/JawY1/geometry/setXLength      8 cm
+/gate/JawY1/geometry/setYLength      6 cm
+/gate/JawY1/geometry/setZLength      8 cm
+/gate/JawY1/setMaterial                        Tungsten
+/gate/JawY1/vis/forceWireframe
+/gate/JawY1/vis/setVisible 1
+/gate/JawY1/vis/setColor                       grey
+
+##
+## Jaw Y2
+##
+/gate/world/daughters/name              JawY2
+/gate/world/daughters/insert            box
+/gate/JawY2/placement/setTranslation           -7 0.0 -64.0 cm 
+/gate/JawY2/geometry/setXLength      8 cm
+/gate/JawY2/geometry/setYLength      6 cm
+/gate/JawY2/geometry/setZLength      8 cm
+/gate/JawY2/setMaterial                        Tungsten
+/gate/JawY2/vis/forceWireframe
+/gate/JawY2/vis/setVisible 1
+/gate/JawY2/vis/setColor                       gray

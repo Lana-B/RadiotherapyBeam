@@ -10,8 +10,8 @@
 ## VISUALISATION & VERBOSE
 ## =====================================================
 
-#/vis/disable
-/control/execute mac/visu.mac
+/vis/disable
+#/control/execute mac/visu.mac
 #/control/execute mac/verbose.mac
 /vis/scene/endOfEventAction accumulate 100
 
@@ -20,7 +20,7 @@
 ## GEOMETRY
 ## =====================================================
 
-/gate/geometry/setMaterialDatabase data/GateMaterials.db
+/gate/geometry/setMaterialDatabase GateMaterials.db
 
 ##
 ## World
@@ -204,9 +204,9 @@
 /gate/physics/Electron/SetCutInRegion   world 0.1 mm
 /gate/physics/Positron/SetCutInRegion   world 0.1 mm
 
-/gate/physics/Gamma/SetCutInRegion      phantomCyl 0.1 mm
-/gate/physics/Electron/SetCutInRegion   phantomCyl 0.1 mm
-/gate/physics/Positron/SetCutInRegion   phantomCyl 0.1 mm
+#/gate/physics/Gamma/SetCutInRegion      phantomCyl 0.1 mm
+#/gate/physics/Electron/SetCutInRegion   phantomCyl 0.1 mm
+#/gate/physics/Positron/SetCutInRegion   phantomCyl 0.1 mm
 
 /gate/physics/displayCuts
 
@@ -218,8 +218,8 @@
 # /gate/phantomCyl/attachPhantomSD	
 
 /gate/actor/addActor                               DoseActor  doseDistribution
-# /gate/actor/doseDistribution/save                  output/output-gamma.mhd
-/gate/actor/doseDistribution/save                  output/output-gamma.root
+# /gate/actor/doseDistribution/save                  output-gamma.mhd
+/gate/actor/doseDistribution/save                  output-gamma.root
 /gate/actor/doseDistribution/attachTo    	         siDiodeActiveTop
 /gate/actor/doseDistribution/stepHitType           random
 /gate/actor/doseDistribution/setPosition           0 0 0 cm
@@ -234,8 +234,8 @@
 /gate/actor/doseDistribution/enableNumberOfHits    true
 
 /gate/actor/addActor                     DoseActor  dose3d
-# /gate/actor/dose3d/save                  output/gamma-3d.mhd
-/gate/actor/dose3d/save output/Lana.root
+# /gate/actor/dose3d/save                  gamma-3d.mhd
+/gate/actor/dose3d/save Lana.root
 
 /gate/actor/dose3d/attachTo    	         phantomCyl
 /gate/actor/dose3d/stepHitType           random
@@ -250,7 +250,7 @@
 /gate/actor/dose3d/enableNumberOfHits    false
 
 /gate/actor/addActor               SimulationStatisticActor stat
-/gate/actor/stat/save              output/stat-gamma.txt
+/gate/actor/stat/save              stat-gamma.txt
 
 
 
@@ -315,7 +315,7 @@
 /gate/output/root/enable
 /gate/output/root/setRootSinglesFlag 1
 /gate/output/root/setRootHitFlag 1
-/gate/output/root/setFileName output/SiDiodeRoot.root
+/gate/output/root/setFileName SiDiodeRoot.root
 
 ## =====================================================
 ## START BEAMS
@@ -326,6 +326,6 @@
 /gate/random/setEngineSeed 123456
 
 /gate/application/noGlobalOutput
-/gate/application/setTotalNumberOfPrimaries 100
+/gate/application/setTotalNumberOfPrimaries 50000
 /gate/application/start
 	

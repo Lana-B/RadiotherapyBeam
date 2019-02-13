@@ -1,0 +1,611 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfers/transfer_script_PhotonTest2, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 120
+when_to_transfer_output = on_exit_or_evict
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/kreczko/workernode:centos6"
++PostCmd        = "transfer_script_PhotonTest2"
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest21.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest21.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest21.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest22.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest22.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest22.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest23.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest23.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest23.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest24.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest24.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest24.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest25.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest25.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest25.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest26.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest26.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest26.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest27.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest27.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest27.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest28.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest28.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest28.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest29.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest29.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest29.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest210.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest210.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest210.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest210.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest211.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest211.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest211.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest211.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest212.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest212.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest212.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest212.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest213.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest213.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest213.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest213.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest214.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest214.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest214.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest214.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest215.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest215.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest215.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest215.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest216.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest216.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest216.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest216.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest217.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest217.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest217.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest217.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest218.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest218.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest218.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest218.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest219.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest219.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest219.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest219.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest220.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest220.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest220.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest220.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest221.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest221.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest221.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest221.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest222.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest222.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest222.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest222.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest223.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest223.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest223.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest223.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest224.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest224.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest224.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest224.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest225.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest225.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest225.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest225.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest226.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest226.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest226.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest226.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest227.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest227.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest227.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest227.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest228.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest228.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest228.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest228.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest229.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest229.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest229.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest229.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest230.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest230.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest230.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest230.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest231.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest231.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest231.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest231.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest232.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest232.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest232.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest232.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest233.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest233.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest233.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest233.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest234.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest234.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest234.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest234.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest235.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest235.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest235.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest235.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest236.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest236.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest236.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest236.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest237.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest237.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest237.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest237.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest238.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest238.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest238.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest238.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest239.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest239.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest239.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest239.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest240.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest240.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest240.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest240.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest241.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest241.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest241.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest241.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest242.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest242.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest242.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest242.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest243.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest243.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest243.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest243.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest244.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest244.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest244.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest244.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest245.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest245.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest245.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest245.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest246.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest246.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest246.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest246.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest247.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest247.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest247.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest247.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest248.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest248.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest248.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest248.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest249.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest249.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest249.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest249.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest250.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest250.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest250.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest250.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest251.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest251.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest251.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest251.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest252.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest252.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest252.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest252.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest253.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest253.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest253.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest253.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest254.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest254.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest254.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest254.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest255.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest255.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest255.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest255.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest256.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest256.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest256.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest256.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest257.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest257.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest257.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest257.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest258.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest258.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest258.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest258.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest259.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest259.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest259.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest259.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest260.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest260.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest260.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest260.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest261.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest261.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest261.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest261.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest262.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest262.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest262.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest262.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest263.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest263.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest263.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest263.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest264.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest264.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest264.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest264.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest265.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest265.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest265.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest265.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest266.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest266.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest266.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest266.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest267.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest267.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest267.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest267.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest268.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest268.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest268.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest268.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest269.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest269.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest269.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest269.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest270.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest270.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest270.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest270.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest271.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest271.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest271.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest271.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest272.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest272.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest272.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest272.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest273.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest273.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest273.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest273.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest274.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest274.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest274.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest274.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest275.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest275.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest275.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest275.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest276.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest276.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest276.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest276.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest277.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest277.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest277.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest277.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest278.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest278.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest278.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest278.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest279.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest279.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest279.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest279.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest280.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest280.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest280.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest280.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest281.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest281.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest281.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest281.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest282.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest282.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest282.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest282.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest283.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest283.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest283.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest283.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest284.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest284.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest284.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest284.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest285.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest285.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest285.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest285.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest286.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest286.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest286.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest286.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest287.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest287.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest287.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest287.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest288.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest288.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest288.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest288.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest289.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest289.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest289.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest289.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest290.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest290.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest290.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest290.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest291.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest291.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest291.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest291.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest292.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest292.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest292.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest292.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest293.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest293.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest293.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest293.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest294.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest294.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest294.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest294.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest295.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest295.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest295.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest295.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest296.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest296.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest296.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest296.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest297.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest297.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest297.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest297.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest298.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest298.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest298.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest298.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest299.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest299.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest299.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest299.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//PhotonTest2//PhotonTest2100.mac
+Output         = /storage/lb8075/PhotonTest2/PhotonTest2100.out
+Error          = /storage/lb8075/PhotonTest2/PhotonTest2100.err
+Log            = /storage/lb8075/PhotonTest2/PhotonTest2100.log
+Queue
+

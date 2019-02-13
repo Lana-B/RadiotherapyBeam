@@ -1,0 +1,612 @@
+universe = vanilla
+getenv = true
+Executable     = /software/lb8075/gate/GateInstall/bin/Gate
+transfer_input_files = transfer_script_NotAtPillar, GateMaterials.db, Materials.xml
+request_cpus = 1
+request_memory = 2000
+when_to_transfer_output = on_exit_or_evict
+Requirements =  (  stringListMember(substr(Target.Machine,0,5),"hd-36") ) 
++PostCmd	= "transfer_script_NotAtPillar"
+
+
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar1.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar1.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar1.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar1.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar2.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar2.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar2.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar2.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar3.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar3.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar3.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar3.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar4.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar4.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar4.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar4.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar5.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar5.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar5.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar5.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar6.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar6.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar6.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar6.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar7.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar7.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar7.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar7.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar8.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar8.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar8.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar8.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar9.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar9.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar9.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar9.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar10.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar10.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar10.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar10.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar11.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar11.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar11.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar11.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar12.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar12.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar12.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar12.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar13.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar13.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar13.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar13.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar14.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar14.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar14.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar14.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar15.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar15.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar15.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar15.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar16.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar16.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar16.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar16.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar17.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar17.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar17.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar17.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar18.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar18.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar18.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar18.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar19.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar19.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar19.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar19.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar20.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar20.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar20.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar20.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar21.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar21.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar21.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar21.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar22.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar22.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar22.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar22.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar23.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar23.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar23.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar23.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar24.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar24.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar24.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar24.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar25.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar25.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar25.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar25.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar26.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar26.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar26.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar26.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar27.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar27.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar27.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar27.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar28.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar28.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar28.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar28.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar29.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar29.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar29.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar29.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar30.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar30.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar30.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar30.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar31.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar31.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar31.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar31.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar32.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar32.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar32.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar32.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar33.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar33.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar33.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar33.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar34.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar34.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar34.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar34.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar35.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar35.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar35.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar35.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar36.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar36.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar36.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar36.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar37.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar37.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar37.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar37.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar38.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar38.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar38.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar38.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar39.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar39.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar39.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar39.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar40.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar40.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar40.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar40.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar41.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar41.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar41.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar41.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar42.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar42.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar42.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar42.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar43.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar43.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar43.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar43.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar44.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar44.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar44.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar44.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar45.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar45.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar45.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar45.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar46.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar46.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar46.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar46.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar47.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar47.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar47.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar47.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar48.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar48.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar48.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar48.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar49.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar49.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar49.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar49.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar50.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar50.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar50.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar50.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar51.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar51.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar51.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar51.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar52.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar52.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar52.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar52.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar53.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar53.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar53.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar53.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar54.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar54.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar54.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar54.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar55.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar55.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar55.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar55.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar56.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar56.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar56.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar56.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar57.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar57.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar57.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar57.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar58.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar58.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar58.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar58.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar59.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar59.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar59.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar59.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar60.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar60.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar60.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar60.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar61.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar61.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar61.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar61.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar62.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar62.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar62.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar62.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar63.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar63.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar63.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar63.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar64.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar64.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar64.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar64.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar65.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar65.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar65.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar65.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar66.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar66.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar66.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar66.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar67.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar67.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar67.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar67.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar68.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar68.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar68.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar68.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar69.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar69.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar69.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar69.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar70.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar70.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar70.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar70.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar71.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar71.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar71.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar71.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar72.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar72.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar72.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar72.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar73.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar73.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar73.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar73.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar74.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar74.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar74.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar74.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar75.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar75.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar75.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar75.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar76.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar76.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar76.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar76.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar77.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar77.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar77.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar77.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar78.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar78.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar78.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar78.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar79.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar79.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar79.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar79.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar80.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar80.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar80.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar80.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar81.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar81.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar81.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar81.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar82.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar82.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar82.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar82.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar83.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar83.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar83.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar83.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar84.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar84.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar84.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar84.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar85.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar85.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar85.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar85.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar86.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar86.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar86.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar86.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar87.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar87.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar87.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar87.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar88.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar88.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar88.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar88.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar89.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar89.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar89.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar89.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar90.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar90.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar90.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar90.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar91.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar91.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar91.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar91.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar92.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar92.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar92.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar92.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar93.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar93.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar93.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar93.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar94.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar94.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar94.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar94.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar95.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar95.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar95.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar95.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar96.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar96.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar96.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar96.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar97.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar97.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar97.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar97.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar98.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar98.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar98.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar98.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar99.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar99.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar99.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar99.log
+Queue
+
+Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//gammaBeamNotAtPillar2//gammaBeamNotAtPillar100.mac
+Output         = /storage/lb8075/gammaBeamNotAtPillar100.out
+Error          = /storage/lb8075/gammaBeamNotAtPillar100.err
+Log            = /storage/lb8075/gammaBeamNotAtPillar100.log
+Queue
+
