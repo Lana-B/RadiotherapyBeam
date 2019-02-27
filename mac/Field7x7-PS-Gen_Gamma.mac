@@ -1,4 +1,4 @@
- ##### ===========================================================================================
+##### ===========================================================================================
 ##
 ##    MACRO FILE - OPTICAL EXAMPLE - ATLANTA IEEE 2017
 ##
@@ -73,6 +73,5 @@
 /gate/application/noGlobalOutput
 
 /control/execute mac/FieldSizeStudy/CommonMacs/NumOfPrimaries7x7.mac
-# /gate/application/setTotalNumberOfPrimaries 500000
 
 /gate/application/start
