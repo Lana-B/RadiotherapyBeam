@@ -42,7 +42,7 @@
 /control/execute mac/FieldSizeStudy/CommonMacs/OutputManagement_PSA.mac
 
 /control/execute mac/FieldSizeStudy/CommonMacs/KillGammaActor.mac
-/control/execute mac/FieldSizeStudy/CommonMacs/StatsActors.mac
+/control/execute mac/FieldSizeStudy/CommonMacs/StatsActor.mac
 ## =====================================================
 ## INITIALISATION
 ## =====================================================
