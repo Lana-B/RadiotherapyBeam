@@ -1,0 +1,5 @@
+#! /bin/sh
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Input_Elec_tester//Field7x7-PS-Input_Elec_tester1.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Input_Elec_tester//Field7x7-PS-Input_Elec_tester1.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Input_Elec_tester//Field7x7-PS-Input_Elec_tester2.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Input_Elec_tester//Field7x7-PS-Input_Elec_tester2.slm

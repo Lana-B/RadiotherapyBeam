@@ -1,23 +1,7 @@
-universe = vanilla
-getenv = true
-Executable     = /software/lb8075/gate/GateInstall/bin/Gate
-transfer_input_files = transfers/transfer_script_Field7x7-PS-Gen_Elec-tester, GateMaterials.db, Materials.xml
-request_cpus = 1
-request_memory = 120
-when_to_transfer_output = on_exit_or_evict
-requirements=(OpSysAndVer == "SL6") && Target.Machine=!="hd-38-18.dice.priv"
-+PostCmd        = "transfer_script_Field7x7-PS-Gen_Elec-tester"
-
-
-Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester1.mac
-Output         = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester1.out
-Error          = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester1.err
-Log            = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester1.log
-Queue
-
-Arguments      = /users/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester2.mac
-Output         = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester2.out
-Error          = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester2.err
-Log            = /storage/lb8075/Field7x7-PS-Gen_Elec-tester/Field7x7-PS-Gen_Elec-tester2.log
-Queue
-
+#! /bin/sh
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester1.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester1.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester2.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester2.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester3.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field7x7-PS-Gen_Elec-tester//Field7x7-PS-Gen_Elec-tester3.slm
