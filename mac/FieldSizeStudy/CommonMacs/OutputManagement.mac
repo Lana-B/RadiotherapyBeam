@@ -4,7 +4,7 @@
 ## =====================================================
 
 /gate/actor/addActor                               DoseActor  doseDistribution
-/gate/actor/doseDistribution/save                  Test10x10Full.root
+/gate/actor/doseDistribution/save                  GratingOutput.root
 /gate/actor/doseDistribution/attachTo    	       SensorEpi
 /gate/actor/doseDistribution/stepHitType           random
 /gate/actor/doseDistribution/setPosition           0 0 0 cm

@@ -1,0 +1,3 @@
+#! /bin/sh
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v3//Field3x3-PS-Input_Gamma_tester_v31.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v3//Field3x3-PS-Input_Gamma_tester_v31.slm

@@ -1,0 +1,21 @@
+#! /bin/sh
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v21.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v21.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v22.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v22.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v23.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v23.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v24.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v24.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v25.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v25.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v26.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v26.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v27.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v27.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v28.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v28.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v29.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v29.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v210.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field3x3-PS-Input_Gamma_tester_v2//Field3x3-PS-Input_Gamma_tester_v210.slm
