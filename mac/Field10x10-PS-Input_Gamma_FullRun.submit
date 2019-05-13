@@ -1,0 +1,1285 @@
+#! /bin/sh
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun1.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun1.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun2.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun2.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun3.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun3.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun4.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun4.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun5.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun5.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun6.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun6.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun7.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun7.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun8.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun8.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun9.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun9.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun10.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun10.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun11.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun11.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun12.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun12.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun13.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun13.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun14.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun14.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun15.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun15.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun16.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun16.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun17.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun17.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun18.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun18.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun19.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun19.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun20.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun20.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun21.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun21.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun22.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun22.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun23.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun23.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun24.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun24.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun25.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun25.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun26.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun26.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun27.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun27.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun28.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun28.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun29.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun29.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun30.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun30.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun31.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun31.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun32.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun32.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun33.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun33.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun34.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun34.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun35.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun35.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun36.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun36.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun37.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun37.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun38.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun38.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun39.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun39.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun40.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun40.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun41.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun41.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun42.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun42.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun43.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun43.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun44.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun44.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun45.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun45.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun46.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun46.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun47.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun47.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun48.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun48.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun49.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun49.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun50.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun50.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun51.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun51.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun52.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun52.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun53.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun53.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun54.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun54.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun55.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun55.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun56.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun56.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun57.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun57.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun58.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun58.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun59.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun59.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun60.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun60.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun61.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun61.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun62.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun62.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun63.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun63.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun64.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun64.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun65.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun65.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun66.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun66.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun67.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun67.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun68.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun68.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun69.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun69.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun70.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun70.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun71.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun71.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun72.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun72.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun73.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun73.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun74.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun74.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun75.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun75.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun76.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun76.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun77.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun77.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun78.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun78.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun79.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun79.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun80.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun80.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun81.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun81.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun82.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun82.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun83.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun83.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun84.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun84.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun85.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun85.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun86.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun86.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun87.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun87.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun88.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun88.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun89.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun89.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun90.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun90.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun91.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun91.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun92.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun92.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun93.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun93.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun94.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun94.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun95.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun95.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun96.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun96.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun97.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun97.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun98.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun98.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun99.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun99.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun100.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun100.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun101.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun101.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun102.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun102.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun103.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun103.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun104.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun104.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun105.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun105.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun106.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun106.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun107.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun107.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun108.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun108.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun109.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun109.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun110.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun110.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun111.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun111.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun112.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun112.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun113.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun113.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun114.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun114.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun115.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun115.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun116.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun116.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun117.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun117.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun118.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun118.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun119.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun119.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun120.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun120.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun121.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun121.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun122.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun122.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun123.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun123.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun124.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun124.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun125.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun125.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun126.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun126.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun127.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun127.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun128.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun128.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun129.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun129.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun130.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun130.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun131.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun131.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun132.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun132.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun133.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun133.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun134.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun134.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun135.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun135.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun136.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun136.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun137.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun137.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun138.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun138.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun139.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun139.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun140.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun140.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun141.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun141.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun142.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun142.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun143.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun143.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun144.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun144.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun145.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun145.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun146.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun146.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun147.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun147.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun148.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun148.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun149.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun149.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun150.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun150.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun151.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun151.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun152.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun152.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun153.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun153.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun154.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun154.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun155.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun155.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun156.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun156.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun157.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun157.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun158.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun158.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun159.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun159.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun160.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun160.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun161.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun161.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun162.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun162.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun163.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun163.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun164.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun164.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun165.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun165.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun166.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun166.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun167.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun167.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun168.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun168.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun169.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun169.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun170.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun170.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun171.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun171.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun172.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun172.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun173.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun173.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun174.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun174.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun175.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun175.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun176.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun176.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun177.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun177.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun178.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun178.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun179.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun179.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun180.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun180.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun181.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun181.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun182.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun182.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun183.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun183.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun184.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun184.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun185.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun185.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun186.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun186.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun187.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun187.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun188.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun188.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun189.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun189.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun190.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun190.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun191.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun191.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun192.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun192.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun193.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun193.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun194.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun194.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun195.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun195.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun196.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun196.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun197.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun197.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun198.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun198.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun199.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun199.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun200.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun200.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun201.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun201.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun202.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun202.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun203.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun203.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun204.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun204.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun205.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun205.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun206.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun206.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun207.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun207.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun208.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun208.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun209.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun209.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun210.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun210.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun211.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun211.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun212.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun212.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun213.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun213.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun214.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun214.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun215.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun215.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun216.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun216.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun217.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun217.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun218.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun218.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun219.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun219.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun220.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun220.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun221.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun221.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun222.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun222.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun223.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun223.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun224.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun224.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun225.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun225.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun226.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun226.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun227.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun227.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun228.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun228.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun229.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun229.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun230.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun230.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun231.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun231.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun232.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun232.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun233.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun233.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun234.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun234.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun235.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun235.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun236.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun236.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun237.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun237.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun238.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun238.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun239.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun239.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun240.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun240.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun241.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun241.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun242.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun242.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun243.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun243.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun244.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun244.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun245.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun245.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun246.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun246.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun247.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun247.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun248.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun248.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun249.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun249.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun250.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun250.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun251.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun251.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun252.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun252.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun253.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun253.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun254.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun254.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun255.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun255.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun256.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun256.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun257.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun257.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun258.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun258.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun259.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun259.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun260.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun260.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun261.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun261.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun262.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun262.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun263.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun263.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun264.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun264.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun265.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun265.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun266.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun266.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun267.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun267.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun268.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun268.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun269.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun269.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun270.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun270.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun271.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun271.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun272.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun272.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun273.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun273.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun274.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun274.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun275.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun275.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun276.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun276.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun277.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun277.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun278.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun278.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun279.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun279.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun280.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun280.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun281.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun281.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun282.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun282.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun283.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun283.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun284.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun284.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun285.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun285.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun286.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun286.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun287.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun287.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun288.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun288.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun289.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun289.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun290.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun290.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun291.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun291.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun292.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun292.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun293.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun293.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun294.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun294.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun295.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun295.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun296.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun296.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun297.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun297.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun298.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun298.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun299.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun299.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun300.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun300.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun301.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun301.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun302.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun302.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun303.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun303.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun304.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun304.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun305.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun305.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun306.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun306.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun307.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun307.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun308.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun308.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun309.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun309.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun310.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun310.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun311.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun311.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun312.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun312.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun313.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun313.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun314.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun314.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun315.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun315.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun316.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun316.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun317.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun317.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun318.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun318.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun319.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun319.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun320.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun320.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun321.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun321.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun322.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun322.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun323.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun323.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun324.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun324.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun325.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun325.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun326.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun326.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun327.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun327.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun328.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun328.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun329.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun329.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun330.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun330.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun331.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun331.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun332.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun332.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun333.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun333.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun334.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun334.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun335.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun335.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun336.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun336.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun337.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun337.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun338.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun338.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun339.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun339.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun340.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun340.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun341.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun341.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun342.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun342.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun343.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun343.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun344.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun344.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun345.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun345.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun346.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun346.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun347.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun347.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun348.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun348.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun349.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun349.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun350.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun350.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun351.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun351.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun352.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun352.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun353.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun353.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun354.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun354.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun355.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun355.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun356.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun356.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun357.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun357.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun358.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun358.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun359.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun359.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun360.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun360.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun361.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun361.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun362.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun362.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun363.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun363.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun364.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun364.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun365.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun365.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun366.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun366.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun367.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun367.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun368.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun368.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun369.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun369.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun370.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun370.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun371.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun371.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun372.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun372.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun373.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun373.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun374.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun374.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun375.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun375.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun376.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun376.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun377.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun377.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun378.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun378.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun379.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun379.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun380.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun380.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun381.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun381.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun382.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun382.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun383.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun383.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun384.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun384.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun385.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun385.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun386.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun386.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun387.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun387.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun388.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun388.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun389.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun389.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun390.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun390.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun391.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun391.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun392.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun392.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun393.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun393.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun394.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun394.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun395.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun395.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun396.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun396.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun397.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun397.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun398.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun398.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun399.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun399.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun400.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun400.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun401.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun401.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun402.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun402.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun403.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun403.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun404.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun404.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun405.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun405.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun406.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun406.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun407.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun407.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun408.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun408.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun409.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun409.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun410.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun410.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun411.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun411.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun412.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun412.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun413.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun413.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun414.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun414.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun415.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun415.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun416.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun416.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun417.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun417.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun418.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun418.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun419.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun419.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun420.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun420.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun421.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun421.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun422.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun422.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun423.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun423.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun424.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun424.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun425.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun425.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun426.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun426.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun427.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun427.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun428.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun428.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun429.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun429.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun430.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun430.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun431.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun431.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun432.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun432.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun433.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun433.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun434.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun434.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun435.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun435.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun436.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun436.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun437.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun437.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun438.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun438.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun439.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun439.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun440.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun440.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun441.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun441.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun442.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun442.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun443.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun443.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun444.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun444.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun445.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun445.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun446.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun446.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun447.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun447.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun448.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun448.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun449.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun449.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun450.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun450.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun451.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun451.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun452.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun452.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun453.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun453.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun454.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun454.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun455.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun455.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun456.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun456.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun457.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun457.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun458.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun458.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun459.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun459.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun460.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun460.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun461.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun461.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun462.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun462.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun463.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun463.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun464.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun464.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun465.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun465.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun466.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun466.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun467.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun467.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun468.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun468.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun469.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun469.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun470.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun470.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun471.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun471.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun472.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun472.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun473.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun473.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun474.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun474.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun475.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun475.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun476.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun476.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun477.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun477.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun478.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun478.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun479.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun479.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun480.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun480.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun481.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun481.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun482.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun482.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun483.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun483.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun484.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun484.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun485.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun485.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun486.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun486.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun487.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun487.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun488.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun488.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun489.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun489.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun490.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun490.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun491.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun491.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun492.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun492.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun493.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun493.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun494.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun494.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun495.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun495.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun496.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun496.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun497.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun497.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun498.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun498.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun499.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun499.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun500.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun500.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun501.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun501.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun502.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun502.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun503.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun503.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun504.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun504.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun505.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun505.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun506.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun506.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun507.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun507.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun508.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun508.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun509.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun509.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun510.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun510.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun511.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun511.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun512.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun512.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun513.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun513.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun514.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun514.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun515.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun515.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun516.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun516.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun517.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun517.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun518.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun518.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun519.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun519.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun520.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun520.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun521.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun521.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun522.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun522.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun523.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun523.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun524.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun524.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun525.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun525.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun526.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun526.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun527.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun527.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun528.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun528.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun529.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun529.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun530.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun530.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun531.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun531.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun532.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun532.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun533.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun533.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun534.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun534.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun535.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun535.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun536.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun536.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun537.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun537.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun538.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun538.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun539.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun539.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun540.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun540.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun541.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun541.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun542.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun542.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun543.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun543.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun544.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun544.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun545.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun545.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun546.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun546.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun547.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun547.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun548.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun548.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun549.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun549.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun550.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun550.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun551.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun551.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun552.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun552.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun553.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun553.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun554.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun554.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun555.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun555.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun556.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun556.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun557.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun557.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun558.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun558.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun559.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun559.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun560.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun560.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun561.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun561.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun562.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun562.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun563.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun563.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun564.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun564.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun565.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun565.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun566.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun566.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun567.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun567.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun568.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun568.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun569.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun569.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun570.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun570.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun571.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun571.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun572.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun572.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun573.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun573.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun574.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun574.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun575.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun575.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun576.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun576.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun577.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun577.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun578.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun578.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun579.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun579.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun580.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun580.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun581.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun581.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun582.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun582.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun583.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun583.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun584.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun584.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun585.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun585.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun586.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun586.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun587.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun587.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun588.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun588.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun589.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun589.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun590.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun590.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun591.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun591.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun592.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun592.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun593.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun593.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun594.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun594.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun595.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun595.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun596.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun596.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun597.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun597.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun598.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun598.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun599.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun599.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun600.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun600.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun601.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun601.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun602.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun602.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun603.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun603.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun604.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun604.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun605.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun605.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun606.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun606.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun607.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun607.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun608.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun608.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun609.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun609.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun610.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun610.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun611.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun611.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun612.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun612.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun613.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun613.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun614.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun614.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun615.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun615.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun616.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun616.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun617.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun617.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun618.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun618.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun619.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun619.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun620.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun620.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun621.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun621.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun622.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun622.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun623.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun623.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun624.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun624.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun625.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun625.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun626.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun626.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun627.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun627.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun628.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun628.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun629.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun629.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun630.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun630.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun631.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun631.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun632.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun632.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun633.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun633.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun634.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun634.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun635.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun635.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun636.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun636.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun637.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun637.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun638.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun638.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun639.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun639.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun640.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun640.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun641.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun641.slm
+echo sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun642.slm
+sbatch /mnt/shared/home/lb8075/RadiotherapyBeam/gateSplitDir/.Gate//Field10x10-PS-Input_Gamma_FullRun//Field10x10-PS-Input_Gamma_FullRun642.slm
